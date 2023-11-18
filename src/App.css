@@ -1,6 +1,31 @@
 .App {
   text-align: center;
 }
+.navtext{
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-right: 30px;
+  font-weight: bold
+}
+
+.text{
+  color: white;
+  text-align: left;
+  font-size: 25px
+}
+
+.welcome{
+  font-size: 40px;
+  font-weight: bold
+}
+
+.container{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex
+}
 
 .App-logo {
   height: 40vmin;
