@@ -1,23 +1,55 @@
 .App {
   text-align: center;
 }
+
 .navtext{
   color: white;
   text-align: left;
-  font-size: 25px;
-  margin-right: 30px;
-  font-weight: bold
+  font-size: 30px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.navtext nav{
+  color: white;
+  margin:0px
+}
+
+.navtext ul{
+  margin: 0
+}
+
+.navtext li{
+  list-style-type: none;
+  display: inline-block
+}
+
+.navtext a{
+  color: white;
+  text-decoration: none
+}
+
+.navtext a:hover{
+  color: #26580F;
+  background-color: white;
+  text-decoration: none
 }
 
 .text{
   color: white;
   text-align: left;
-  font-size: 25px
+  font-size: 30px
 }
 
 .welcome{
-  font-size: 40px;
+  font-size: 100px;
   font-weight: bold
+}
+
+.welcome span:hover{
+  color: #26580F;
+  background-color: white;
+  text-decoration: none
 }
 
 .container{

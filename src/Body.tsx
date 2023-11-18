@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 function welcome(){
     return (
         <div className="welcome">
-            Hi there. 
+            <span>Hi there.</span>
             <br></br>
-            My name is 
+            <span>My name is </span>
             <br></br>
-            Michelle Ding.
+            <span>Michelle Ding.</span>
             </div>
     )
 }
@@ -17,10 +17,10 @@ function bio(){
             I am a programmer, advocate, and creative who 
             envisions a culture of technology that centers 
             human rights through genuine and inclusive stakeholder 
-            engagement at every step of the process. My work aims to bridge the gap 
+            engagement. My work aims to bridge the gap 
             between the technical and ethical, with a focus 
             on Responsible Artificial Intelligence (AI). 
-            I am based in Providence, RI, studying Computer Science 
+            I am based in Providence, Rhode Island, studying Computer Science 
             @ Brown University.
         </div>
     )
