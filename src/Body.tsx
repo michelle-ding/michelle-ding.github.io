@@ -17,8 +17,7 @@ function bio(){
             I am a programmer, advocate, and creative who 
             envisions a culture of technology that centers 
             human rights through genuine and inclusive stakeholder 
-            engagement at every step of the process from development 
-            to post-deployment. My work aims to bridge the gap 
+            engagement at every step of the process. My work aims to bridge the gap 
             between the technical and ethical, with a focus 
             on Responsible Artificial Intelligence (AI). 
             I am based in Providence, RI, studying Computer Science 
