@@ -20,6 +20,7 @@ function welcome(){
 }
 
 function bio(){
+    const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
             I am a programmer, advocate, and artist who 
@@ -37,17 +38,29 @@ function bio(){
             I have authored and designed Responsible AI & SRC content 
             for human rights non-profit organizations, state and local
             policymakers, industry scientists and engineers, and Brown University 
-            students. My work has been published by the 
-            American Association for the Advancement of Science (AAAS) Center for
-            Scientific Responsibility and Justice and 
-            by Brown University as part of their current Computer Science curriculum.
+            students. My work has been published by the {" "}
+            <a id="ref" href={aaas} target="_blank">American Association for the Advancement of Science (AAAS) Center for
+            Scientific Responsibility and Justice</a> and 
+            by Brown University as part of their current {" "}
+            <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
+                Socially Responsible Computing</a> curriculum.
             My work has been funded by grants from Microsoft and
             the Ford Foundation.
             <br></br><br></br>
             My past research and advocacy focus on sexual violence prevention, consent education,
-            reproductive justice, and intersectional & transnational feminism. I have organized
-            campus, state, and nation level advocacy campaigns in collaboration with 
-            coalitions, networks, and local community-based groups. 
+            reproductive justice, and intersectional & transnational feminism. I have organized and participated in
+            campus, state, and nation level advocacy campaigns and <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
+            mutual aid efforts</a> in collaboration with 
+            coalitions, networks, and local community-based groups, including the{" "}
+            <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against 
+            Domestic Violence (RICADV)</a>, {" "}
+            <a id="ref" href="https://whefri.org/" target="_blank">The Women's Health & Education Fund of Rhode Island (WHEF)</a>,{" "}
+            <a id="ref" href="https://www.iwrising.org/" target="_blank">Indigenous Women Rising</a>, {" "}
+            and <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote (APIAVote)</a>.
+            I also serve
+            as a <a id="ref" href="https://www.brown.edu/campus-life/health/services/promotion/sape" target="_blank">
+            Sexual Assault Peer Educator</a> and facilitate Culture of Consent workshops for incoming
+            first-year students at Brown. 
         </div>
     )
 }
@@ -164,6 +177,8 @@ function ilo(){
 function responsibleai(){
     return(
         <div id="ResponsibleAI">
+            <b id="header">{'{Responsible AI}'}</b>
+            <br></br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
         </div>
     )
@@ -172,6 +187,8 @@ function responsibleai(){
 function research(){
     return(
         <div id="Research">
+            <b id="header">{'{Research}'}</b>
+            <br></br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
         </div>
     )
@@ -180,6 +197,8 @@ function research(){
 function advocacy(){
     return(
         <div id="advocacy">
+            <b id="header">{'{Advocacy}'}</b>
+            <br></br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
         </div>
     )
@@ -222,16 +241,16 @@ export default function Body(){
             {welcome()}
             <br></br>
             {bio()}
-            <br></br>
-            {technicalSkills()}
-            <br></br>
-            {teaching()}
-            <br></br>
+            {/* <br></br>
             {responsibleai()}
             <br></br>
             {research()}
             <br></br>
-            {advocacy()}
+            {advocacy()} */}
+            <br></br>
+            {technicalSkills()}
+            <br></br>
+            {teaching()}
             <br></br>
             {ilo()}
             <br></br>
