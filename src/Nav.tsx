@@ -4,12 +4,14 @@ function navcontent(){
   return(
     <nav>
       <ul>
-        <li><a href="#">quickBio</a></li>
-        <li><a href="#">technicalSkills</a></li>
-        <li><a href="#">responsibleAI</a></li>
-        <li><a href="#">advocacy</a></li>
-        <li><a href="#">press&Publications</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#QuickBio">quickBio,</a></li>
+        <li><a href="#Technical">technicalSkills,</a></li>
+        <li><a href="#ResponsibleAI">responsibleAI,</a></li>
+        <li><a href="#Research">research,</a></li>
+        <li><a href="#advocacy">advocacy,</a></li>
+        <li><a href="#Illustrations">illustrations,</a></li>
+        <li><a href="#Publications">press&Publications,</a></li>
+        <li><a href="#Contact">contact</a></li>
       </ul>
     </nav>
   )
