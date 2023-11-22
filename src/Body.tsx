@@ -22,14 +22,32 @@ function welcome(){
 function bio(){
     return(
         <div >
-            I am a programmer, advocate, and creative who 
+            I am a programmer, advocate, and artist who 
             envisions a culture of technology that centers 
             human rights through genuine and inclusive stakeholder 
-            engagement. My work aims to bridge the gap 
-            between the technical and ethical, with a focus 
-            on Responsible Artificial Intelligence (AI). 
-            I am based in Providence, Rhode Island, studying Computer Science 
-            @ Brown University.
+            engagement. I am based in Providence, Rhode Island, studying Computer Science 
+            @ Brown University. 
+            <br></br><br></br>
+            My current work on Responsible Artificial Intelligence (AI)
+             and Socially Responsible Computing (SRC) aims to bridge the gap between 
+             the technical and ethical through 
+             the development of creative, intentional, and comprehensive
+             resources for diverse audiences. 
+             <br></br><br></br>
+            I have authored and designed Responsible AI & SRC content 
+            for human rights non-profit organizations, state and local
+            policymakers, industry scientists and engineers, and Brown University 
+            students. My work has been published by the 
+            American Association for the Advancement of Science (AAAS) Center for
+            Scientific Responsibility and Justice and 
+            by Brown University as part of their current Computer Science curriculum.
+            My work has been funded by grants from Microsoft and
+            the Ford Foundation.
+            <br></br><br></br>
+            My past research and advocacy focus on sexual violence prevention, consent education,
+            reproductive justice, and intersectional & transnational feminism. I have organized
+            campus, state, and nation level advocacy campaigns in collaboration with 
+            coalitions, networks, and local community-based groups. 
         </div>
     )
 }
@@ -43,7 +61,7 @@ function makeTechDiv(category: string, list: string){
 function technicalSkills(){
     return(
         <div className="techskills" id="Technical">
-            <b>{'{Technical Skills}'}</b>
+            <b id="header">{'{Technical Skills}'}</b>
             <br></br>
             {makeTechDiv("Programming Languages", "Java, Python")}
             <br></br>
@@ -79,14 +97,14 @@ function pressAndPub(){
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
     return(
         <div id="Publications">
-            <b>{'{Publications}'}</b>
+            <b id="header">{'{Publications}'}</b>
             <br></br>
             <a id="ref" href={decisiontree} target="_blank">"Decision Tree for the Responsible Application 
                 of Artificial Intelligence", 
                 AAAS Center for Scientific Responsibility, August 2023</a>
             <br></br>
             <br></br>
-            <b>{'{Press Features}'}</b>
+            <b id="header">{'{Press Features}'}</b>
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
             <br></br>
             {formatPress(esvroundtable, "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy", 
@@ -104,7 +122,7 @@ function pressAndPub(){
 function contact(){
     return(
         <div className="contact" id="Contact">
-            <b>{'{Contact}'}</b>
+            <b id="header">{'{Contact}'}</b><br></br>
             <span>michelle_ding@brown.edu</span>
             <span>
             <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
@@ -116,7 +134,7 @@ function contact(){
 function ilo(){
     return(
         <div id="Illustrations">
-            <b>{'{Selected Published Illustrations}'}</b>
+            <b id="header">{'{Selected Published Illustrations}'}</b>
             <br></br>
             <br></br>
             <div id="ilocontainer">
@@ -179,7 +197,7 @@ function formatTeaching(position: string, course: string, year: string){
 function teaching(){
     return(
         <div id="Teaching">
-            <b>{'{Teaching & Fellowships}'}</b>
+            <b id="header">{'{Teaching & Fellowships}'}</b>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023")}
             <br></br>
