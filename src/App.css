@@ -1,28 +1,44 @@
 :root{
-  --bg: #b6adaa;
-  --text: #2e4e43
+  --bg: hsl(289, 100%, 96%);
+  --text: hsl(159, 39%, 31%);
 }
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column
+}
+
+
+#note{
+  width: 100%;
+  font-size: 2em;
+  margin-bottom: auto;
+  background-color: var(--text);
+  color: var(--bg);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  z-index:-1;
 }
 
 .container{
-  margin-top: 3em;
+  margin-top: 1em;
   margin-left: 3em;
-  margin-right: 5em;
+  margin-right: 0em;
   margin-bottom:5em;
-  display: flex
+  display: flex;
+  z-index: 1;
 }
 
 .navtext{
   color: var(--text);
   text-align: left;
-  font-size: 30px;
-  margin-right: 50px;
+  font-size: 3em;
+  margin-top: 1.5em;
+  margin-right: 3em;
+  margin-left: 2em;
   font-weight: bold;
   position: fixed;
-  margin-right: auto;
 }
 
 .navtext nav{
@@ -51,21 +67,21 @@
 }
 
 .text{
-  flex: 3;
-  margin-left: 12em;
+  margin-left: 15em;
+  margin-right: 5em;
   color: var(--text);
   text-align: left;
-  font-size: 30px;
+  font-size: 3em;
   margin-bottom: auto;
-  max-width: 80%
+  max-width: 100%
 }
 
-.text a{
+#ref{
   text-decoration: var(--text) underline;
   color: var(--text)
 }
 
-.text a:hover{
+#ref:hover:hover{
   flex: 4;
   color: var(--bg);
   background-color: var(--text);
@@ -76,30 +92,27 @@
   padding: 10px
 }
 .welcome{
-  font-size: 100px;
+  font-size: 5em;
   font-weight: bold
 }
 
 .welcome span:hover{
   color: var(--bg);
   background-color: var(--text);
-  text-decoration: none
+  text-decoration: none;
+}
+#ilocontainer{
+  display: flex;
 }
 
 #iloa{
-  display: block;
-  margin-right:auto;
-  max-width:90%;
-  padding-right: 20px;
-}
-
-#iloa:hover{
-  background-color:var(--bg)
+  max-width:100%;
+  padding-right: 1em;
 }
 
 #ilos{
-  width: 100%;
-  height: auto;
+  width: 50%;
+  height: auto
 }
 
 .App-logo {
@@ -124,15 +137,65 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 900px){
+
+  .container{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .navtext{
+    color: var(--text);
+    text-align: left;
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-right: 50px;
+    font-weight: bold;
+    position: fixed;
+    visibility: hidden;
+  }
+  
+  .navtext{
+    font-size: 1em;
+  }
+
+  .text{
+    margin-left: 1em;
+    margin-right:1em;
+    color: var(--text);
+    text-align: left;
+    font-size: 1em;
+    max-width: 100%
+  }
+
+  .welcome{
+    font-size: 3em;
+    font-weight: bold
+  }
+
+  #ilocontainer{
+    display: block;
+  }
+  
+  #iloa{
+    max-width:100%;
+  }
+  
+  #ilos{
+    width: 100%;
+    height: auto
+  }
+
+  #note{
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: auto;
+    background-color: var(--text);
+    color: var(--bg);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    z-index:-1;
   }
 }

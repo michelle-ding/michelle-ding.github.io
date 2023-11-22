@@ -6,6 +6,7 @@ function navcontent(){
       <ul>
         <li><a href="#QuickBio">quickBio,</a></li>
         <li><a href="#Technical">technicalSkills,</a></li>
+        <li><a href="#Teaching">teaching,</a></li>
         <li><a href="#ResponsibleAI">responsibleAI,</a></li>
         <li><a href="#Research">research,</a></li>
         <li><a href="#advocacy">advocacy,</a></li>

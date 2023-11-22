@@ -4,6 +4,9 @@ import elections from './images/Mudbhary_RecallReactions_CO_MichelleDing.jpeg'
 import menstrual from './images/Michelle_FreeMenstrualProducts.png'
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import tablemanners from "./images/TableManners_MichelleDing.png"
+import dragon from './images/world_ilo.png'
+import dragon2 from './images/world2_ilo.png'
 function welcome(){
     return (
         <div className="welcome" id="QuickBio">
@@ -48,7 +51,7 @@ function technicalSkills(){
             <br></br>
             {makeTechDiv("IDEs", "Visual Studio Code, IntelliJ")}
             <br></br>
-            <span>Version Control: <i><a href="http://www.github.com/mding16">GitHub</a></i></span>
+            <span>Version Control: <i><a id="ref" href="http://www.github.com/mding16" target="_blank">GitHub</a></i></span>
             <br></br>
             {makeTechDiv("Design Tools", "Adobe Photoshop, Adobe InDesign, Procreate")}
             <br></br>
@@ -60,7 +63,7 @@ function technicalSkills(){
 function formatPress(link: string, title: string, source: string, date: string){
     return(
         <div>
-            <a href={link} target="_blank">
+            <a id="ref" href={link} target="_blank">
                 "{title}", <i>{source}</i>, {date}
             </a>
         </div>
@@ -78,7 +81,7 @@ function pressAndPub(){
         <div id="Publications">
             <b>{'{Publications}'}</b>
             <br></br>
-            <a href={decisiontree} target="_blank">"Decision Tree for the Responsible Application 
+            <a id="ref" href={decisiontree} target="_blank">"Decision Tree for the Responsible Application 
                 of Artificial Intelligence", 
                 AAAS Center for Scientific Responsibility, August 2023</a>
             <br></br>
@@ -104,7 +107,7 @@ function contact(){
             <b>{'{Contact}'}</b>
             <span>michelle_ding@brown.edu</span>
             <span>
-            <a href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
+            <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
             </span>
         </div>
     )
@@ -114,6 +117,7 @@ function ilo(){
     return(
         <div id="Illustrations">
             <b>{'{Selected Published Illustrations}'}</b>
+            <br></br>
             <br></br>
             <div id="ilocontainer">
                 <a id="iloa" href="https://www.browndailyherald.com/article/2023/09/u-community-discusses-integration-of-ai-into-academic-points-to-opportunities-for-innovation" target="_blank">
@@ -125,16 +129,15 @@ function ilo(){
                 <a id="iloa" href="https://www.browndailyherald.com/article/2023/03/ucs-gsc-work-to-install-menstrual-product-dispensers-in-university-bathrooms" target="_blank">
                 <img id="ilos" src={menstrual} alt="Michelle Ding Illustration of Free Menstrual Products for the Brown Daily Herald"></img>
                 </a>
-                
             </div>
             <br></br>
             See my complete portfolio of illustrations published in:
             <br></br>
-            <a href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
+            <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
                 </a>
             <br></br>
-            <a href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
+            <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
                 The College Hill Independent</a>
         </div>
     )
@@ -164,6 +167,35 @@ function advocacy(){
     )
 }
 
+function formatTeaching(position: string, course: string, year: string){
+    return(
+        <div>
+            <b>{position}</b>,
+            <br>
+            </br> <i>{course}</i>, {year}
+        </div>
+    )
+}
+function teaching(){
+    return(
+        <div id="Teaching">
+            <b>{'{Teaching}'}</b>
+            <br></br>
+            {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023")}
+            <br></br>
+            {formatTeaching("Undergraduate Teaching Assistant", "CS0111: Computing Foundations, Data", 
+            "Fall 2023")}
+            <br></br>
+            {formatTeaching("Socially Responsible Computing Teaching Assistant", "CS0111: Computing Foundations, Data", 
+            "Fall 2023")}
+            <br></br>
+            {formatTeaching("Undergraduate Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
+            "Fall 2022")}
+            
+        </div>
+    )
+}
+
 export default function Body(){
     return(
         <div className="text">
@@ -172,6 +204,8 @@ export default function Body(){
             {bio()}
             <br></br>
             {technicalSkills()}
+            <br></br>
+            {teaching()}
             <br></br>
             {responsibleai()}
             <br></br>
