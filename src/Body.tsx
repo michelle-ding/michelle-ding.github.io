@@ -48,7 +48,7 @@ function bio(){
             the Ford Foundation.
             <br></br><br></br>
             My past research and advocacy focus on sexual violence prevention, consent education,
-            reproductive justice, and intersectional & transnational feminism. I have organized and participated in
+            reproductive justice, and intersectional & transnational feminism. I have organized and volunteered in
             campus, state, and nation level advocacy campaigns and <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
             mutual aid efforts</a> in collaboration with 
             coalitions, networks, and local community-based groups, including the{" "}
@@ -57,10 +57,10 @@ function bio(){
             <a id="ref" href="https://whefri.org/" target="_blank">The Women's Health & Education Fund of Rhode Island (WHEF)</a>,{" "}
             <a id="ref" href="https://www.iwrising.org/" target="_blank">Indigenous Women Rising</a>, {" "}
             and <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote (APIAVote)</a>.
-            I also serve
+            {/* I also serve
             as a <a id="ref" href="https://www.brown.edu/campus-life/health/services/promotion/sape" target="_blank">
             Sexual Assault Peer Educator</a> and facilitate Culture of Consent workshops for incoming
-            first-year students at Brown. 
+            first-year students at Brown.  */}
         </div>
     )
 }
@@ -147,7 +147,7 @@ function contact(){
 function ilo(){
     return(
         <div id="Illustrations">
-            <b id="header">{'{Selected Published Illustrations}'}</b>
+            <b id="header">{'{Illustrations [Selected]}'}</b>
             <br></br>
             <br></br>
             <div id="ilocontainer">
@@ -187,9 +187,18 @@ function responsibleai(){
 function research(){
     return(
         <div id="Research">
-            <b id="header">{'{Research}'}</b>
+            <b id="header">{'{Research Papers}'}</b>
             <br></br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
+            <a target="_blank" id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
+            <i>Transformative Futures: </i>
+            A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence (RICADV) 
+            and the National Network to End Domestic Violence (NNEDV), April 2022</a>
+            <br></br>
+            <br></br>
+            <a target="_blank" id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/view?usp=sharing">
+            <i>Breaking Barriers: </i>
+            A Facilitated Dialogue Between My Mother and Post-Mao Feminism, May 2023
+            </a>
         </div>
     )
 }
@@ -241,11 +250,9 @@ export default function Body(){
             {welcome()}
             <br></br>
             {bio()}
-            {/* <br></br>
+            <br></br>
             {responsibleai()}
-            <br></br>
-            {research()}
-            <br></br>
+            {/* <br></br>
             {advocacy()} */}
             <br></br>
             {technicalSkills()}
@@ -253,6 +260,8 @@ export default function Body(){
             {teaching()}
             <br></br>
             {ilo()}
+            <br></br>
+            {research()}
             <br></br>
             {pressAndPub()}
             <br></br>

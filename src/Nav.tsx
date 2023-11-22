@@ -7,12 +7,13 @@ function navcontent(){
     <nav>
       <ul>
         <li><a href="#QuickBio">about,</a></li>
-        {/* <li><a href="#ResponsibleAI">responsibleAI,</a></li>
-        <li><a href="#Research">research,</a></li>
+        <li><a href="#ResponsibleAI">responsibleAI,</a></li>
+{/*         
         <li><a href="#advocacy">advocacy,</a></li> */}
         <li><a href="#Technical">technicalSkills,</a></li>
         <li><a href="#Teaching">teaching&Fellowships,</a></li>
         <li><a href="#Illustrations">illustrations,</a></li>
+        <li><a href="#Research">researchPapers,</a></li>
         <li><a href="#Publications">press&Publications,</a></li>
         <li><a href="#Contact">contact</a></li>
       </ul>
