@@ -3,12 +3,35 @@
   --text: hsl(159, 39%, 31%);
 }
 
+.dark-theme{
+  --bg: hsl(159, 39%, 31%);
+  --text: hsl(289, 100%, 96%);
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column
 }
-
+#togglecont{
+  background-color: var(--text);
+  color: var(--bg);
+  height: 3.4em
+}
+#toggle{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin: auto;
+  text-decoration: none;
+  font-size: 16px;
+  max-width: 10em;
+  height: 10em;
+  transform: scale(0.8)
+}
 
 #note{
   width: 100%;
@@ -144,6 +167,7 @@
     margin-top: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    z-index: 1;
   }
   
   .navtext{
@@ -190,12 +214,11 @@
 
   #note{
     width: 100%;
-    font-size: 1em;
-    margin-bottom: auto;
+    font-size: 0.5em;
     background-color: var(--text);
     color: var(--bg);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    z-index:-1;
+    visibility: visible;
   }
 }

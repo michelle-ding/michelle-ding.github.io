@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import ding from './images/dinggreen.png'
+import ding2 from './images/dingpink.png'
 
 function navcontent(){
   return(
@@ -6,7 +8,7 @@ function navcontent(){
       <ul>
         <li><a href="#QuickBio">quickBio,</a></li>
         <li><a href="#Technical">technicalSkills,</a></li>
-        <li><a href="#Teaching">teaching,</a></li>
+        <li><a href="#Teaching">teaching&Fellowships,</a></li>
         <li><a href="#ResponsibleAI">responsibleAI,</a></li>
         <li><a href="#Research">research,</a></li>
         <li><a href="#advocacy">advocacy,</a></li>
@@ -19,8 +21,18 @@ function navcontent(){
 }
 
 function Nav(){
+  const [logoval, setlogoval] = useState<boolean>(true)
+
+  function toggletheme(){
+    document.body.classList.toggle("dark-theme")
+    setlogoval(!logoval)
+    }
     return (
         <div className="navtext">
+          <div id="togglecont" onClick={toggletheme}>
+            <img id="toggle" src={logoval ? ding2: ding}></img> 
+          </div>
+          <br></br>
           <div>
           jumpTo(click) -&gt; {'{'}
           </div> 

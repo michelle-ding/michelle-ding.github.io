@@ -179,7 +179,7 @@ function formatTeaching(position: string, course: string, year: string){
 function teaching(){
     return(
         <div id="Teaching">
-            <b>{'{Teaching}'}</b>
+            <b>{'{Teaching & Fellowships}'}</b>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023")}
             <br></br>
@@ -188,6 +188,8 @@ function teaching(){
             <br></br>
             {formatTeaching("Socially Responsible Computing Teaching Assistant", "CS0111: Computing Foundations, Data", 
             "Fall 2023")}
+            <br></br>
+            <div><b>Brown in Washington Fellow</b>, Summer 2023</div>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
             "Fall 2022")}
