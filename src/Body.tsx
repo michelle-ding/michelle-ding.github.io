@@ -36,7 +36,7 @@ function bio(){
              resources for diverse audiences. 
              <br></br><br></br>
             I have authored and designed Responsible AI & SRC content 
-            for human rights non-profit organizations, state and local
+            catered towards human rights non-profit organizations, state and local
             policymakers, industry scientists and engineers, and Brown University 
             students. My work has been published by the {" "}
             <a id="ref" href={aaas} target="_blank">American Association for the Advancement of Science (AAAS) Center for
@@ -44,12 +44,12 @@ function bio(){
             by Brown University as part of their current {" "}
             <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
                 Socially Responsible Computing</a> curriculum.
-            My work has been funded by grants from Microsoft and
+            My work has recieved funding from grants by Microsoft and
             the Ford Foundation.
             <br></br><br></br>
             My past research and advocacy focus on sexual violence prevention, consent education,
-            reproductive justice, and intersectional & transnational feminism. I have organized and volunteered in
-            campus, state, and nation level advocacy campaigns and <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
+            reproductive justice, and intersectional & transnational feminism. I have organized
+            campus, state, and nation wide advocacy campaigns and <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
             mutual aid efforts</a> in collaboration with 
             coalitions, networks, and local community-based groups, including the{" "}
             <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against 
@@ -147,7 +147,7 @@ function contact(){
 function ilo(){
     return(
         <div id="Illustrations">
-            <b id="header">{'{Illustrations [Selected]}'}</b>
+            <b id="header">{'{Illustrations [Selected Published Pieces]}'}</b>
             <br></br>
             <br></br>
             <div id="ilocontainer">
@@ -162,12 +162,11 @@ function ilo(){
                 </a>
             </div>
             <br></br>
-            See my complete portfolio of illustrations published in:
-            <br></br>
+            See full portfolio of illustrations for {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
                 </a>
-            <br></br>
+            {" "} & {" "}
             <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
                 The College Hill Independent</a>
         </div>
@@ -193,8 +192,7 @@ function research(){
             <i>Transformative Futures: </i>
             A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence (RICADV) 
             and the National Network to End Domestic Violence (NNEDV), April 2022</a>
-            <br></br>
-            <br></br>
+            <br></br><br></br>
             <a target="_blank" id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/view?usp=sharing">
             <i>Breaking Barriers: </i>
             A Facilitated Dialogue Between My Mother and Post-Mao Feminism, May 2023
@@ -216,7 +214,7 @@ function advocacy(){
 function formatTeaching(position: string, course: string, year: string){
     return(
         <div>
-            <b>{position}</b>,
+            {position},
             <br>
             </br> <i>{course}</i>, {year}
         </div>
@@ -235,7 +233,7 @@ function teaching(){
             {formatTeaching("Socially Responsible Computing Teaching Assistant", "CS0111: Computing Foundations, Data", 
             "Fall 2023")}
             <br></br>
-            <div><b>Brown in Washington Fellow</b>, Summer 2023</div>
+            <div>Brown in Washington Fellow, Summer 2023</div>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
             "Fall 2022")}
