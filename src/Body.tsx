@@ -9,7 +9,7 @@ import dragon from './images/world_ilo.png'
 import dragon2 from './images/world2_ilo.png'
 function welcome(){
     return (
-        <div className="welcome" id="QuickBio">
+        <div className="welcome" id="About">
             <span>Hi there.</span>
             <br></br>
             <span>My name is </span>
@@ -33,9 +33,8 @@ function bio(){
              and Socially Responsible Computing (SRC) aims to bridge the gap between 
              the technical and ethical through 
              the development of creative, intentional, and comprehensive
-             resources for diverse audiences. 
-             <br></br><br></br>
-            I have authored and designed Responsible AI & SRC content 
+             resources for diverse audiences. <br></br><br></br>
+            I have authored and designed Responsible AI & computing content 
             catered towards human rights non-profit organizations, state and local
             policymakers, industry scientists and engineers, and Brown University 
             students. My work has been published by the {" "}
@@ -47,16 +46,15 @@ function bio(){
             My work has recieved funding from grants by Microsoft and
             the Ford Foundation.
             <br></br><br></br>
-            My past research and advocacy focus on sexual violence prevention, consent education,
+            My past <a id="ref" href="#Research">research and advocacy</a> focus on sexual violence prevention, consent education,
             reproductive justice, and intersectional & transnational feminism. I have organized
-            campus, state, and nation wide advocacy campaigns and <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
-            mutual aid efforts</a> in collaboration with 
+            campus, state, and nation wide advocacy campaigns and mutual aid efforts in collaboration with 
             coalitions, networks, and local community-based groups, including the{" "}
-            <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against 
-            Domestic Violence (RICADV)</a>, {" "}
-            <a id="ref" href="https://whefri.org/" target="_blank">The Women's Health & Education Fund of Rhode Island (WHEF)</a>,{" "}
-            <a id="ref" href="https://www.iwrising.org/" target="_blank">Indigenous Women Rising</a>, {" "}
-            and <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote (APIAVote)</a>.
+            Rhode Island Coalition Against 
+            Domestic Violence (RICADV),
+            The Women's Health & Education Fund of Rhode Island (WHEF),
+            Indigenous Women Rising,
+            and Asian and Pacific Islander American Vote (APIAVote).
             {/* I also serve
             as a <a id="ref" href="https://www.brown.edu/campus-life/health/services/promotion/sape" target="_blank">
             Sexual Assault Peer Educator</a> and facilitate Culture of Consent workshops for incoming
