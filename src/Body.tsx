@@ -7,6 +7,13 @@ import ImageListItem from '@mui/material/ImageListItem';
 import tablemanners from "./images/TableManners_MichelleDing.png"
 import dragon from './images/world_ilo.png'
 import dragon2 from './images/world2_ilo.png'
+import AAAS1 from './images/AAAS1.png'
+import AAAS2 from './images/AAAS2.png'
+import AAAS3 from './images/AAAS3.png'
+import AAAS4 from './images/AAAS4.png'
+import AAAS5 from './images/AAAS5.png'
+import AAAS6 from './images/AAAS6.png'
+
 function welcome(){
     return (
         <div className="welcome" id="About">
@@ -46,14 +53,14 @@ function bio(){
             My work has recieved funding from grants by Microsoft and
             the Ford Foundation.
             <br></br><br></br>
-            My past <a id="ref" href="#Research">research and advocacy</a> focus on sexual violence prevention, consent education,
+            My past <a id="ref" href="#Research">research and advocacy</a> surround sexual violence prevention, consent education,
             reproductive justice, and intersectional & transnational feminism. I have organized
             campus, state, and nation wide advocacy campaigns and mutual aid efforts in collaboration with 
             coalitions, networks, and local community-based groups, including the{" "}
             Rhode Island Coalition Against 
             Domestic Violence (RICADV),
             The Women's Health & Education Fund of Rhode Island (WHEF),
-            Indigenous Women Rising,
+            Indigenous Women Rising (IWR),
             and Asian and Pacific Islander American Vote (APIAVote).
             {/* I also serve
             as a <a id="ref" href="https://www.brown.edu/campus-life/health/services/promotion/sape" target="_blank">
@@ -172,11 +179,26 @@ function ilo(){
 }
 
 function responsibleai(){
+    const dtImage = (
+        <div id="decisiontree">
+            <div id="dttext">
+                Decision Tree
+            </div>
+            <div id="dtContainer">
+                <img id="dt" src={AAAS1}></img>
+                <img id="dt" src={AAAS2}></img>
+                <img id="dt" src={AAAS3}></img>
+                <img id="dt" src={AAAS4}></img>
+                <img id="dt" src={AAAS5}></img>
+                <img id="dt" src={AAAS6}></img>
+            </div>
+        </div>
+    )
     return(
         <div id="ResponsibleAI">
             <b id="header">{'{Responsible AI}'}</b>
             <br></br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
+            {dtImage}
         </div>
     )
 }
@@ -209,12 +231,12 @@ function advocacy(){
     )
 }
 
-function formatTeaching(position: string, course: string, year: string){
+function formatTeaching(position: string, course: string, year: string, site: string){
     return(
         <div>
             {position},
             <br>
-            </br> <i>{course}</i>, {year}
+            </br> <a target="_blank" id="ref" href={site}><i>{course}</i></a>, {year}
         </div>
     )
 }
@@ -223,18 +245,21 @@ function teaching(){
         <div id="Teaching">
             <b id="header">{'{Teaching & Fellowships}'}</b>
             <br></br>
-            {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023")}
+            {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023", "https://cs.brown.edu/courses/info/csci0320/")}
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "CS0111: Computing Foundations, Data", 
-            "Fall 2023")}
+            "Fall 2023", "https://cs.brown.edu/courses/csci0111/")}
             <br></br>
             {formatTeaching("Socially Responsible Computing Teaching Assistant", "CS0111: Computing Foundations, Data", 
-            "Fall 2023")}
+            "Fall 2023", "https://cs.brown.edu/courses/csci0111/")}
             <br></br>
-            <div>Brown in Washington Fellow, Summer 2023</div>
+            Fellow, <a target="_blank" id="ref" href="https://college.brown.edu/learn-beyond-classroom/us-study/brown-washington-program">
+                Brown in Washington
+            </a>, Summer 2023
+            <br></br>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
-            "Fall 2022")}
+            "Fall 2022", "https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201010&subj_code_in=ENGN&crse_numb_in=0090")}
             
         </div>
     )
@@ -247,7 +272,7 @@ export default function Body(){
             <br></br>
             {bio()}
             <br></br>
-            {responsibleai()}
+            {/* {responsibleai()} */}
             {/* <br></br>
             {advocacy()} */}
             <br></br>
