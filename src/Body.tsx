@@ -30,42 +30,61 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            I am a programmer, advocate, and artist who 
+            I am a computer scientist, advocate, and artist who 
             envisions a culture of technology that centers 
             human rights through genuine and inclusive stakeholder 
             engagement. I am based in Providence, Rhode Island, studying Computer Science 
             @ Brown University. 
             <br></br><br></br>
-            My current work on Responsible Artificial Intelligence (AI)
-             and Socially Responsible Computing (SRC) aims to bridge the gap between 
-             the technical and ethical through 
-             the development of creative, intentional, and comprehensive
-             resources for diverse audiences. <br></br><br></br>
-            I have authored and designed Responsible AI & computing content 
-            catered towards human rights non-profit organizations, state and local
-            policymakers, industry scientists and engineers, and Brown University 
-            students. My work has been published by the {" "}
-            <a id="ref" href={aaas} target="_blank">American Association for the Advancement of Science (AAAS) Center for
-            Scientific Responsibility and Justice</a> and 
-            by Brown University as part of their current {" "}
-            <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
-                Socially Responsible Computing</a> curriculum.
-            My work has recieved funding from grants by Microsoft and
+            My work on Responsible Artificial Intelligence (AI)
+             aims to bridge the gap between 
+             the technical and ethical by developing resources for diverse audiences. 
+             I have created published resources for non-profits, policymakers, and industry scientists.
+             Last summer, I worked on the {" "}
+             <a id="ref" target="_blank" href="https://www.aaas.org/ai2/about">(AI)2 initiative</a> {" "}
+              at the 
+             American Association for the Advancement of Science (AAAS), 
+             the world's largest general scientific society and publisher of the journal Science. 
+             There,
+             I co-authored and designed the {" "}
+             <a id="ref" href={aaas} target="_blank">AAAS Decision Tree for the Responsible
+            Application of Artificial Intelligence</a>.
+            I also co-authored {" "}
+            <a id="ref" target="_blank" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training">
+            Public Interest AI 101: Resources and Trainings for Developing Equitable AI Systems
+            </a>, soon to be piloted. These projects were funded by grants from Microsoft and
             the Ford Foundation.
+
             <br></br><br></br>
-            My past <a id="ref" href="#Research">research and advocacy</a> surround sexual violence prevention, consent education,
-            reproductive justice, and intersectional & transnational feminism. I have organized
-            campus, state, and nation wide advocacy campaigns and mutual aid efforts in collaboration with 
-            coalitions, networks, and local community-based groups, including the{" "}
-            Rhode Island Coalition Against 
-            Domestic Violence (RICADV),
-            The Women's Health & Education Fund of Rhode Island (WHEF),
-            Indigenous Women Rising (IWR),
-            and Asian and Pacific Islander American Vote (APIAVote).
-            {/* I also serve
-            as a <a id="ref" href="https://www.brown.edu/campus-life/health/services/promotion/sape" target="_blank">
-            Sexual Assault Peer Educator</a> and facilitate Culture of Consent workshops for incoming
-            first-year students at Brown.  */}
+            Currently at Brown, I am developing the {" "}
+            
+            <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
+                Socially Responsible Computing</a>{" "}
+            curriculum for the CS department as an undergraduate teaching assistant. 
+            My work aims to thoughtfully and holistically incorporate an anti-racist, 
+            human-centered framework into every step of the coding process,
+            using education as a preventative approach to tackling algorithmic bias and discrimination
+            
+            <br></br><br></br>
+            My past research and advocacy navigate sexual violence prevention, 
+            consent education, reproductive justice, and intersectional & transnational feminism at Brown and
+            in Rhode Island. In May 2022, I worked with the <a id="ref" href="https://ricadv.org/policy/" target="_blank">
+                Rhode Island Coalition Against 
+            Domestic Violence (RICADV)</a> to advocate and lobby for the Address Confidentiality Program 
+            that protects survivors and their children (now {" "}
+            <a id="ref" href="https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-protecting-confidentiality-survivors-domestic" target="_blank">
+            signed
+                </a> into law). Following the Dobbs decision overturning
+            Roe v. Wade,
+            I co-founded Students at Brown for Reproductive Justice, a coalition with 
+             over 40 Brown student organizations, to launch a <a id="ref" target="_blank" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice">
+            mutual aid campaign</a> supporting
+            Women's Health & Education Fund of Rhode Island (WHEF),
+            Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
+            over 80 individual donors in one summer for organizations 
+            providing reproductive care for disproportionately affected communities across the country. 
+            Learn more about my work <a id="ref" href="#Research">here</a> or contact me at michelle_ding@brown.edu.
+
         </div>
     )
 }
@@ -271,10 +290,10 @@ export default function Body(){
             {welcome()}
             <br></br>
             {bio()}
-            <br></br>
-            {/* {responsibleai()} */}
+            {/* <br></br> 
+             {responsibleai()}
             {/* <br></br>
-            {advocacy()} */}
+            {advocacy()} */} 
             <br></br>
             {technicalSkills()}
             <br></br>

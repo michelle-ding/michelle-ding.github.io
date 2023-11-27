@@ -10,8 +10,6 @@ function App() {
   
   return (
     <div className="App">
-      {/* <div id="note">{' '}</div> */}
-      
       <div className="container">
         <Nav></Nav>
         <Body></Body>

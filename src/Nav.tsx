@@ -7,7 +7,7 @@ function navcontent(){
     <nav>
       <ul>
         <li><a href="#About">about,</a></li>
-        <li><a href="#ResponsibleAI">responsibleAI,</a></li>
+        {/* <li><a href="#ResponsibleAI">responsibleAI,</a></li> */}
 {/*         
         <li><a href="#advocacy">advocacy,</a></li> */}
         <li><a href="#Technical">technicalSkills,</a></li>
@@ -31,9 +31,10 @@ function Nav(){
     return (
         <div className="navtext">
           <div id="togglecont" onClick={toggletheme} aria-label="Click to change color theme">
-            <img id="toggle" src={logoval ? ding2: ding}></img> 
+            {"{shiftColorMode}"}
+            {/* <img id="toggle" src={logoval ? ding2: ding}></img>  */}
           </div>
-          <br></br>
+          
           <div>
           jumpTo(click) -&gt; {'{'}
           </div> 
