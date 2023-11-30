@@ -30,7 +30,7 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            I am a computer scientist, advocate, and artist who 
+            *I am a computer scientist, advocate, and artist who 
             envisions a culture of technology that centers 
             human rights through genuine and inclusive stakeholder 
             engagement. I am based in Providence, Rhode Island, studying Computer Science 
