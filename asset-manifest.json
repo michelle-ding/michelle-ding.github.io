@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.5996c685.css",
-    "main.js": "/website/static/js/main.770f61b1.js",
+    "main.js": "/website/static/js/main.7dd1726b.js",
     "static/js/787.d4aba7ab.chunk.js": "/website/static/js/787.d4aba7ab.chunk.js",
     "static/media/Michelle_FreeMenstrualProducts.png": "/website/static/media/Michelle_FreeMenstrualProducts.9cf62613e5031a2e5216.png",
     "static/media/AAAS5.png": "/website/static/media/AAAS5.dff642b9b022e41c1d54.png",
@@ -14,11 +14,11 @@
     "static/media/Mudbhary_RecallReactions_CO_MichelleDing.jpeg": "/website/static/media/Mudbhary_RecallReactions_CO_MichelleDing.1e8501d352464c411530.jpeg",
     "index.html": "/website/index.html",
     "main.5996c685.css.map": "/website/static/css/main.5996c685.css.map",
-    "main.770f61b1.js.map": "/website/static/js/main.770f61b1.js.map",
+    "main.7dd1726b.js.map": "/website/static/js/main.7dd1726b.js.map",
     "787.d4aba7ab.chunk.js.map": "/website/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5996c685.css",
-    "static/js/main.770f61b1.js"
+    "static/js/main.7dd1726b.js"
   ]
 }
