@@ -100,7 +100,7 @@ function technicalSkills(){
         <div className="techskills" id="Technical">
             <b id="header">{'{Technical Skills}'}</b>
             <br></br>
-            {makeTechDiv("Programming Languages", "Java, Python")}
+            {makeTechDiv("Programming Languages", "Java, Python, JavaScript")}
             <br></br>
             {makeTechDiv("Web Development", "React, TypeScript, HTML, CSS")}
             <br></br>
