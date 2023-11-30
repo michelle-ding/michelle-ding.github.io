@@ -244,4 +244,9 @@
   text #ref{
     text-decoration: underline;
   }
+
+  #note{
+    font-size: .5em;
+    
+  }
 }
