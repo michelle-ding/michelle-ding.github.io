@@ -240,4 +240,8 @@
     margin-bottom: auto;
     display: block;
   }
+
+  text #ref{
+    text-decoration: underline;
+  }
 }
