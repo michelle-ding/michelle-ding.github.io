@@ -64,7 +64,6 @@
   text-align: left;
   font-size: 1.5em;
   margin-top: 1.5em;
-  margin-right: 2em;
   margin-left: 1.3em;
   font-weight: bold;
   position: fixed;
@@ -97,8 +96,8 @@
 }
 
 .text{
-  margin-left: 15em;
-  margin-right: 5.5em;
+  margin-left: 18em;
+  margin-right: 5em;
   color: var(--text);
   text-align: left;
   font-size: 1.5em;
