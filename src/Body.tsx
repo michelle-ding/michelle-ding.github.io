@@ -110,7 +110,7 @@ function technicalSkills(){
             <br></br>
             {makeTechDiv("Design Tools", "Adobe Photoshop, Adobe InDesign, Procreate")}
             <br></br>
-            {makeTechDiv("Formatting", "LaTeX, Microsoft Word")}
+            {makeTechDiv("Data & Formatting", "LaTeX, Microsoft Suite, Google Suite")}
         </div>
     )
 }
