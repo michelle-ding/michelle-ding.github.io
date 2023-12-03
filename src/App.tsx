@@ -14,7 +14,7 @@ function App() {
         <Nav></Nav>
         <Body></Body>
       </div>
-      <div id="note"> <b>This website was designed and built by Michelle Ding. Last updated November 2025.</b></div>
+      <div id="note"> <b>This website was designed and built by Michelle Ding. Last updated December 2025.</b></div>
     </div>
     
   );
