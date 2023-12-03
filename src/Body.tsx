@@ -97,7 +97,7 @@ function makeTechDiv(category: string, list: string){
 
 function technicalSkills(){
     return(
-        <div className="techskills" id="Technical">
+        <div className="techskills" id="TechnicalSkills">
             <b id="header">{'{Technical Skills}'}</b>
             <br></br>
             {makeTechDiv("Programming Languages", "Java, Python, JavaScript")}
@@ -133,7 +133,7 @@ function pressAndPub(){
     const bdh = "The Brown Daily Herald"
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
     return(
-        <div id="Publications">
+        <div id="Press&Publications">
             <b id="header">{'{Publications}'}</b>
             <br></br>
             <a id="ref" href={decisiontree} target="_blank">"Decision Tree for the Responsible Application 
@@ -224,7 +224,7 @@ function responsibleai(){
 
 function research(){
     return(
-        <div id="Research">
+        <div id="ResearchPapers">
             <b id="header">{'{Research Papers}'}</b>
             <br></br>
             <a target="_blank" id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
@@ -261,7 +261,7 @@ function formatTeaching(position: string, course: string, year: string, site: st
 }
 function teaching(){
     return(
-        <div id="Teaching">
+        <div id="Teaching&Fellowships">
             <b id="header">{'{Teaching & Fellowships}'}</b>
             <br></br>
             {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023", "https://cs.brown.edu/courses/info/csci0320/")}

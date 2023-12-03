@@ -10,11 +10,11 @@ function navcontent(){
         {/* <li><a href="#ResponsibleAI">responsibleAI,</a></li> */}
 {/*         
         <li><a href="#advocacy">advocacy,</a></li> */}
-        <li><a href="#Technical">technicalSkills,</a></li>
-        <li><a href="#Teaching">teaching&Fellowships,</a></li>
+        <li><a href="#TechnicalSkills">technicalSkills,</a></li>
+        <li><a href="#Teaching&Fellowships">teaching&Fellowships,</a></li>
         <li><a href="#Illustrations">illustrations,</a></li>
-        <li><a href="#Research">researchPapers,</a></li>
-        <li><a href="#Publications">press&Publications,</a></li>
+        <li><a href="#ResearchPapers">researchPapers,</a></li>
+        <li><a href="#Press&Publications">press&Publications,</a></li>
         <li><a href="#Contact">contact</a></li>
       </ul>
     </nav>
