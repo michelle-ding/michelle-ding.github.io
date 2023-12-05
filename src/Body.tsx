@@ -53,7 +53,7 @@ function bio(){
             <a id="ref" target="_blank" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training">
             Public Interest AI 101: Resources and Trainings for Developing Equitable AI Systems
             </a>, soon to be piloted. These projects were funded by grants from Microsoft and
-            the Ford Foundation.
+            the Ford Foundation. 
 
             <br></br><br></br>
             Currently at Brown, I am developing the {" "}
@@ -83,7 +83,7 @@ function bio(){
             Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
             over 80 individual donors in one summer for organizations 
             providing reproductive care for disproportionately affected communities across the country. 
-            Learn more about my work <a id="ref" href="#Research">here</a> or contact me at michelle_ding@brown.edu.
+            Learn more about my work <a id="ref" href="#ResearchPapers">here</a> or contact me at michelle_ding@brown.edu.
 
         </div>
     )
