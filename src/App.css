@@ -40,7 +40,7 @@
 
 #note{
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: auto;
   background-color: var(--text);
   color: var(--bg);
@@ -62,12 +62,12 @@
 .navtext{
   color: var(--text);
   text-align: left;
-  font-size: 1.5em;
-  margin-top: 1.5em;
+  font-size: 1.3em;
+  margin-top: 1em;
   margin-left: 1.3em;
   font-weight: bold;
   position: fixed;
-  line-height: 1.5em
+  line-height: 1.3em
 }
 
 .navtext nav{
@@ -100,10 +100,10 @@
   margin-right: 5em;
   color: var(--text);
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: auto;
   max-width: 100%;
-  line-height:1.5em;
+  line-height:1.3em;
   text-align: justify
 }
 
@@ -123,7 +123,7 @@
   padding-right: 10px
 }
 .welcome{
-  font-size: 5.5em;
+  font-size: 4em;
   font-weight: bold;
   line-height: 1.3em;
   text-align: left;
