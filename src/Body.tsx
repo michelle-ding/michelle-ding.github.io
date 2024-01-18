@@ -171,7 +171,7 @@ function contact(){
 function ilo(){
     return(
         <div id="Illustrations">
-            <b id="header">{'{Illustrations [Selected Published Pieces]}'}</b>
+            <b id="header">{'{Illustrations}'}</b>
             <br></br>
             <br></br>
             <div id="ilocontainer">
