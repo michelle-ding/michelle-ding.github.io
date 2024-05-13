@@ -15,7 +15,7 @@ function App() {
         <Body></Body>
       </div>
       <div id="note"> 
-      <b>This website was designed and built by Michelle Ding. Last updated December 2023.</b>
+      <b>This website was designed and built by Michelle Ding. Last updated April 2024.</b>
       </div>
     </div>
     
