@@ -55,15 +55,15 @@ function bio(){
             </a>, soon to be piloted. These projects were funded by grants from Microsoft and
             the Ford Foundation. 
 
-            <br></br><br></br>
+            {/* <br></br><br></br>
             Currently at Brown, I am developing the {" "}
             
             <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
                 Socially Responsible Computing</a>{" "}
-            curriculum for the CS department as an undergraduate teaching assistant. 
+            curriculum for the CS department through funded research. 
             My work aims to thoughtfully and holistically incorporate an anti-racist, 
             human-centered framework into every step of the coding process,
-            using education as a preventative approach to tackling algorithmic bias and discrimination
+            using education as a preventative approach to tackling algorithmic bias and discrimination */}
             
             <br></br><br></br>
             My past research and advocacy navigate sexual violence prevention, 
