@@ -156,6 +156,10 @@
     display: none;
     visibility: hidden;
   }
+
+  div{
+    font-family: Arial Narrow, sans-serif
+  }
   
   .container{
     margin-top: 3em;
