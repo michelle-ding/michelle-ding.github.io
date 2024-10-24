@@ -43,6 +43,7 @@
   font-weight: bold;
   position: fixed;
   line-height: 1.3em
+  
 }
 
 .navtext nav{
@@ -67,7 +68,7 @@
   color: var(--bg);
   background-color: var(--text);
   text-decoration: none;
-  font-family: Arial Narrow, sans-serif
+ 
 }
 
 .text{
@@ -159,10 +160,6 @@
     visibility: hidden;
   }
 
-  div{
-    font-family: Arial Narrow, sans-serif
-  }
-  
   .container{
     margin-top: 3em;
     margin-left: 0.5em;
@@ -180,11 +177,9 @@
     font-weight: bold;
     position: fixed;
     visibility: hidden;
+    font-family: Arial Narrow, sans-serif
   }
   
-  .navtext{
-    font-size: 1em;
-  }
 
   .text{
     display:block;
@@ -194,12 +189,9 @@
     text-align: left;
     font-size: 1em;
     max-width: 90%;
+    font-family: Arial Narrow, sans-serif
   }
 
-  .welcome{
-    font-size: 3em;
-    font-weight: bold
-  }
   
   #iloa{
     max-width:100%;
@@ -222,6 +214,7 @@
     font-weight: bold;
     line-height: 1.3em;
     text-align: left;
+    font-family: Arial Narrow, sans-serif
     
   }
 }
