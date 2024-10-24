@@ -199,7 +199,7 @@ function project_and_publications(){
                   practical steps that will help them progress towards implementing the technology 
                   in an effective, ethical way. This project is supported by Microsoft.
                   <br></br><br></br>
-                  <a id="ref" href={decisiontree} target="_blank">Responsible AI Training Modules [AAAS]
+                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules [AAAS]
                </a>
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
