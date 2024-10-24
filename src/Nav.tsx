@@ -12,7 +12,9 @@ function navcontent(){
         {/* <li><a href="#TechnicalSkills">Technical_Skills</a></li> */}
         <li><a href="#Illustrations">Illustrations</a></li>
         <li><a href="#Press">Press_Features</a></li>
+        <li><a href="#Resources">Resources</a></li>
         <li><a href="#Contact">Contact</a></li>
+        
         <li><a href="#WebsiteDetails">Website_Details</a></li>
       </ul>
     </nav>

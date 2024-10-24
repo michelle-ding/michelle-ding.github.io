@@ -291,6 +291,17 @@ function websiteinfo(){
     )
 }
 
+function resources(){
+    return(
+        <div id="Resources">
+            <b id="header">{'Resources'}</b>
+            <br></br>
+            <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
+                Crowdsourced resources for artists concerned about generative AI</a>
+        </div>
+    )
+    }
+
 export default function Body(){
     return(
         <div className="text">
@@ -307,6 +318,8 @@ export default function Body(){
             {ilo()}
             <br></br>
             {pressAndPub()}
+            <br></br>
+            {resources()}
             <br></br>
             {contact()}
             <br></br>
