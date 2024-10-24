@@ -152,9 +152,13 @@
 }
 
 @media only screen and (max-width: 900px){
-
+  #ilocontainer{
+    display: none;
+    visibility: hidden;
+  }
+  
   .container{
-    margin-top: 0.5em;
+    margin-top: 3em;
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
@@ -190,10 +194,6 @@
     font-size: 3em;
     font-weight: bold
   }
-
-  #ilocontainer{
-    display: block;
-  }
   
   #iloa{
     max-width:100%;
@@ -203,9 +203,19 @@
     width: 100%;
     height: auto
   }
-
+  #ref{
+    background-color: var(--text);
+    color: var(--bg);
+  }
   text #ref{
     text-decoration: underline;
   }
 
+  .welcome{
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: left;
+  
+  }
 }

@@ -139,8 +139,6 @@ function ilo(){
     return(
         <div id="Illustrations">
             <b id="header">{'Illustrations'}</b>
-            <br></br>
-            <br></br>
             <div id="ilocontainer">
                 <a id="iloa" href="https://www.browndailyherald.com/article/2023/09/u-community-discusses-integration-of-ai-into-academic-points-to-opportunities-for-innovation" target="_blank">
                 <img id="ilos" src={chatgpt} alt="Michelle Ding Illustration of Chat GPT for the Brown Daily Herald"></img>
@@ -207,7 +205,7 @@ function project_and_publications(){
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
                   <br></br><br></br>
-            <a id="ref" href="https://mding16.github.io/invisiblebodies/" target="_blank">""Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
+            <a id="ref" href="https://mding16.github.io/invisiblebodies/" target="_blank">"Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
                 <i> - Researcher & Creator - </i>
                 "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
                 in examining the various forms of unseen labor behind the 
