@@ -17,11 +17,7 @@ import AAAS6 from './images/AAAS6.png'
 function welcome(){
     return (
         <div className="welcome" id="About">
-            <span>Hi there.</span>
-            <br></br>
-            <span>My name is </span>
-            <br></br>
-            <span>Michelle Ding.</span>
+            <span>Michelle Ding</span>
             </div>
     )
 }
@@ -30,42 +26,20 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            I am a computer scientist, advocate, and artist who 
-            envisions a culture of technology that centers 
-            human rights through genuine and inclusive stakeholder 
-            engagement. I am based in Providence, Rhode Island, studying Computer Science 
-            @ Brown University. 
-            <br></br><br></br>
-            My work on Responsible Artificial Intelligence (AI)
-             aims to bridge the gap between 
-             the technical and ethical by developing resources for diverse audiences. 
-             I have created published resources for non-profits, policymakers, and industry scientists.
-             Last summer, I worked on the {" "}
-             <a id="ref" target="_blank" href="https://www.aaas.org/ai2/about">(AI)2 initiative</a> {" "}
-              at the 
-             American Association for the Advancement of Science (AAAS), 
-             the world's largest general scientific society and publisher of the journal Science. 
-             There,
-             I co-authored and designed the {" "}
-             <a id="ref" href={aaas} target="_blank">AAAS Decision Tree for the Responsible
-            Application of Artificial Intelligence</a>.
-            I also co-authored {" "}
-            <a id="ref" target="_blank" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training">
-            Public Interest AI 101: Resources and Trainings for Developing Equitable AI Systems
-            </a>, soon to be piloted. These projects were funded by grants from Microsoft and
-            the Ford Foundation. 
-
+            <b id="header">{'About'}</b>
+            <br></br>
+            I am a technologist, researcher, community organizer, and artist based in Providence, Rhode Island. 
+            I am currently studying Computer Science @ Brown University. My work within the socio-technical space 
+            has been all about translation: translation across disciplines within the humanities, 
+            social sciences, and computer science; translation across stakeholders in academia, 
+            industry, civil society, media, and government; and translation across cultures 
+            between the East and West. Standing at the boundaries of these often conflicting 
+            yet ever intersecting spaces, I hope to bridge the gaps and facilitate challenging 
+            but crucial conversations that are vital for a world containing impactful, equitable, 
+            and trustworthy technologies. 
+            My work has received funding & support from Brown University, the American Association for the 
+            Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
             {/* <br></br><br></br>
-            Currently at Brown, I am developing the {" "}
-            
-            <a id="ref" href="https://responsible.cs.brown.edu/index.html" target="_blank">
-                Socially Responsible Computing</a>{" "}
-            curriculum for the CS department through funded research. 
-            My work aims to thoughtfully and holistically incorporate an anti-racist, 
-            human-centered framework into every step of the coding process,
-            using education as a preventative approach to tackling algorithmic bias and discrimination */}
-            
-            <br></br><br></br>
             My past research and advocacy navigate sexual violence prevention, 
             consent education, reproductive justice, and intersectional & transnational feminism at Brown and
             in Rhode Island. In May 2022, I worked with the <a id="ref" href="https://ricadv.org/policy/" target="_blank">
@@ -83,7 +57,7 @@ function bio(){
             Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
             over 80 individual donors in one summer for organizations 
             providing reproductive care for disproportionately affected communities across the country. 
-            Learn more about my work <a id="ref" href="#ResearchPapers">here</a> or contact me at michelle_ding@brown.edu.
+            Learn more about my work <a id="ref" href="#ResearchPapers">here</a> or contact me at michelle_ding@brown.edu. */}
 
         </div>
     )
@@ -98,7 +72,7 @@ function makeTechDiv(category: string, list: string){
 function technicalSkills(){
     return(
         <div className="techskills" id="TechnicalSkills">
-            <b id="header">{'{Technical Skills}'}</b>
+            <b id="header">{'Technical Skills'}</b>
             <br></br>
             {makeTechDiv("Programming Languages", "Java, Python, JavaScript")}
             <br></br>
@@ -133,15 +107,8 @@ function pressAndPub(){
     const bdh = "The Brown Daily Herald"
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
     return(
-        <div id="Press&Publications">
-            <b id="header">{'{Publications}'}</b>
-            <br></br>
-            <a id="ref" href={decisiontree} target="_blank">"Decision Tree for the Responsible Application 
-                of Artificial Intelligence", 
-                AAAS Center for Scientific Responsibility, August 2023</a>
-            <br></br>
-            <br></br>
-            <b id="header">{'{Press Features}'}</b>
+        <div id="Press">
+            <b id="header">{'Press_Features'}</b>
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
             <br></br>
             {formatPress(esvroundtable, "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy", 
@@ -159,7 +126,7 @@ function pressAndPub(){
 function contact(){
     return(
         <div className="contact" id="Contact">
-            <b id="header">{'{Contact}'}</b><br></br>
+            <b id="header">{'Contact'}</b><br></br>
             <span>michelle_ding@brown.edu</span>
             <span>
             <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
@@ -171,7 +138,7 @@ function contact(){
 function ilo(){
     return(
         <div id="Illustrations">
-            <b id="header">{'{Illustrations}'}</b>
+            <b id="header">{'Illustrations'}</b>
             <br></br>
             <br></br>
             <div id="ilocontainer">
@@ -197,36 +164,77 @@ function ilo(){
     )
 }
 
-function responsibleai(){
-    const dtImage = (
-        <div id="decisiontree">
-            <div id="dttext">
-                Decision Tree
-            </div>
-            <div id="dtContainer">
-                <img id="dt" src={AAAS1}></img>
-                <img id="dt" src={AAAS2}></img>
-                <img id="dt" src={AAAS3}></img>
-                <img id="dt" src={AAAS4}></img>
-                <img id="dt" src={AAAS5}></img>
-                <img id="dt" src={AAAS6}></img>
-            </div>
-        </div>
-    )
+function project_and_publications(){
+    const src="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook"
+    const decisiontree = "https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
+    const esvroundtable = "https://www.browndailyherald.com/article/2023/05/end-sexual-violence-at-brown-hosts-nonprofit-roundtable-to-address-survivor-support-advocacy"
+    const titleix = "https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year"
+    const brunobrief = "https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus"
+    const esvinterview = "https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown"
+    const bdh = "The Brown Daily Herald"
+    const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
+    const mckee= "https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-protecting-confidentiality-survivors-domestic"
     return(
-        <div id="ResponsibleAI">
-            <b id="header">{'{Responsible AI}'}</b>
+        <div id="projects_and_publications">
+            <b id="header">{'Projects_and_Publications'}</b>
             <br></br>
-            {dtImage}
-        </div>
-    )
-}
-
-function research(){
-    return(
-        <div id="ResearchPapers">
-            <b id="header">{'{Research Papers}'}</b>
-            <br></br>
+            <a id="ref" href={src} target="_blank">Socially Responsible Computing (SRC) Curriculum Handbook [Brown University]</a>
+            <i> - Founder & Director - </i>
+            The SRC Curriculum Handbook is a joint effort between 
+            Brown's Socially Responsible Computing program in the Computer Science Department
+            and Center for Technological Responsibility, 
+            Reimagination, and Redesign (CNTR) in the Data Science Institute
+            to monitor and gather interdisciplinary and multi-stakeholder 
+            content on the rapidly changing landscape of socially responsible computing and to 
+            synthesize that content into educational, digestible primers and a database of curated resources.
+            The handbook aids the integration of topics like algorithmic fairness and justice, data 
+            privacy and protection, sustainability, etc.
+            into Brown's computer science curriculum serving 400+ undergraduate and graduate students. 
+            Advised by Professors Julia Netter & Suresh Venkatasubramanian.
+            <br></br><br></br>
+            <a id="ref" href={decisiontree} target="_blank">Decision Tree for the Responsible Application 
+                of Artificial Intelligence [AAAS]</a>
+                <i> - Co-Author & Designer - </i> The decision tree is a guide to operationalizing a broad set of 
+                principles that AAAS has identified as core components of an 
+                ethical approach to developing and implementing artificial intelligence. Its goal is to assist
+                 those who may be contemplating AI solutions in asking appropriate questions and identifying
+                  practical steps that will help them progress towards implementing the technology 
+                  in an effective, ethical way. This project is supported by Microsoft.
+                  <br></br><br></br>
+                  <a id="ref" href={decisiontree} target="_blank">Responsible AI Training Modules [AAAS]
+               </a>
+                <i> - Co-Author & Researcher - </i> A series of training modules for 
+                AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
+                human rights, and best practices during implementation. This project is supported by the Ford Foundation.
+                  <br></br><br></br>
+            <a id="ref" href="https://mding16.github.io/invisiblebodies/" target="_blank">""Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
+                <i> - Researcher & Creator - </i>
+                "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
+                in examining the various forms of unseen labor behind the 
+                creation and (gender) debiasing of word embedding models like Word2Vec and GloVe. 
+                As word embeddings form the foundation of language models, the exhibit also acts as 
+                a broader exploration of unseen labor behind modern AI technology.
+            <br></br><br></br>
+            <a id="ref" href="https://ricadv.org/policy/" target="_blank">"Address Confidentiality Program for Domestic Violence Survivors [RICADV]"</a>
+                <i> - Community Organizer - </i>
+                I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
+                and lobby for the Address Confidentiality Program. This piece of legislation, 
+                now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee, protects the privacy of victims of 
+                domestic violence, stalking, sexual assault, and trafficking and/or abuse
+                 by providing them with an anonymous PO box for voting, obtaining driver’s 
+                 licenses, and creating other records with state and local governments. 
+            <br></br><br></br>
+            <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
+                "Abortion Fund Mutual Aid Campaign"</a>
+                <i> - Co-Founder - </i>
+                Post-Dobbs, I co-founded Students at Brown for Reproductive Justice, a coalition with 
+             over 40 Brown student organizations, to launch a mutual aid campaign
+            Women's Health & Education Fund of Rhode Island (WHEF),
+            Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
+            over 80 individual donors in one summer for organizations 
+            providing reproductive care for disproportionately affected communities across the country.{" "}
+            <a id="ref" target="_blank" href={esvinterview}>Brown Daily Herald Coverage.</a>
+            {/* <br></br><br></br>
             <a target="_blank" id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
             <i>Transformative Futures: </i>
             A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence (RICADV) 
@@ -235,17 +243,7 @@ function research(){
             <a target="_blank" id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/view?usp=sharing">
             <i>Breaking Barriers: </i>
             A Facilitated Dialogue Between My Mother and Post-Mao Feminism, May 2023
-            </a>
-        </div>
-    )
-}
-
-function advocacy(){
-    return(
-        <div id="advocacy">
-            <b id="header">{'{Advocacy}'}</b>
-            <br></br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa tenetur beatae sapiente ab numquam officiis, eum similique eos sint pariatur ad inventore quo saepe sunt minus! Omnis, repellat odit?
+            </a> */}
         </div>
     )
 }
@@ -253,33 +251,29 @@ function advocacy(){
 function formatTeaching(position: string, course: string, year: string, site: string){
     return(
         <div>
-            {position},
-            <br>
-            </br> <a target="_blank" id="ref" href={site}><i>{course}</i></a>, {year}
+            {position}, {" "}
+           <a target="_blank" id="ref" href={site}><i>{course}</i></a>, {year}
         </div>
     )
 }
 function teaching(){
     return(
         <div id="Teaching&Fellowships">
-            <b id="header">{'{Teaching & Fellowships}'}</b>
-            <br></br>
-            {formatTeaching("Undergraduate Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2023", "https://cs.brown.edu/courses/info/csci0320/")}
-            <br></br>
-            {formatTeaching("Undergraduate Teaching Assistant", "CS0111: Computing Foundations, Data", 
+            <b id="header">{"Teaching_and_Fellowships"}</b>
+
+            {formatTeaching("Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2024 & Fall 2024", "https://cs.brown.edu/courses/info/csci0320/")}
+     
+            {formatTeaching("Teaching Assistant", "CS0111: Computing Foundations, Data", 
             "Fall 2023", "https://cs.brown.edu/courses/csci0111/")}
-            <br></br>
-            {formatTeaching("Socially Responsible Computing Teaching Assistant", "CS0111: Computing Foundations, Data", 
-            "Fall 2023", "https://cs.brown.edu/courses/csci0111/")}
-            <br></br>
-            Fellow, <a target="_blank" id="ref" href="https://college.brown.edu/learn-beyond-classroom/us-study/brown-washington-program">
-                Brown in Washington
-            </a>, Summer 2023
-            <br></br>
-            <br></br>
-            {formatTeaching("Undergraduate Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
+     
+      
+            {formatTeaching("Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
             "Fall 2022", "https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201010&subj_code_in=ENGN&crse_numb_in=0090")}
             
+            Research Fellow, <a target="_blank" id="ref" href="https://college.brown.edu/learn-beyond-classroom/us-study/brown-washington-program">
+                Brown in Washington
+            </a>, Summer 2023
+     
         </div>
     )
 }
@@ -287,7 +281,7 @@ function teaching(){
 function websiteinfo(){
     return(
         <div id="WebsiteDetails">
-            <b id="header">{'{Website Details}'}</b>
+            <b id="header">{'Website_Details'}</b>
             <br></br>
             Built {"&"} designed by Michelle Ding using React, TypeScript, CSS, and HTML
             <br></br>
@@ -305,18 +299,14 @@ export default function Body(){
             {welcome()}
             <br></br>
             {bio()}
-            {/* <br></br> 
-             {responsibleai()}
+            <br></br>
+            {project_and_publications()}
             {/* <br></br>
-            {advocacy()} */} 
-            <br></br>
-            {technicalSkills()}
-            <br></br>
-            {teaching()}
+            {technicalSkills()} */}
+            {/* <br></br>
+            {teaching()} */}
             <br></br>
             {ilo()}
-            <br></br>
-            {research()}
             <br></br>
             {pressAndPub()}
             <br></br>
