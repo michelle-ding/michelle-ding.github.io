@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import Nav from './Nav'
 import Body from './Body'
 import ding1 from './images/ding.png'
@@ -14,9 +14,9 @@ function App() {
         <Nav></Nav>
         <Body></Body>
       </div>
-      <div id="note"> 
-      <b>This website was designed and built by Michelle Ding. Last updated April 2024.</b>
-      </div>
+      {/* <div id="note"> 
+      <b>This website was designed and built by Michelle Ding. Last updated October 2025.</b>
+      </div> */}
     </div>
     
   );

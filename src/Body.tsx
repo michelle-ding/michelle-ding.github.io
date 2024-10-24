@@ -284,6 +284,21 @@ function teaching(){
     )
 }
 
+function websiteinfo(){
+    return(
+        <div id="WebsiteDetails">
+            <b id="header">{'{Website Details}'}</b>
+            <br></br>
+            Built {"&"} designed by Michelle Ding using React, TypeScript, CSS, and HTML
+            <br></br>
+            Hosted on GitHub Pages
+            <br></br>
+            Last updated October 2024
+
+        </div>
+    )
+}
+
 export default function Body(){
     return(
         <div className="text">
@@ -306,6 +321,8 @@ export default function Body(){
             {pressAndPub()}
             <br></br>
             {contact()}
+            <br></br>
+            {websiteinfo()}
         </div>
     )
 }

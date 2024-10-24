@@ -1,11 +1,11 @@
 :root{
-  --bg: hsl(0, 0%, 98%);
-  --text: hsl(159, 39%, 31%);
+  --bg:#d3d3ff;
+  --text:#333333;
 }
 
 .dark-theme{
-  --bg: hsl(159, 39%, 31%);
-  --text: hsl(0, 0%, 98%);
+  --bg: #333333;
+  --text: #d3d3ff;
 }
 
 .App {
@@ -24,35 +24,10 @@
   background-color: var(--text);
 }
 
-/* #toggle{
-  border: none;
-  color: white;
-  display: block;
-  margin-top:auto;
-  margin-left:auto;
-  margin-right: auto;
-  margin: auto;
-  text-decoration: none;
-  font-size: 16px;
-  max-width: 10em;
-  height: 10em;
-} */
-
-#note{
-  width: 100%;
-  font-size: 1.3em;
-  margin-bottom: auto;
-  background-color: var(--text);
-  color: var(--bg);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  z-index:-1;
-}
-
 .container{
-  margin-top: 2em;
-  margin-left: 3em;
-  margin-right: 0em;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
   margin-bottom:5em;
   display: flex;
   z-index: 1;
@@ -64,7 +39,7 @@
   text-align: left;
   font-size: 1.3em;
   margin-top: 1em;
-  margin-left: 1.3em;
+  margin-left: 5em;
   font-weight: bold;
   position: fixed;
   line-height: 1.3em
@@ -72,11 +47,10 @@
 
 .navtext nav{
   color: var(--text);
-  margin:0px
 }
 
 .navtext ul{
-  margin: 0
+  padding-left: 0px
 }
 
 .navtext li{
@@ -96,7 +70,7 @@
 }
 
 .text{
-  margin-left: 16em;
+  margin-left: 20em;
   margin-right: 5em;
   color: var(--text);
   text-align: left;
@@ -135,6 +109,7 @@
   background-color: var(--text);
   text-decoration: none;
 }
+
 #ilocontainer{
   display: flex;
 }
@@ -176,7 +151,6 @@
   }
 }
 
-
 @media only screen and (max-width: 900px){
 
   .container{
@@ -191,8 +165,8 @@
     color: var(--text);
     text-align: left;
     font-size: 2em;
-    margin-top: 0.5em;
-    margin-right: 50px;
+    margin-top: 0em;
+    margin-right:0;
     font-weight: bold;
     position: fixed;
     visibility: hidden;
@@ -230,28 +204,8 @@
     height: auto
   }
 
-  #note b{
-    width: 100%;
-    font-size: 0.5em;
-    background-color: var(--text);
-    color: var(--bg);
-    margin-top:auto;
-    margin-bottom: auto;
-    display: block;
-  }
-
   text #ref{
     text-decoration: underline;
   }
 
-  #note{
-    width: 100%;
-    font-size: 1.3em;
-    margin-bottom: auto;
-    background-color: var(--text);
-    color: var(--bg);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    z-index:-1;
-  }
 }
