@@ -226,8 +226,7 @@ function project_and_publications(){
                 "Abortion Fund Mutual Aid Campaign"</a>
                 <i> - Co-Founder - </i>
                 Post-Dobbs, I co-founded Students at Brown for Reproductive Justice, a coalition with 
-             over 40 Brown student organizations, to launch a mutual aid campaign
-            Women's Health & Education Fund of Rhode Island (WHEF),
+             over 40 Brown student organizations, to launch a mutual aid campaign supporting the Women's Health & Education Fund of Rhode Island (WHEF),
             Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
             over 80 individual donors in one summer for organizations 
             providing reproductive care for disproportionately affected communities across the country.{" "}
