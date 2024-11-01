@@ -46,7 +46,7 @@ function bio(){
                </a>.
             I conducted research and advocacy around topics of sexual violence prevention, consent education, 
             transnational feminism, and reproductive justice
-            in collaboration the {" "}
+            in collaboration with the {" "}
             <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against Domestic Violence</a>,{" "}
             <a id="ref" href="https://nnedv.org/" target="_blank">National Network to End Domestic Violence</a>,{" "}
             <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote</a>,{" "}
