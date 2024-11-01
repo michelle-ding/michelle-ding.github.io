@@ -36,7 +36,9 @@ function bio(){
             between the East and West. Standing at the boundaries of these often conflicting 
             yet ever intersecting spaces, I hope to bridge the gaps and facilitate challenging 
             but crucial conversations that are vital for a world containing impactful, equitable, 
-            and trustworthy technologies. 
+            and trustworthy technologies. I am affiliated with Brown's
+            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>
+            in the Data Science Institute.
             My work has received funding & support from Brown University, the American Association for the 
             Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
             {/* <br></br><br></br>
