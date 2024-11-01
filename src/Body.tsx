@@ -55,7 +55,8 @@ function bio(){
         
             I am currently affiliated with Brown's {" "}
             <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
-            in the Data Science Institute.
+            in the Data Science Institute where I direct the {" "}
+            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook.</a>{" "}
             My work has received funding & support from Brown University, the American Association for the 
             Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
         </div>
