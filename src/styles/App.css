@@ -1,11 +1,13 @@
 :root{
   --bg:white;
   --text:#3a3a83;
+  --other:#cf248d;
 }
 
 .dark-theme{
   --bg: #3a3a83;
   --text: #ffffff;
+  --other:#ffc1e7;
 }
 
 .App {
@@ -84,14 +86,16 @@
 }
 
 #ref{
-  text-decoration: var(--text) underline;
-  color: var(--text)
+  text-decoration: var(--text) none;
+  /* color: var(--text); */
+  color: var(--other);
+  font-weight: bold;
 }
 
 #ref:hover:hover{
   flex: 4;
   color: var(--bg);
-  background-color: var(--text);
+  background-color: var(--other);
   text-decoration: none
 }
 
@@ -201,8 +205,9 @@
     height: auto
   }
   #ref{
-    background-color: var(--text);
-    color: var(--bg);
+   
+    color: var(--other);
+
   }
   text #ref{
     text-decoration: underline;

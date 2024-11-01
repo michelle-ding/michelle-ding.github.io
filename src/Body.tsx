@@ -36,31 +36,28 @@ function bio(){
             between the East and West. Standing at the boundaries of these often conflicting 
             yet ever intersecting spaces, I hope to bridge the gaps and facilitate challenging 
             but crucial conversations that are vital for a world containing impactful, equitable, 
-            and trustworthy technologies. I am affiliated with Brown's
-            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>
+            and trustworthy technologies. 
+            I worked on the (AI)² Initiative at the {" "}
+            <a id="ref" href="https://www.aaas.org/" target="_blank">American Association for the Advancement of Science (AAAS)</a>
+            {" "} in Washington DC and served as co-author and researcher for their {" "}
+            <a id="ref" href="https://www.aaas.org/ai2/projects/framework-practitioners" target="_blank">Decision Tree for the Responsible Application 
+                of Artificial Intelligence</a> and {" "}
+                <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules
+               </a>.
+            I conducted research and advocacy around topics of sexual violence prevention, consent education, 
+            transnational feminism, and reproductive justice
+            in collaboration the {" "}
+            <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against Domestic Violence</a>,{" "}
+            <a id="ref" href="https://nnedv.org/" target="_blank">National Network to End Domestic Violence</a>,{" "}
+            <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote</a>,{" "}
+            <a id="ref" href="https://www.iwrising.org/" target="_blank">Indigenous Women Rising</a>, and{" "}
+            <a id="ref" href="https://riabortionfund.org" target="_blank">the Rhode Island Abortion Fund</a>{" "}(formerly Women's Health and Education Fund).
+        
+            I am currently affiliated with Brown's {" "}
+            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
             in the Data Science Institute.
             My work has received funding & support from Brown University, the American Association for the 
             Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
-            {/* <br></br><br></br>
-            My past research and advocacy navigate sexual violence prevention, 
-            consent education, reproductive justice, and intersectional & transnational feminism at Brown and
-            in Rhode Island. In May 2022, I worked with the <a id="ref" href="https://ricadv.org/policy/" target="_blank">
-                Rhode Island Coalition Against 
-            Domestic Violence (RICADV)</a> to advocate and lobby for the Address Confidentiality Program 
-            that protects survivors and their children (now {" "}
-            <a id="ref" href="https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-protecting-confidentiality-survivors-domestic" target="_blank">
-            signed
-                </a> into law). Following the Dobbs decision overturning
-            Roe v. Wade,
-            I co-founded Students at Brown for Reproductive Justice, a coalition with 
-             over 40 Brown student organizations, to launch a <a id="ref" target="_blank" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice">
-            mutual aid campaign</a> supporting
-            Women's Health & Education Fund of Rhode Island (WHEF),
-            Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
-            over 80 individual donors in one summer for organizations 
-            providing reproductive care for disproportionately affected communities across the country. 
-            Learn more about my work <a id="ref" href="#ResearchPapers">here</a> or contact me at michelle_ding@brown.edu. */}
-
         </div>
     )
 }
