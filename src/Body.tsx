@@ -297,6 +297,8 @@ function resources(){
             <br></br>
             <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
                 Crowdsourced resources for artists concerned about generative AI</a>
+                <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles_sociotech_recs&sort=date_added">
+                Michelle's socio-tech book recs</a>
         </div>
     )
     }
