@@ -199,7 +199,7 @@ function project_and_publications(){
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
                   <br></br><br></br>
-            <a id="ref" href="https://mding16.github.io/invisiblebodies/" target="_blank">"Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
+            <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">"Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
                 <i> - Researcher & Creator - </i>
                 "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
                 in examining the various forms of unseen labor behind the 
