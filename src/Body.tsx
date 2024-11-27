@@ -210,7 +210,7 @@ function project_and_publications(){
             <a id="ref" href="https://ricadv.org/policy/" target="_blank">"Address Confidentiality Program for Domestic Violence Survivors [RICADV]"</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
-                and lobby for the Address Confidentiality Program. This piece of legislation, 
+                and lobby for the <a id="ref" target="_blank" href="https://www.sos.ri.gov/AddressConfidentialityProgram">Address Confidentiality Program.</a>{" "} This piece of legislation, 
                 now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee, protects the privacy of victims of 
                 domestic violence, stalking, sexual assault, and trafficking and/or abuse
                  by providing them with an anonymous PO box for voting, obtaining driver’s 
