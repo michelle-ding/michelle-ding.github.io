@@ -26,37 +26,31 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            <b id="header">{'About (she/her)'}</b>
+            <b id="header">{'About'}</b>
             <br></br>
-            I am a technologist, researcher, community organizer, and artist based in Providence, Rhode Island. 
-            I am currently studying Computer Science @ Brown University. My work within the socio-technical space 
-            has been all about translation: translation across disciplines within the humanities, 
-            social sciences, and computer science; translation across stakeholders in academia, 
-            industry, civil society, media, and government; and translation across cultures 
-            between the East and West. Standing at the boundaries of these often conflicting 
-            yet ever intersecting spaces, I hope to bridge the gaps and facilitate challenging 
-            but crucial conversations that are vital for a world containing impactful, equitable, 
-            and trustworthy technologies. 
-            I worked on the (AI)² Initiative at the {" "}
-            <a id="ref" href="https://www.aaas.org/" target="_blank">American Association for the Advancement of Science (AAAS)</a>
-            {" "} in Washington DC and served as co-author and researcher for their {" "}
+            Hi! My name is Michelle (she/her). I am a computer scientist, researcher, and community organizer at Brown University
+            working on topics of AI governance, human-computer interaction, stakeholder engagement/participatory design, 
+            and algorithmic justice. 
+    
+            I am currently affiliated with Brown's {" "}
+            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
+            in the Data Science Institute as Founder & Director of the {" "}
+            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project.</a>{" "}
+            I was previously at the
+           American Association for the Advancement of Science (AAAS)
+            in Washington DC and co-authored the {" "}
             <a id="ref" href="https://www.aaas.org/ai2/projects/framework-practitioners" target="_blank">Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a> and {" "}
                 <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules
                </a>.
-            I conducted research and advocacy around topics of sexual violence prevention, consent education, 
+            I also conducted research and advocacy around topics of sexual violence prevention, consent education, 
             transnational feminism, and reproductive justice
             in collaboration with the {" "}
-            <a id="ref" href="https://ricadv.org/" target="_blank">Rhode Island Coalition Against Domestic Violence</a>,{" "}
-            <a id="ref" href="https://nnedv.org/" target="_blank">National Network to End Domestic Violence</a>,{" "}
-            <a id="ref" href="https://apiavote.org/" target="_blank">Asian and Pacific Islander American Vote</a>,{" "}
-            <a id="ref" href="https://www.iwrising.org/" target="_blank">Indigenous Women Rising</a>, and{" "}
-            <a id="ref" href="https://riabortionfund.org" target="_blank">the Rhode Island Abortion Fund</a>{" "}(formerly Women's Health and Education Fund).
-        
-            I am currently affiliated with Brown's {" "}
-            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
-            in the Data Science Institute where I direct the {" "}
-            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook.</a>{" "}
+            Rhode Island Coalition Against Domestic Violence,
+            National Network to End Domestic Violence,
+            Asian and Pacific Islander American Vote,
+            Indigenous Women Rising,
+            and the Rhode Island Abortion Fund.
             My work has received funding & support from Brown University, the American Association for the 
             Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
         </div>
@@ -128,6 +122,7 @@ function contact(){
         <div className="contact" id="Contact">
             <b id="header">{'Contact'}</b><br></br>
             <span>
+                michelle_ding@brown.edu{" "}
             <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
             </span>
         </div>
