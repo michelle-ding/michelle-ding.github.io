@@ -7,12 +7,13 @@ function navcontent(){
     <nav>
       <ul>
         <li><a href="#About">About</a></li>
+        <li><a href="#Resources">Resources</a></li>
         <li><a href="#projects_and_publications">Projects_and_Publications</a></li>
         {/* <li><a href="#Teaching&Fellowships">Teaching_and_Fellowships</a></li> */}
         {/* <li><a href="#TechnicalSkills">Technical_Skills</a></li> */}
         <li><a href="#Illustrations">Illustrations</a></li>
         <li><a href="#Press">Press_Features</a></li>
-        <li><a href="#Resources">Resources</a></li>
+        
         <li><a href="#Contact">Contact</a></li>
         
         <li><a href="#WebsiteDetails">Website_Details</a></li>

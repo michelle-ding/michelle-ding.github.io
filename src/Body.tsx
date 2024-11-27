@@ -308,6 +308,9 @@ export default function Body(){
             <br></br>
             {bio()}
             <br></br>
+            {resources()}
+            <br></br>
+            
             {project_and_publications()}
             {/* <br></br>
             {technicalSkills()} */}
@@ -317,8 +320,7 @@ export default function Body(){
             {ilo()}
             <br></br>
             {pressAndPub()}
-            <br></br>
-            {resources()}
+            
             <br></br>
             {contact()}
             <br></br>
