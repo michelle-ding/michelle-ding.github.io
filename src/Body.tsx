@@ -123,7 +123,9 @@ function contact(){
             <b id="header">{'Contact'}</b><br></br>
             <span>
                 michelle_ding@brown.edu{" "}
-                @michelleding.bsky.social{" "}
+                <br></br>
+                <a id="ref" href="https://bsky.app/profile/michelleding.bsky.social" target="_blank">@michelleding.bsky.social</a>
+                <br></br>
             <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
             </span>
         </div>
