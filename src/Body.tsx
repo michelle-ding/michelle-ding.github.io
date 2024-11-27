@@ -28,7 +28,7 @@ function bio(){
         <div >
             <b id="header">{'About'}</b>
             <br></br>
-            Hi! My name is Michelle (she/her). I am a computer scientist, researcher, and community organizer at Brown University
+            Hi! My name is Michelle (she/her). I am a computer scientist, researcher, artist, and community organizer at Brown University
             working on topics of AI governance, human-computer interaction, feminist digital humanities, stakeholder engagement/participatory design, 
             and algorithmic justice. 
     
