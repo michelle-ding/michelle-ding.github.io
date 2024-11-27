@@ -29,7 +29,7 @@ function bio(){
             <b id="header">{'About'}</b>
             <br></br>
             Hi! My name is Michelle (she/her). I am a computer scientist, researcher, and community organizer at Brown University
-            working on topics of AI governance, human-computer interaction, stakeholder engagement/participatory design, 
+            working on topics of AI governance, human-computer interaction, feminist digital humanities, stakeholder engagement/participatory design, 
             and algorithmic justice. 
     
             I am currently affiliated with Brown's {" "}
