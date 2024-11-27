@@ -26,7 +26,7 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            <b id="header">{'About Michelle (she/her)'}</b>
+            <b id="header">{'About (she/her)'}</b>
             <br></br>
             I am a technologist, researcher, community organizer, and artist based in Providence, Rhode Island. 
             I am currently studying Computer Science @ Brown University. My work within the socio-technical space 
@@ -279,7 +279,7 @@ function websiteinfo(){
         <div id="WebsiteDetails">
             <b id="header">{'Website_Details'}</b>
             <br></br>
-            Built {"&"} designed by Michelle Ding using React, TypeScript, CSS, and HTML
+            Built {"&"} designed by Michelle L. Ding using React, TypeScript, CSS, and HTML
             <br></br>
             Hosted on GitHub Pages
             <br></br>
