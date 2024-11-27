@@ -17,7 +17,7 @@ import AAAS6 from './images/AAAS6.png'
 function welcome(){
     return (
         <div className="welcome" id="About">
-            <span>Michelle Ding</span>
+            <span>Michelle Luowen Ding</span>
             </div>
     )
 }
@@ -127,7 +127,6 @@ function contact(){
     return(
         <div className="contact" id="Contact">
             <b id="header">{'Contact'}</b><br></br>
-            <span>michelle_ding@brown.edu</span>
             <span>
             <a id="ref" href="http://www.linkedin.com/in/michelleding1" target="_blank">LinkedIn</a>
             </span>
