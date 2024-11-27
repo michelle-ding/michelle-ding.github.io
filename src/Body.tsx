@@ -170,7 +170,7 @@ function project_and_publications(){
         <div id="projects_and_publications">
             <b id="header">{'Projects_and_Publications'}</b>
             <br></br>
-            <a id="ref" href={src} target="_blank">Socially Responsible Computing (SRC) Curriculum Handbook [Brown University]</a>
+            <a id="ref" href={src} target="_blank">* Socially Responsible Computing (SRC) Curriculum Handbook</a>
             <i> - Founder & Director - </i>
             The SRC Curriculum Handbook is a joint effort between 
             Brown's Socially Responsible Computing program in the Computer Science Department
@@ -184,8 +184,8 @@ function project_and_publications(){
             into Brown's computer science curriculum serving 400+ undergraduate and graduate students. 
             Advised by Professors Julia Netter & Suresh Venkatasubramanian.
             <br></br><br></br>
-            <a id="ref" href={decisiontree} target="_blank">Decision Tree for the Responsible Application 
-                of Artificial Intelligence [AAAS]</a>
+            <a id="ref" href={decisiontree} target="_blank">* Decision Tree for the Responsible Application 
+                of Artificial Intelligence</a>
                 <i> - Co-Author & Designer - </i> The decision tree is a guide to operationalizing a broad set of 
                 principles that AAAS has identified as core components of an 
                 ethical approach to developing and implementing artificial intelligence. Its goal is to assist
@@ -193,13 +193,13 @@ function project_and_publications(){
                   practical steps that will help them progress towards implementing the technology 
                   in an effective, ethical way. This project is supported by Microsoft.
                   <br></br><br></br>
-                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules [AAAS]
+                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">* Responsible AI Training Modules
                </a>
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
                   <br></br><br></br>
-            <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">"Invisible Bodies: Hidden Labor Behind Word Embeddings"</a>
+            <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">* Invisible Bodies: Hidden Labor Behind Word Embeddings</a>
                 <i> - Researcher & Creator - </i>
                 "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
                 in examining the various forms of unseen labor behind the 
@@ -207,17 +207,19 @@ function project_and_publications(){
                 As word embeddings form the foundation of language models, the exhibit also acts as 
                 a broader exploration of unseen labor behind modern AI technology.
             <br></br><br></br>
-            <a id="ref" href="https://ricadv.org/policy/" target="_blank">"Address Confidentiality Program for Domestic Violence Survivors [RICADV]"</a>
+            <a id="ref" href="https://ricadv.org/policy/" target="_blank">* Address Confidentiality Program for Domestic Violence Survivors</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
                 and lobby for the <a id="ref" target="_blank" href="https://www.sos.ri.gov/AddressConfidentialityProgram">Address Confidentiality Program.</a>{" "} This piece of legislation, 
                 now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee, protects the privacy of victims of 
                 domestic violence, stalking, sexual assault, and trafficking and/or abuse
                  by providing them with an anonymous PO box for voting, obtaining driver’s 
-                 licenses, and creating other records with state and local governments. 
+                 licenses, and creating other records with state and local governments.{" "}
+                 <a id="ref" target="_blank" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
+                    More research on state/federal strategies to end domestic violence.</a>
             <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
-                "Abortion Fund Mutual Aid Campaign"</a>
+                * Abortion Fund Mutual Aid Campaign</a>
                 <i> - Community Organizer & Co-Founder - </i>
                 Post-Dobbs, I co-founded Students at Brown for Reproductive Justice, a coalition with 
              over 40 Brown student organizations, to launch a mutual aid campaign supporting the Women's Health & Education Fund of Rhode Island (WHEF),
