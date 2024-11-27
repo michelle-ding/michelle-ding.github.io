@@ -26,7 +26,7 @@ function bio(){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            <b id="header">{'About'}</b>
+            <b id="header">{'About Michelle (she/her)'}</b>
             <br></br>
             I am a technologist, researcher, community organizer, and artist based in Providence, Rhode Island. 
             I am currently studying Computer Science @ Brown University. My work within the socio-technical space 
