@@ -305,9 +305,7 @@ function resources(){
                 <br></br>
                 <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles_sociotech_recs&sort=date_added">
                 * Michelle's socio-technical reading list :)</a>
-                <br></br>
-                <a target="_blank" id="ref" href="https://alltechishuman.org/responsible-tech-job-board">
-                * All Tech is Human Responsible Tech Job Board</a>
+
         </div>
     )
     }
