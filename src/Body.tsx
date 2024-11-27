@@ -294,6 +294,9 @@ function resources(){
             <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
                 * Crowdsourced resources for artists concerned about generative AI</a>
                 <br></br>
+                <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1eiZKnNeeQlvr4NaVOwCfhpNAaEr7lp-kELyvfjCZS64/edit?usp=sharing">
+                * Ways to turn off AI training on platforms</a>
+                <br></br>
                 <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing">
                 * Sexual health resources @ Brown/Providence</a>
                 <br></br>
