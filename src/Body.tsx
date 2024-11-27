@@ -278,7 +278,7 @@ function websiteinfo(){
             <br></br>
             Hosted on GitHub Pages
             <br></br>
-            Last updated October 2024
+            Last updated November 2024
 
         </div>
     )
