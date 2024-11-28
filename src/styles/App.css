@@ -110,11 +110,11 @@
 
 }
 
-.welcome span:hover{
+/* .welcome span:hover{
   color: var(--bg);
   background-color: var(--text);
   text-decoration: none;
-}
+} */
 
 #ilocontainer{
   display: flex;
