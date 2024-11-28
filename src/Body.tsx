@@ -13,7 +13,13 @@ import AAAS3 from './images/AAAS3.png'
 import AAAS4 from './images/AAAS4.png'
 import AAAS5 from './images/AAAS5.png'
 import AAAS6 from './images/AAAS6.png'
-
+import bluesky from './images/pbsky.png'
+import linkedin from './images/linkedinp.png'
+import mail from './images/mail.png'
+import mail1 from './images/pmail.png'
+import darkMail from './images/darkmail.png'
+import darklinkedin from './images/darklinkedin.png'
+import darkbluesky from './images/darkbsk.png'
 function welcome(){
     return (
         <div className="welcome" id="About">
@@ -21,14 +27,35 @@ function welcome(){
             </div>
     )
 }
+function icons(logoval:boolean){
+    return(
+        <div className="iconcontainer">
+            <a className="icons" target="_blank" href="https://bsky.app/profile/michelleding.bsky.social">
+            <img className="icons" title="Go to @michelleding.bsky.social" 
+            src={logoval ? bluesky : darkbluesky} alt="Michelle's BlueSky @michelleding.bsky.social"></img>
+            </a>
 
-function bio(){
+            <a className="icons" target="_blank" href="https://www.linkedin.com/in/michelleding1/">
+            <img className="icons" title= "Go to www.linkedin.com/in/michelleding1" 
+            src={logoval ? linkedin : darklinkedin} alt="Michelle's LinkedIn at www.linkedin.com/in/michelleding1"></img>
+            </a>
+            <a className="icons" target="_blank" href="mailto:michelle_ding@brown.edu">
+            <img className="icons" title="Email michelle_ding@brown.edu" 
+            src={logoval ? mail1 : darkMail} alt="Michelle's Email at michelle_ding@brown.edu" />
+            </a>
+        </div>
+    )
+}
+function bio(logoval:boolean){
     const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
     return(
         <div >
-            <b id="header">{'About'}</b>
-            <br></br>
-            Hi! My name is Michelle (she/her). I am a computer scientist, researcher, artist, and community organizer at Brown University
+            <b id="header">
+                <div className="iconcontainer">
+                {'About'}{icons(logoval)}
+                </div></b>
+            Hi! My name is Michelle (she/her). 
+            I am a computer scientist, researcher, artist, and community organizer at Brown University
             working on topics of AI governance, human-computer interaction, feminist digital humanities, stakeholder engagement/participatory design, 
             and algorithmic justice. 
     
@@ -52,7 +79,7 @@ function bio(){
             Indigenous Women Rising,
             and the Rhode Island Abortion Fund.
             My work has received funding & support from Brown University, the American Association for the 
-            Advancement of Science (AAAS), Microsoft, and the Ford Foundation.
+            Advancement of Science (AAAS), Microsoft, and the Ford Foundation. 
         </div>
     )
 }
@@ -283,6 +310,8 @@ function websiteinfo(){
             <br></br>
             Hosted on GitHub Pages
             <br></br>
+            Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
+            <br></br>
             Last updated November 2024
 
         </div>
@@ -310,12 +339,16 @@ function resources(){
     )
     }
 
-export default function Body(){
+interface BodyProps {
+    logoval: boolean;
+   
+}
+export default function Body({ logoval }: BodyProps){
     return(
         <div className="text">
             {welcome()}
             <br></br>
-            {bio()}
+            {bio(logoval)}
             <br></br>
             {resources()}
             <br></br>
@@ -330,8 +363,8 @@ export default function Body(){
             <br></br>
             {pressAndPub()}
             
-            <br></br>
-            {contact()}
+            {/* <br></br>
+            {contact()} */}
             <br></br>
             {websiteinfo()}
         </div>

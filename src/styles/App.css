@@ -1,13 +1,13 @@
 :root{
   --bg:white;
   --text:#3a3a83;
-  --other:#cf248d;
+  --other:#A81470;
 }
 
 .dark-theme{
-  --bg: #3a3a83;
-  --text: #ffffff;
-  --other:#ffc1e7;
+  --bg: #1b154d;
+  --text: #c5c3e6;
+  --other:#D097BE;
 }
 
 .App {
@@ -116,7 +116,6 @@
   text-decoration: none;
 }
 
-
 #ilocontainer{
   display: flex;
 }
@@ -147,6 +146,18 @@
   width: 100%;
   display: block;
 }
+.iconcontainer {
+  display: flex;
+  align-items: center; /* Aligns icons and text vertically */
+  gap: 8px; /* Adds space between icons */
+}
+
+.icons {
+  height: 1em; /* Match the text height */
+  width: auto; /* Maintains the aspect ratio */
+  display: inline-block; /* Ensures icons align with text */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

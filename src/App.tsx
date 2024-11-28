@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './styles/App.css';
-import Nav from './Nav'
-import Body from './Body'
-import ding1 from './images/ding.png'
-import ding2 from './images/ding2.png'
+import React, { useState } from 'react';
+import Nav from './Nav';
+import Body from './Body'; // Assuming Body is another component
 
 function App() {
-  
+  const [logoval, setlogoval] = useState<boolean>(true); // Default to light mode
+
   return (
     <div className="App">
       <div className="container">
-        <Nav></Nav>
-        <Body></Body>
+        <Nav logoval={logoval} setlogoval={setlogoval} />
+        <Body logoval={logoval}/>
       </div>
-      {/* <div id="note"> 
-      <b>This website was designed and built by Michelle Ding. Last updated October 2025.</b>
-      </div> */}
     </div>
-    
   );
 }
 
