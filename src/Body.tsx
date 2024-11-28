@@ -52,8 +52,9 @@ function bio(logoval:boolean){
         <div >
             <b id="header">
                 <div className="iconcontainer">
-                {'About'}{icons(logoval)}
+                {icons(logoval)}
                 </div></b>
+                <br></br>
             Hi! My name is Michelle (she/her). 
             I am a computer scientist, researcher, artist, and community organizer at Brown University
             working on topics of AI governance, human-computer interaction, feminist digital humanities, stakeholder engagement/participatory design, 
