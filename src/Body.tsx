@@ -79,8 +79,7 @@ function bio(logoval:boolean){
             Asian and Pacific Islander American Vote,
             Indigenous Women Rising,
             and the Rhode Island Abortion Fund.
-            My work has received funding & support from Brown University, the American Association for the 
-            Advancement of Science (AAAS), Microsoft, and the Ford Foundation. 
+            My work has received funding & support from Brown, AAAS, Microsoft, and the Ford Foundation. 
         </div>
     )
 }
