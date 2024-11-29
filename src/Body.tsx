@@ -213,7 +213,13 @@ function project_and_publications(){
             The handbook aids the integration of topics like algorithmic fairness and justice, data 
             privacy and protection, sustainability, etc.
             into Brown's computer science curriculum serving 400+ undergraduate and graduate students. 
-            Advised by Professors Julia Netter & Suresh Venkatasubramanian.
+            Advised by Profs.{" "}
+            <a href="http://www.julianetter.de/" id="ref" target="_blank">
+            Julia Netter
+                </a> & {" "}
+                <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
+                Suresh Venkatasubramanian
+                    </a>.
             <br></br><br></br>
             <a id="ref" href={decisiontree} target="_blank">* Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a>
