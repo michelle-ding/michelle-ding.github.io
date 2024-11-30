@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7d6e854.css",
-    "main.js": "/static/js/main.e0878ad0.js",
+    "main.js": "/static/js/main.749ab803.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/Michelle_FreeMenstrualProducts.png": "/static/media/Michelle_FreeMenstrualProducts.9cf62613e5031a2e5216.png",
     "static/media/Michelle_ChatGPT.jpg": "/static/media/Michelle_ChatGPT.901fc1fe3742b45e8a46.jpg",
@@ -12,11 +12,11 @@
     "static/media/pmail.png": "/static/media/pmail.ff714eb502c88854d171.png",
     "index.html": "/index.html",
     "main.d7d6e854.css.map": "/static/css/main.d7d6e854.css.map",
-    "main.e0878ad0.js.map": "/static/js/main.e0878ad0.js.map",
+    "main.749ab803.js.map": "/static/js/main.749ab803.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7d6e854.css",
-    "static/js/main.e0878ad0.js"
+    "static/js/main.749ab803.js"
   ]
 }
