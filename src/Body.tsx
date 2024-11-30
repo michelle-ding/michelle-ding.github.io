@@ -56,10 +56,12 @@ function bio(logoval:boolean){
                 </div></b>
                 <br></br>
             Hi! My name is Michelle (she/her). 
-            I am a computer scientist, researcher, artist, and community organizer at Brown University
-            working on topics of AI governance, human-computer interaction, feminist digital humanities, stakeholder engagement/participatory design, 
+            I am a computer scientist, researcher, artist, and community organizer at Brown University.
+            My goal is to use multi-culture, multi-discipline, and multi-stakeholder methods
+            to build better AI/ML systems. My work falls loosely under topics of 
+            AI governance, human-computer interaction, feminist digital humanities, 
+            stakeholder engagement/participatory design, 
             and algorithmic justice. 
-    
             I am currently affiliated with Brown's {" "}
             <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
             in the Data Science Institute as Founder & Director of the {" "}
