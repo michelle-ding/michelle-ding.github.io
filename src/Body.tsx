@@ -183,7 +183,9 @@ function ilo(){
                 </a>
             {" "} & {" "}
             <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
-                The College Hill Independent</a>
+                The College Hill Independent</a> and a {" "}
+                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/view?usp=sharing" target="_blank">digital art collection</a>
+                 {" "}on the Atlanta Spa Shootings.
         </div>
     )
 }
