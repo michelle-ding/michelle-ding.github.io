@@ -184,7 +184,7 @@ function ilo(){
             {" "} & {" "}
             <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
                 The College Hill Independent</a> and a {" "}
-                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/view?usp=sharing" target="_blank">digital art collection</a>
+                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/preview" target="_blank">digital art collection</a>
                  {" "}on the Atlanta Spa Shootings.
         </div>
     )
@@ -254,9 +254,9 @@ function project_and_publications(){
                 now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee, protects the privacy of victims of 
                 domestic violence, stalking, sexual assault, and trafficking and/or abuse
                  by providing them with an anonymous PO box for voting, obtaining driver’s 
-                 licenses, and creating other records with state and local governments.{" "}
-                 <a id="ref" target="_blank" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
-                    More research on state/federal strategies to end domestic violence.</a>
+                 licenses, and creating other records with state and local governments. More{" "}
+                 <a id="ref" target="_blank" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/preview">
+                    research</a>{" "}on state/federal strategies to end domestic violence.
             <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
                 * Abortion Fund Mutual Aid Campaign</a>
