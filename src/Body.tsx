@@ -239,14 +239,14 @@ function project_and_publications(){
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
                   <br></br><br></br>
-            <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">* Invisible Bodies: Hidden Labor Behind Word Embeddings</a>
+            {/* <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">* Invisible Bodies: Hidden Labor Behind Word Embeddings</a>
                 <i> - Researcher & Creator - </i>
                 "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
                 in examining the various forms of unseen labor behind the 
                 creation and (gender) debiasing of word embedding models like Word2Vec and GloVe. 
                 As word embeddings form the foundation of language models, the exhibit also acts as 
                 a broader exploration of unseen labor behind modern AI technology.
-            <br></br><br></br>
+            <br></br><br></br> */}
             <a id="ref" href="https://ricadv.org/policy/" target="_blank">* Address Confidentiality Program for Domestic Violence Survivors</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
