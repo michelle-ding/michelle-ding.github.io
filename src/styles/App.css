@@ -29,6 +29,7 @@
 
 #togglecont:hover{
   text-decoration: underline;
+  text-decoration-color: var(--text);
 }
 
 .container{
@@ -223,6 +224,7 @@
   }
   .text #ref{
     text-decoration: underline;
+    text-decoration-color: var(--text);
   }
 
   .welcome{
