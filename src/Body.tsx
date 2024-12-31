@@ -20,6 +20,7 @@ import mail1 from './images/pmail.png'
 import darkMail from './images/darkmail.png'
 import darklinkedin from './images/darklinkedin.png'
 import darkbluesky from './images/darkbsk.png'
+import michelle from './images/michelle_ding_portrait.jpg'
 function welcome(){
     return (
         <div className="welcome" id="About">
@@ -46,42 +47,52 @@ function icons(logoval:boolean){
         </div>
     )
 }
-function bio(logoval:boolean){
-    const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
+
+function about_text(){
     return(
-        <div >
-            <b id="header">
-                <div className="iconcontainer">
-                {icons(logoval)}
-                </div></b>
-                <br></br>
-            Hi! My name is Michelle (she/her). 
-            I am a computer scientist, researcher, artist, and community organizer at Brown University.
-            My goal is to use multi-culture, multi-discipline, and multi-stakeholder methods
-            to build better AI/ML systems. My work falls loosely under topics of 
-            AI governance, human-computer interaction, feminist digital humanities, 
-            stakeholder engagement/participatory design, 
-            and algorithmic justice. 
-            I am currently affiliated with Brown's {" "}
-            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Center for Technological Responsibility, Reimagination and Redesign</a>{" "}
-            in the Data Science Institute as Founder & Director of the {" "}
-            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project.</a>{" "}
-            I was previously at the
+        <div id="about_text">
+I am a computer scientist and community organizer 
+            working to build more equitable AI systems using intersectional, interdisciplinary, and multi-stakeholder approaches.
+            I am the Founder & Project Director of the {" "}
+            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project</a>{" "}
+             in {" "}
+            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Brown's Center for Technological Responsibility, Reimagination and Redesign.</a>{" "}
+           I was previously at the
            American Association for the Advancement of Science (AAAS)
-            in Washington DC and co-authored the {" "}
+           and co-authored the {" "}
             <a id="ref" href="https://www.aaas.org/ai2/projects/framework-practitioners" target="_blank">Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a> and {" "}
                 <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules
                </a>.
-            I also conducted research and advocacy around topics of sexual violence prevention, consent education, 
-            transnational feminism, and reproductive justice
-            in collaboration with the {" "}
+            I worked with the
             Rhode Island Coalition Against Domestic Violence,
             National Network to End Domestic Violence,
-            Asian and Pacific Islander American Vote,
+            
             Indigenous Women Rising,
-            and the Rhode Island Abortion Fund.
+            and the Rhode Island Abortion Fund on issues of sexual violence prevention, consent education, 
+            transnational feminism, and reproductive justice. I also draw for the {" "}
+            <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
+                The Brown Daily Herald
+                </a>
+            {" "} and {" "}
+            <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
+                The College Hill Independent</a>.
             My work has received funding & support from Brown, AAAS, Microsoft, and the Ford Foundation. 
+        </div>
+    )
+}
+function bio(logoval:boolean){
+    const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
+    return(
+        <div id="bio">
+            <b id="header">
+                {portrait()}
+                <div className="iconcontainer">
+                {icons(logoval)}
+                </div>
+            </b>
+            <br></br>
+            {about_text()}
         </div>
     )
 }
@@ -114,7 +125,7 @@ function technicalSkills(){
 
 function formatPress(link: string, title: string, source: string, date: string){
     return(
-        <div>
+        <div id="press">
             <a id="ref" href={link} target="_blank">
                 "{title}", <i>{source}</i>, {date}
             </a>
@@ -133,14 +144,14 @@ function pressAndPub(){
         <div id="Press">
             <b id="header">{'Press_Features'}</b>
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
-            <br></br>
+
             {formatPress(esvroundtable, "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy", 
              bdh, "May 3, 2023")}
-             <br></br>
+
              {formatPress(titleix, "Sexual misconduct reports increased 52% in 2021-22 academic year", bdh, "November 16, 2022")}
-            <br></br>
+   
             {formatPress(brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
-            <br></br>
+ 
             {formatPress(esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
         </div>
     )
@@ -165,7 +176,7 @@ function ilo(){
     return(
         <div id="Illustrations">
             <b id="header">{'Illustrations'}</b>
-            <div id="ilocontainer">
+            {/* <div id="ilocontainer">
                 <a id="iloa" href="https://www.browndailyherald.com/article/2023/09/u-community-discusses-integration-of-ai-into-academic-points-to-opportunities-for-innovation" target="_blank">
                 <img id="ilos" src={chatgpt} alt="Michelle Ding Illustration of Chat GPT for the Brown Daily Herald"></img>
                 </a>
@@ -175,17 +186,16 @@ function ilo(){
                 <a id="iloa" href="https://www.browndailyherald.com/article/2023/03/ucs-gsc-work-to-install-menstrual-product-dispensers-in-university-bathrooms" target="_blank">
                 <img id="ilos" src={menstrual} alt="Michelle Ding Illustration of Free Menstrual Products for the Brown Daily Herald"></img>
                 </a>
-            </div>
+            </div> */}
             <br></br>
-            See full portfolio of illustrations for {" "}
+            I also occasionally draw for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
-                The Brown Daily Herald
+                The Brown Daily Herald,
                 </a>
-            {" "} & {" "}
+            {" "} 
             <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
                 The College Hill Independent</a> and a {" "}
-                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/preview" target="_blank">digital art collection</a>
-                 {" "}on the Atlanta Spa Shootings.
+                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/preview" target="_blank">Visual Essay on the Atlanta Spa Shootings.</a>
         </div>
     )
 }
@@ -204,7 +214,7 @@ function project_and_publications(){
         <div id="projects_and_publications">
             <b id="header">{'Projects_and_Publications'}</b>
             <br></br>
-            <a id="ref" href={src} target="_blank">* Socially Responsible Computing (SRC) Curriculum Handbook</a>
+            <a id="ref" href={src} target="_blank">Socially Responsible Computing (SRC) Curriculum Handbook</a>
             <i> - Founder & Director - </i>
             The SRC Curriculum Handbook is a joint effort between 
             Brown's Socially Responsible Computing program in the Computer Science Department
@@ -224,7 +234,7 @@ function project_and_publications(){
                 Suresh Venkatasubramanian
                     </a>.
             <br></br><br></br>
-            <a id="ref" href={decisiontree} target="_blank">* Decision Tree for the Responsible Application 
+            <a id="ref" href={decisiontree} target="_blank">Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a>
                 <i> - Co-Author & Designer - </i> The decision tree is a guide to operationalizing a broad set of 
                 principles that AAAS has identified as core components of an 
@@ -233,7 +243,8 @@ function project_and_publications(){
                   practical steps that will help them progress towards implementing the technology 
                   in an effective, ethical way. This project is supported by Microsoft.
                   <br></br><br></br>
-                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">* Responsible AI Training Modules
+                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">
+                    Responsible AI Training Modules
                </a>
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
@@ -247,7 +258,7 @@ function project_and_publications(){
                 As word embeddings form the foundation of language models, the exhibit also acts as 
                 a broader exploration of unseen labor behind modern AI technology.
             <br></br><br></br> */}
-            <a id="ref" href="https://ricadv.org/policy/" target="_blank">* Address Confidentiality Program for Domestic Violence Survivors</a>
+            <a id="ref" href="https://ricadv.org/policy/" target="_blank">Address Confidentiality Program for Domestic Violence Survivors</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
                 and lobby for the <a id="ref" target="_blank" href="https://www.sos.ri.gov/AddressConfidentialityProgram">Address Confidentiality Program.</a>{" "} This piece of legislation, 
@@ -259,7 +270,7 @@ function project_and_publications(){
                     research</a>{" "}on state/federal strategies to end domestic violence.
             <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
-                * Abortion Fund Mutual Aid Campaign</a>
+                Abortion Fund Mutual Aid Campaign</a>
                 <i> - Community Organizer & Co-Founder - </i>
                 Post-Dobbs, I co-founded Students at Brown for Reproductive Justice, a coalition with 
              over 40 Brown student organizations, to launch a mutual aid campaign supporting the Women's Health & Education Fund of Rhode Island (WHEF),
@@ -322,7 +333,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated November 2024
+            Last updated December 2024
 
         </div>
     )
@@ -334,17 +345,17 @@ function resources(){
             <b id="header">{'Resources'}</b>
             <br></br>
             <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing">
-                * Sexual health resources @ Brown/Providence</a>
+                Sexual health resources @ Brown/Providence</a>
                 <br></br>
             <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
-                * Crowdsourced resources for artists concerned about generative AI</a>
+                Crowdsourced resources for artists concerned about generative AI</a>
                 {/* <br></br>
                 <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1eiZKnNeeQlvr4NaVOwCfhpNAaEr7lp-kELyvfjCZS64/edit?usp=sharing">
                 * Ways to turn off AI training on platforms</a> */}
                 <br></br>
                 
                 <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-recs">
-                * Michelle's socio-technical reading list :)</a>
+                Michelle's socio-tech reading list :)</a>
 
         </div>
     )
@@ -354,11 +365,17 @@ interface BodyProps {
     logoval: boolean;
    
 }
+
+function portrait(){
+    return(
+        <img id="portrait" src={michelle} alt="Michelle Ding Portrait Dec 2024"></img>
+    )
+}
 export default function Body({ logoval }: BodyProps){
     return(
         <div className="text">
             {welcome()}
-            <br></br>
+            {/* <br></br> */}
             {bio(logoval)}
             <br></br>
             {resources()}
@@ -369,8 +386,8 @@ export default function Body({ logoval }: BodyProps){
             {technicalSkills()} */}
             {/* <br></br>
             {teaching()} */}
-            <br></br>
-            {ilo()}
+            {/* <br></br>
+            {ilo()} */}
             <br></br>
             {pressAndPub()}
             

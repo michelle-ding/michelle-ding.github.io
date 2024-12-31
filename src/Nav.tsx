@@ -8,7 +8,7 @@ function navcontent() {
         <li><a href="#About">About</a></li>
         <li><a href="#Resources">Resources</a></li>
         <li><a href="#projects_and_publications">Projects_and_Publications</a></li>
-        <li><a href="#Illustrations">Illustrations</a></li>
+        {/* <li><a href="#Illustrations">Illustrations</a></li> */}
         <li><a href="#Press">Press_Features</a></li>
         <li><a href="#WebsiteDetails">Website_Details</a></li>
       </ul>
@@ -37,6 +37,7 @@ function Nav({ logoval, setlogoval }: NavProps) {
         {logoval ? "Switch_to_Dark_Mode" : "Switch_to_Light_Mode"}
       </div>
       {navcontent()}
+      
     </div>
   );
 }

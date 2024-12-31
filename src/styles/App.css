@@ -2,6 +2,12 @@
   --bg:white;
   --text:#3a3a83;
   --other:#A81470;
+  --body_size: 18px;
+  --header_size:54px;
+  --body_size_phone: 12px;
+  --header_size_phone:32px;
+  --portrait_width:50%;
+  --portrait_width_phone:80%;
 }
 
 .dark-theme{
@@ -22,8 +28,7 @@
 } 
 
 #togglecont:hover{
-  color: var(--bg);
-  background-color: var(--text);
+  text-decoration: underline;
 }
 
 .container{
@@ -39,7 +44,7 @@
 .navtext{
   color: var(--text);
   text-align: left;
-  font-size: 1.3em;
+  font-size: var(--body_size);
   margin-top: 1em;
   margin-left: 5em;
   font-weight: bold;
@@ -67,18 +72,17 @@
 }
 
 .navtext a:hover{
-  color: var(--bg);
-  background-color: var(--text);
-  text-decoration: none;
+  text-decoration: underline;
  
 }
 
 .text{
   margin-left: 20em;
-  margin-right: 5em;
+  margin-right: 1em;
   color: var(--text);
+  font-weight:500;
   text-align: left;
-  font-size: 1.3em;
+  font-size: var(--body_size);
   margin-bottom: auto;
   max-width: 100%;
   line-height:1.3em;
@@ -89,32 +93,23 @@
   text-decoration: var(--text) none;
   /* color: var(--text); */
   color: var(--other);
-  font-weight: bold;
+  font-weight: none;
 }
 
 #ref:hover:hover{
   flex: 4;
-  color: var(--bg);
-  background-color: var(--other);
-  text-decoration: none
+  text-decoration: underline
 }
-
 .contact span{
   padding-right: 10px
 }
+
 .welcome{
-  font-size: 4em;
-  font-weight: bold;
+  font-size: var(--header_size);
+  font-weight: 700;
   line-height: 1.3em;
   text-align: left;
-
 }
-
-/* .welcome span:hover{
-  color: var(--bg);
-  background-color: var(--text);
-  text-decoration: none;
-} */
 
 #ilocontainer{
   display: flex;
@@ -162,6 +157,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+#portrait{
+  width: var(--portrait_width);
+  height: auto;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -186,7 +186,7 @@
   .navtext{
     color: var(--text);
     text-align: left;
-    font-size: 2em;
+    font-size: var(--body_size_phone);
     margin-top: 0em;
     margin-right:0;
     font-weight: bold;
@@ -197,14 +197,14 @@
   
 
   .text{
+    font-size:var(--body_size_phone);
     display:block;
     margin-left: auto;
     margin-right:auto;
     color: var(--text);
     text-align: left;
-    font-size: 1em;
     max-width: 90%;
-    font-family: Arial Narrow, sans-serif
+    font-family: Arial Narrow, sans-serif;
   }
 
   
@@ -221,16 +221,25 @@
     color: var(--other);
 
   }
-  text #ref{
+  .text #ref{
     text-decoration: underline;
   }
 
   .welcome{
-    font-size: 4em;
+    font-size: var(--header_size_phone);
     font-weight: bold;
     line-height: 1.3em;
     text-align: left;
     font-family: Arial Narrow, sans-serif
     
+  }
+
+  #portrait{
+    width: var(--portrait_width_phone);
+    height: auto;
+  }
+
+  #press{
+    padding-bottom:1em;
   }
 }
