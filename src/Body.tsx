@@ -70,7 +70,7 @@ I am a computer scientist and community organizer
             
             Indigenous Women Rising,
             and the Rhode Island Abortion Fund on issues of sexual violence prevention, consent education, 
-            transnational feminism, and reproductive justice. I also draw for the {" "}
+            transnational feminism, and reproductive justice. I also occasionally draw for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
                 </a>
