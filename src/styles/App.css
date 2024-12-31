@@ -224,7 +224,7 @@
   }
   .text #ref{
     text-decoration: underline;
-    text-decoration-color: var(--text);
+    text-decoration-color: var(--other);
   }
 
   .welcome{
