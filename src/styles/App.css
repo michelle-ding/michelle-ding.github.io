@@ -222,10 +222,10 @@
     color: var(--other);
 
   }
-  .text #ref{
+  /* .text #ref{
     text-decoration: underline;
     text-decoration-color: var(--other);
-  }
+  } */
 
   .welcome{
     font-size: var(--header_size_phone);
