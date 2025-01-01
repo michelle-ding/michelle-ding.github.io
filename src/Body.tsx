@@ -21,6 +21,17 @@ import darkMail from './images/darkmail.png'
 import darklinkedin from './images/darklinkedin.png'
 import darkbluesky from './images/darkbsk.png'
 import michelle from './images/michelle_ding_portrait.jpg'
+
+const src="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook"
+const decisiontree = "https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
+const esvroundtable = "https://www.browndailyherald.com/article/2023/05/end-sexual-violence-at-brown-hosts-nonprofit-roundtable-to-address-survivor-support-advocacy"
+const titleix = "https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year"
+const brunobrief = "https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus"
+const esvinterview = "https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown"
+const bdh = "The Brown Daily Herald"
+const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
+const mckee= "https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-protecting-confidentiality-survivors-domestic"
+
 function welcome(){
     return (
         <div className="welcome" id="About">
@@ -51,26 +62,37 @@ function icons(logoval:boolean){
 function about_text(){
     return(
         <div id="about_text">
-I am a computer scientist and community organizer 
-            working to build more equitable AI systems using intersectional, interdisciplinary, and multi-stakeholder approaches.
-            I am the Founder & Project Director of the {" "}
+            I am a computer scientist and community organizer @ Brown University
+            working to build more equitable AI systems using intersectional, interdisciplinary, and community-centered approaches.
+            Currently, I serve as founder & project director of the {" "}
             <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project</a>{" "}
-             in {" "}
+            advised by {" "}
+            <a href="http://www.julianetter.de/" id="ref" target="_blank">
+            Julia Netter
+                </a> & {" "}
+                <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
+                Suresh Venkatasubramanian
+                    </a> in {" "}
             <a id="ref" href="https://cntr.brown.edu/" target="_blank">Brown's Center for Technological Responsibility, Reimagination and Redesign.</a>{" "}
-           I was previously at the
+          
+            Previously, I worked at the
            American Association for the Advancement of Science (AAAS)
            and co-authored the {" "}
             <a id="ref" href="https://www.aaas.org/ai2/projects/framework-practitioners" target="_blank">Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a> and {" "}
                 <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">Responsible AI Training Modules
-               </a>.
-            I worked with the
-            Rhode Island Coalition Against Domestic Violence,
-            National Network to End Domestic Violence,
-            
-            Indigenous Women Rising,
-            and the Rhode Island Abortion Fund on issues of sexual violence prevention, consent education, 
-            transnational feminism, and reproductive justice. I also occasionally draw for the {" "}
+               </a> - resources for policymakers, industry scientists, and human rights organizations. 
+               With the Rhode Island Coalition Against Domestic Violence, I advocated 
+                for the <a id="ref" href="https://ricadv.org/policy/" target="_blank">Address Confidentiality Program</a>{" "}
+             (now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee) that protects the privacy of victims of 
+                domestic violence, stalking, sexual assault, and trafficking and/or abuse. 
+            Post-Dobbs, I co-founded Students @ Brown for Reproductive Justice,
+            a coalition of  
+            40+ student organizations, to launch a {" "}<a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
+            mutual aid campaign for abortion funds</a>{" "}
+           supporting
+            the Women's Health & Education Fund of Rhode Island, Indigenous Women Rising, and Sister Song.
+            I also occasionally draw for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
                 </a>
@@ -201,15 +223,6 @@ function ilo(){
 }
 
 function project_and_publications(){
-    const src="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook"
-    const decisiontree = "https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
-    const esvroundtable = "https://www.browndailyherald.com/article/2023/05/end-sexual-violence-at-brown-hosts-nonprofit-roundtable-to-address-survivor-support-advocacy"
-    const titleix = "https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year"
-    const brunobrief = "https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus"
-    const esvinterview = "https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown"
-    const bdh = "The Brown Daily Herald"
-    const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
-    const mckee= "https://governor.ri.gov/press-releases/governor-mckee-signs-legislation-protecting-confidentiality-survivors-domestic"
     return(
         <div id="projects_and_publications">
             <b id="header">{'Projects_and_Publications'}</b>
@@ -379,9 +392,9 @@ export default function Body({ logoval }: BodyProps){
             {bio(logoval)}
             <br></br>
             {resources()}
-            <br></br>
+            {/* <br></br>
             
-            {project_and_publications()}
+            {project_and_publications()} */}
             {/* <br></br>
             {technicalSkills()} */}
             {/* <br></br>
