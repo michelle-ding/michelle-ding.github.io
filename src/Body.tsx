@@ -352,7 +352,7 @@ function resources(){
                 * Ways to turn off AI training on platforms</a> */}
                 <br></br>
                 
-                <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-recs">
+                <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
                 Michelle's socio-tech reading list :)</a>
 
         </div>
