@@ -256,6 +256,21 @@ function project_and_publications(){
                 As word embeddings form the foundation of language models, the exhibit also acts as 
                 a broader exploration of unseen labor behind modern AI technology.
             <br></br><br></br> */}
+             <a id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/preview" target="_blank">
+             Breaking Barriers: A Facilitated Dialogue Between My Mother and Post-Mao Feminism
+               </a>
+                <i> - Author - </i> 
+                This paper explores the fascinating development of Chinese feminism since 1949, from socialist
+feminism in Maoist China to revisions of socialist feminism in the early 1980s to independent
+post-Mao feminism in the late 1980s and 1990s. My explorations also involve understanding the
+limitations of Chinese feminism in its many forms—in particular, Marxist feminism’s gender
+blindness and male-centered values and independent post-Mao feminism’s blindness towards
+historical, political, intellectual, and transnational factors that influenced its formation. In my final
+reflection, I also trace the underlying Western ideological forces that shaped both post-Mao
+feminists and my mother’s own recollections of her experience in the New Era.
+                <br></br><br></br>
+            
+            
             <a id="ref" href="https://ricadv.org/policy/" target="_blank">Address Confidentiality Program for Domestic Violence Survivors</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
@@ -331,7 +346,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated December 2024
+            Last updated January 2025
 
         </div>
     )
