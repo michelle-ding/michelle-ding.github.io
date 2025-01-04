@@ -267,10 +267,13 @@ limitations of Chinese feminism in its many forms—in particular, Marxist femin
 blindness and male-centered values and independent post-Mao feminism’s blindness towards
 historical, political, intellectual, and transnational factors that influenced its formation. In my final
 reflection, I also trace the underlying Western ideological forces that shaped both post-Mao
-feminists and my mother’s own recollections of her experience in the New Era.
+feminists and my mother’s own recollections of her experience in the New Era. Advised by Prof. {" "}
+<a target="_blank" id="ref" href="https://vivo.brown.edu/display/lwang">
+Lingzhen Wang.
+</a>
                 <br></br><br></br>
-            
-            
+        
+        
             <a id="ref" href="https://ricadv.org/policy/" target="_blank">Address Confidentiality Program for Domestic Violence Survivors</a>
                 <i> - Community Organizer - </i>
                 I worked with the Rhode Island Coalition Against Domestic Violence (RICADV) to advocate 
@@ -278,10 +281,21 @@ feminists and my mother’s own recollections of her experience in the New Era.
                 now signed into <a id="ref" target="_blank" href={mckee}>law</a> by Governor McKee, protects the privacy of victims of 
                 domestic violence, stalking, sexual assault, and trafficking and/or abuse
                  by providing them with an anonymous PO box for voting, obtaining driver’s 
-                 licenses, and creating other records with state and local governments. More{" "}
-                 <a id="ref" target="_blank" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/preview">
-                    research</a>{" "}on state/federal strategies to end domestic violence.
+                 licenses, and creating other records with state and local governments. 
             <br></br><br></br>
+            <a id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/preview" target="_blank">
+                Transformative Futures: A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence
+(RICADV) and the National Network to End Domestic Violence (NNEDV)
+               </a>
+                <i> - Author - </i> 
+               This paper documents my interviews with two powerful and motivating social change practitioners—
+Lucy Rios and Deborah (Deb) DeBare—who have dedicated decades of their lives to ending
+domestic violence. From their experiences, I analyzed and compared strategies on intersectionality,
+prevention work vs. direct service, funding and accountability, cultural change vs. legal change,
+and criminal justice vs. transformative justice. From my analysis, I then
+provided evaluations and suggestions for internal organizational reforms and external directions
+towards transformative futures. Advised by Prof. Marti Rosenberg.
+                <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
                 Abortion Fund Mutual Aid Campaign</a>
                 <i> - Community Organizer & Co-Founder - </i>
