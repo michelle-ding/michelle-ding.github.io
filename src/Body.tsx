@@ -307,7 +307,7 @@ towards transformative futures. Advised by Marti Rosenberg.
                 <i> - Community Organizer & Co-Founder - </i>
                 Post-Dobbs, I co-founded Students at Brown for Reproductive Justice, a coalition with 
              over 40 Brown student organizations, to launch a mutual aid campaign supporting the Women's Health & Education Fund of Rhode Island (WHEF),
-            Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign raised over $3000 from
+            Indigenous Women Rising (IWR), and Sister Song. Our mutual aid campaign reached 10k users and raised over $3000 from
             over 80 individual donors in one summer for organizations 
             providing reproductive care for disproportionately affected communities across the country.{" "}
             <a id="ref" target="_blank" href={esvinterview}>Brown Daily Herald Coverage.</a>
