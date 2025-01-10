@@ -389,7 +389,7 @@ function resources(){
                 Responsible Tech Organizations List (w/ All Tech is Human)</a>
                 <br></br>
                 <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
-                Michelle's socio-tech reading list :)</a>
+                Michelle's socio-tech reading list!</a>
 
         </div>
     )
