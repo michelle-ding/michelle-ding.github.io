@@ -382,11 +382,12 @@ function resources(){
                 <br></br>
             <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
                 Crowdsourced resources for artists concerned about generative AI</a>
-                {/* <br></br>
-                <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1eiZKnNeeQlvr4NaVOwCfhpNAaEr7lp-kELyvfjCZS64/edit?usp=sharing">
-                * Ways to turn off AI training on platforms</a> */}
+            
+         
                 <br></br>
-                
+                <a target="_blank" id="ref" href="https://alltechishuman.org/responsible-tech-organizations">
+                Responsible Tech Organizations List (w/ All Tech is Human)</a>
+                <br></br>
                 <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
                 Michelle's socio-tech reading list :)</a>
 
