@@ -62,29 +62,35 @@ function icons(logoval:boolean){
 function about_text(){
     return(
         <div id="about_text">
-            I am a computer scientist and community organizer @ Brown University
-            working to build more equitable AI systems using intersectional, interdisciplinary, and community-centered approaches.
-            I serve as founder & project director of the {" "}
+            I am an interdisciplinary researcher, computer scientist, and community organizer at Brown University.
+            My goal is to build a culture of technology that empowers communities.
+            My work primarily focuses on human-AI interaction, participatory design/stakeholder engagement, 
+            transnational feminism and human rights, and algorithmic justice.
+            I serve as founder and project director of the {" "}
             <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project</a>{" "}
-            advised by {" "}
+             in {" "}
+            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Brown's Center for Technological 
+            Responsibility, Reimagination and Redesign</a>{" "}advised by {" "}
             <a href="http://www.julianetter.de/" id="ref" target="_blank">
             Julia Netter
-                </a> & {" "}
+                </a> and {" "}
                 <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
-                Suresh Venkatasubramanian
-                    </a> in {" "}
-            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Brown's Center for Technological Responsibility, Reimagination and Redesign.</a>{" "}
-            My current research interests are in human-computer interaction, participatory AI/ML, and algorithmic justice.
-            My past research and advocacy surround topics of sexual violence prevention, transnational feminism, 
-            and reproductive justice.
-            I also occasionally draw for the {" "}
+                Suresh Venkatasubramanian.
+                    </a>{" "}
+            I am currently co-authoring a chapter for The Oxford Handbook of Human Security on gender-based violence and women's security in
+            relation to technology and deepfakes
+            with <a href="https://home.watson.brown.edu/people/faculty/senior-fellows/malika-saada-saar" id="ref" target="_blank">
+                Malika Saada Saar.
+                    </a>{" "}
+             
+            My work has received funding & support from Brown, AAAS, Microsoft, and the Ford Foundation. 
+            I also occasionally illustrate for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
                 </a>
             {" "} and {" "}
             <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
-                The College Hill Independent</a> and make <a id="ref"href="#Resources">spreadsheet resources</a>!
-            My work has received funding & support from Brown, AAAS, Microsoft, and the Ford Foundation. 
+                The College Hill Independent</a> and crowdsource <a id="ref"href="#Resources">resources</a> - see below :) 
         </div>
     )
 }
@@ -95,7 +101,7 @@ function bio(logoval:boolean){
             <b id="header">
                 {portrait()}
                 <div className="iconcontainer">
-                {icons(logoval)}
+                {icons(logoval)} (She/Her)
                 </div>
             </b>
             <br></br>
