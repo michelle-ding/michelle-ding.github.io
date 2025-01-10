@@ -230,7 +230,7 @@ function project_and_publications(){
             The handbook aids the integration of topics like algorithmic fairness and justice, data 
             privacy and protection, sustainability, etc.
             into Brown's computer science curriculum serving 400+ undergraduate and graduate students. 
-            Advised by Profs.{" "}
+            Advised by {" "}
             <a href="http://www.julianetter.de/" id="ref" target="_blank">
             Julia Netter
                 </a> & {" "}
@@ -273,7 +273,7 @@ limitations of Chinese feminism in its many forms—in particular, Marxist femin
 blindness and male-centered values and independent post-Mao feminism’s blindness towards
 historical, political, intellectual, and transnational factors that influenced its formation. In my final
 reflection, I also trace the underlying Western ideological forces that shaped both post-Mao
-feminists and my mother’s own recollections of her experience in the New Era. Advised by Prof. {" "}
+feminists and my mother’s own recollections of her experience in the New Era. Advised by {" "}
 <a target="_blank" id="ref" href="https://vivo.brown.edu/display/lwang">
 Lingzhen Wang.
 </a>
@@ -300,7 +300,7 @@ domestic violence. From their experiences, I analyzed and compared strategies on
 prevention work vs. direct service, funding and accountability, cultural change vs. legal change,
 and criminal justice vs. transformative justice. From my analysis, I then
 provided evaluations and suggestions for internal organizational reforms and external directions
-towards transformative futures. Advised by Prof. Marti Rosenberg.
+towards transformative futures. Advised by Marti Rosenberg.
                 <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
                 Abortion Fund Mutual Aid Campaign</a>
