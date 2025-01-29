@@ -83,7 +83,7 @@ function about_text(){
                 Malika Saada Saar.
                     </a>{" "}
              
-            My work has received funding and support from Brown, Google, AAAS, Microsoft, and the Ford Foundation. 
+            My work has received funding and support from Brown, Google, PIT-UN, AAAS, Microsoft, and the Ford Foundation. 
             I also occasionally illustrate for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
                 The Brown Daily Herald
