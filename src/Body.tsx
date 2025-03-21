@@ -253,7 +253,7 @@ function project_and_publications(){
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
-                  <br></br><br></br>
+                  {/* <br></br><br></br> */}
             {/* <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">* Invisible Bodies: Hidden Labor Behind Word Embeddings</a>
                 <i> - Researcher & Creator - </i>
                 "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
@@ -262,7 +262,7 @@ function project_and_publications(){
                 As word embeddings form the foundation of language models, the exhibit also acts as 
                 a broader exploration of unseen labor behind modern AI technology.
             <br></br><br></br> */}
-             <a id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/preview" target="_blank">
+             {/* <a id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/preview" target="_blank">
              Breaking Barriers: A Facilitated Dialogue Between My Mother and Post-Mao Feminism
                </a>
                 <i> - Author - </i> 
@@ -276,7 +276,7 @@ reflection, I also trace the underlying Western ideological forces that shaped b
 feminists and my mother’s own recollections of her experience in the New Era. Advised by {" "}
 <a target="_blank" id="ref" href="https://vivo.brown.edu/display/lwang">
 Lingzhen Wang.
-</a>
+</a> */}
                 <br></br><br></br>
         
         
