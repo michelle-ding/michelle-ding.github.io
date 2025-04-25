@@ -35,7 +35,7 @@ const mckee= "https://governor.ri.gov/press-releases/governor-mckee-signs-legisl
 function welcome(){
     return (
         <div className="welcome" id="About">
-            <span>Michelle Luowen Ding</span>
+            <span>Michelle L. Ding</span>
             </div>
     )
 }
