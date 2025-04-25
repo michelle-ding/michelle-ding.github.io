@@ -7,8 +7,8 @@ function navcontent() {
       <ul>
         <li><a href="#About">About</a></li>
         <li><a href="#Resources">Resources</a></li>
-        <li><a href="#projects_and_publications">Projects_and_Publications</a></li>
-        {/* <li><a href="#Illustrations">Illustrations</a></li> */}
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#Press">Press_Features</a></li>
         <li><a href="#WebsiteDetails">Website_Details</a></li>
       </ul>

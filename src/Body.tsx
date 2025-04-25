@@ -65,33 +65,11 @@ function about_text(){
             I am an interdisciplinary researcher, computer scientist, and community organizer at Brown University.
             My goal is to build a culture of technology that empowers communities.
             My work primarily focuses on human-AI interaction, participatory design/stakeholder engagement, 
-            transnational feminism and human rights, and algorithmic justice.
-            I serve as founder and project director of the {" "}
-            <a id="ref" href="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook" target="_blank">Socially Responsible Computing Curriculum Handbook Project</a>{" "}
-             in {" "}
-            <a id="ref" href="https://cntr.brown.edu/" target="_blank">Brown's Center for Technological 
-            Responsibility, Reimagination and Redesign</a>{" "}advised by {" "}
-            <a href="http://www.julianetter.de/" id="ref" target="_blank">
-            Julia Netter
-                </a> and {" "}
-                <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
-                Suresh Venkatasubramanian.
-                    </a>{" "}
-            I am currently co-authoring a chapter for The Oxford Handbook of Human Security on gender-based violence and women's security in
-            relation to technology and deepfakes
-            with <a href="https://home.watson.brown.edu/people/faculty/senior-fellows/malika-saada-saar" id="ref" target="_blank">
-                Malika Saada Saar.
-                    </a>{" "}
-             
-            My work has received funding and support from Brown, Google, PIT-UN, AAAS, Microsoft, and the Ford Foundation. 
-            I also occasionally illustrate for the {" "}
-            <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
-                The Brown Daily Herald
-                </a>
-            {" "} and {" "}
-            <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
-                The College Hill Independent</a> and crowdsource <a id="ref"href="#Resources">resources</a> - see below :) 
-        </div>
+            transnational feminism and human rights, and algorithmic justice. I will be starting a Ph.D. in Computer Science
+            at Brown University in Fall 2025 under advisors <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
+                Suresh Venkatasubramanian
+                    </a> and <a href="https://harinisuresh.com/" id="ref" target="_blank">Harini Suresh</a>. 
+            </div>
     )
 }
 function bio(logoval:boolean){
@@ -153,18 +131,21 @@ function pressAndPub(){
     const esvinterview = "https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown"
     const bdh = "The Brown Daily Herald"
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
+    const cntrnews = "https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook"
     return(
         <div id="Press">
             <b id="header">{'Press_Features'}</b>
+            {formatPress(cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", "Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
+            <br></br>
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
-
+            <br></br>
             {formatPress(esvroundtable, "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy", 
              bdh, "May 3, 2023")}
-
+            <br></br>
              {formatPress(titleix, "Sexual misconduct reports increased 52% in 2021-22 academic year", bdh, "November 16, 2022")}
-   
+             <br></br>
             {formatPress(brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
- 
+            <br></br>
             {formatPress(esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
         </div>
     )
@@ -189,17 +170,6 @@ function ilo(){
     return(
         <div id="Illustrations">
             <b id="header">{'Illustrations'}</b>
-            {/* <div id="ilocontainer">
-                <a id="iloa" href="https://www.browndailyherald.com/article/2023/09/u-community-discusses-integration-of-ai-into-academic-points-to-opportunities-for-innovation" target="_blank">
-                <img id="ilos" src={chatgpt} alt="Michelle Ding Illustration of Chat GPT for the Brown Daily Herald"></img>
-                </a>
-                <a id="iloa" href="https://www.browndailyherald.com/article/2023/02/its-over-the-top-students-react-to-ucs-president-recall-election" target="_blank">
-                <img id="ilos" src={elections} alt="Michelle Ding Illustration of Recall Election for the Brown Daily Herald"></img>
-                </a>
-                <a id="iloa" href="https://www.browndailyherald.com/article/2023/03/ucs-gsc-work-to-install-menstrual-product-dispensers-in-university-bathrooms" target="_blank">
-                <img id="ilos" src={menstrual} alt="Michelle Ding Illustration of Free Menstrual Products for the Brown Daily Herald"></img>
-                </a>
-            </div> */}
             <br></br>
             I also occasionally draw for the {" "}
             <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
@@ -212,11 +182,24 @@ function ilo(){
         </div>
     )
 }
-
-function project_and_publications(){
+function publications(){
     return(
-        <div id="projects_and_publications">
-            <b id="header">{'Projects_and_Publications'}</b>
+        <div id="publications">
+            <b id="header">{'Publications'}</b>
+            <br></br>
+            <b>Michelle L. Ding</b> and Harini Suresh. 2025. "The malicious technical ecosystem: Exposing limitations in technical governance of AI-generated nonconsensual intimate images of adults." In CHI’25 Sociotechnical AI Governance
+            Workshop (STAIG ’25), April 2025, Yokohama, Japan. <a id="ref" href="https://arxiv.org/abs/2504.17663" target="_blank">https://arxiv.org/abs/2504.17663</a>
+            <br></br>
+            <br></br>
+            <b>Michelle L. Ding</b> and Malika Saada Saar. "A Crisis of Non-Consent at Scale: Exploring the Gendered Silencing Effects of AI-Generated Non-Consensual Intimate Images."
+            To be in the Oxford Handbook of Human Security in 2026.
+        </div>
+    )
+}
+function projects(){
+    return(
+        <div id="projects">
+            <b id="header">{'Projects'}</b>
             <br></br>
             <a id="ref" href={src} target="_blank">Socially Responsible Computing (SRC) Curriculum Handbook</a>
             <i> - Founder & Director - </i>
@@ -230,13 +213,11 @@ function project_and_publications(){
             The handbook aids the integration of topics like algorithmic fairness and justice, data 
             privacy and protection, sustainability, etc.
             into Brown's computer science curriculum serving 400+ undergraduate and graduate students. 
-            Advised by {" "}
-            <a href="http://www.julianetter.de/" id="ref" target="_blank">
-            Julia Netter
-                </a> & {" "}
-                <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
-                Suresh Venkatasubramanian
-                    </a>.
+            The handbook was founded in May 2024 by Michelle L. Ding '25, Julia Netter, and Suresh Venkatasubramanian 
+            and has since expanded into an interdisciplinary team of 22 undergraduate, masters, and Ph.D. students
+            working on product design, product development, and AI, privacy, and accessibility research. 
+            This project is supported by the Public Interest Technology University Network 
+             and Google Research.
             <br></br><br></br>
             <a id="ref" href={decisiontree} target="_blank">Decision Tree for the Responsible Application 
                 of Artificial Intelligence</a>
@@ -253,30 +234,6 @@ function project_and_publications(){
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
-                  {/* <br></br><br></br> */}
-            {/* <a id="ref" href="https://michelleluowending.github.io/invisiblebodies/" target="_blank">* Invisible Bodies: Hidden Labor Behind Word Embeddings</a>
-                <i> - Researcher & Creator - </i>
-                "Invisible Bodies" is an interactive web exhibit that adopts a feminist digital humanities methodology
-                in examining the various forms of unseen labor behind the 
-                creation and (gender) debiasing of word embedding models like Word2Vec and GloVe. 
-                As word embeddings form the foundation of language models, the exhibit also acts as 
-                a broader exploration of unseen labor behind modern AI technology.
-            <br></br><br></br> */}
-             {/* <a id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/preview" target="_blank">
-             Breaking Barriers: A Facilitated Dialogue Between My Mother and Post-Mao Feminism
-               </a>
-                <i> - Author - </i> 
-                This paper explores the fascinating development of Chinese feminism since 1949, from socialist
-feminism in Maoist China to revisions of socialist feminism in the early 1980s to independent
-post-Mao feminism in the late 1980s and 1990s. My explorations also involve understanding the
-limitations of Chinese feminism in its many forms—in particular, Marxist feminism’s gender
-blindness and male-centered values and independent post-Mao feminism’s blindness towards
-historical, political, intellectual, and transnational factors that influenced its formation. In my final
-reflection, I also trace the underlying Western ideological forces that shaped both post-Mao
-feminists and my mother’s own recollections of her experience in the New Era. Advised by {" "}
-<a target="_blank" id="ref" href="https://vivo.brown.edu/display/lwang">
-Lingzhen Wang.
-</a> */}
                 <br></br><br></br>
         
         
@@ -288,19 +245,7 @@ Lingzhen Wang.
                 domestic violence, stalking, sexual assault, and trafficking and/or abuse
                  by providing them with an anonymous PO box for voting, obtaining driver’s 
                  licenses, and creating other records with state and local governments. 
-            <br></br><br></br>
-            <a id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/preview" target="_blank">
-                Transformative Futures: A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence
-(RICADV) and the National Network to End Domestic Violence (NNEDV)
-               </a>
-                <i> - Author - </i> 
-               This paper documents my interviews with two powerful and motivating social change practitioners—
-Lucy Rios and Deborah (Deb) DeBare—who have dedicated decades of their lives to ending
-domestic violence. From their experiences, I analyzed and compared strategies on intersectionality,
-prevention work vs. direct service, funding and accountability, cultural change vs. legal change,
-and criminal justice vs. transformative justice. From my analysis, I then
-provided evaluations and suggestions for internal organizational reforms and external directions
-towards transformative futures. Advised by Marti Rosenberg.
+           
                 <br></br><br></br>
             <a id="ref" href="https://www.gofundme.com/f/students-brown-for-reproductive-justice" target="_blank">
                 Abortion Fund Mutual Aid Campaign</a>
@@ -311,16 +256,6 @@ towards transformative futures. Advised by Marti Rosenberg.
             over 80 individual donors in one summer for organizations 
             providing reproductive care for disproportionately affected communities across the country.{" "}
             <a id="ref" target="_blank" href={esvinterview}>Brown Daily Herald Coverage.</a>
-            {/* <br></br><br></br>
-            <a target="_blank" id="ref" href="https://drive.google.com/file/d/1hDbzgEEK_PIP0206xkhTJJSGJOKmdtZi/view?usp=sharing">
-            <i>Transformative Futures: </i>
-            A Comparative Case Study on the Rhode Island Coalition Against Domestic Violence (RICADV) 
-            and the National Network to End Domestic Violence (NNEDV), April 2022</a>
-            <br></br><br></br>
-            <a target="_blank" id="ref" href="https://drive.google.com/file/d/18NgVvgEJwVlFUAXfW-SLx4nAyyRbXYmM/view?usp=sharing">
-            <i>Breaking Barriers: </i>
-            A Facilitated Dialogue Between My Mother and Post-Mao Feminism, May 2023
-            </a> */}
         </div>
     )
 }
@@ -366,7 +301,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated January 2025
+            Last updated April 2025
 
         </div>
     )
@@ -414,8 +349,9 @@ export default function Body({ logoval }: BodyProps){
             <br></br>
             {resources()}
             <br></br>
-            
-            {project_and_publications()}
+            {publications()}
+            <br></br>
+            {projects()}
             {/* <br></br>
             {technicalSkills()} */}
             {/* <br></br>
