@@ -118,8 +118,8 @@ function formatPress(link: string, title: string, source: string, date: string){
     return(
         <div id="press">
             <a id="ref" href={link} target="_blank">
-                "{title}", <i>{source}</i>, {date}
-            </a>
+                "{title},"
+            </a> <i>{source}</i>, {date}
         </div>
     )
 }
@@ -136,16 +136,16 @@ function pressAndPub(){
         <div id="Press">
             <b id="header">{'Press_Features'}</b>
             {formatPress(cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", "Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
-            <br></br>
+
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
-            <br></br>
+       
             {formatPress(esvroundtable, "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy", 
              bdh, "May 3, 2023")}
-            <br></br>
+      
              {formatPress(titleix, "Sexual misconduct reports increased 52% in 2021-22 academic year", bdh, "November 16, 2022")}
-             <br></br>
+ 
             {formatPress(brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
-            <br></br>
+ 
             {formatPress(esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
         </div>
     )
