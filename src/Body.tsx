@@ -132,9 +132,14 @@ function pressAndPub(){
     const bdh = "The Brown Daily Herald"
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
     const cntrnews = "https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook"
+    const seniorprize = "https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/"
     return(
-        <div id="Press">
-            <b id="header">{'Press_Features'}</b>
+        <div id="News">
+            <b id="header">{'News'}</b>
+            {formatPress(
+                seniorprize, "Twenty-Four Students Win 2025 Brown CS Senior Prizes"
+                , "Brown University Computer Science Department", "May 1, 2025")}
+
             {formatPress(cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", "Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
 
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
@@ -301,7 +306,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated April 2025
+            Last updated May 2025
 
         </div>
     )
