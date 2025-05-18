@@ -196,7 +196,7 @@ function publications(){
             Workshop (STAIG ’25), April 2025, Yokohama, Japan. <a id="ref" href="https://arxiv.org/abs/2504.17663" target="_blank">https://arxiv.org/abs/2504.17663</a>
             <br></br>
             <br></br>
-            <b>Michelle L. Ding</b> and Malika Saada Saar. "A Crisis of Non-Consent at Scale: Exploring the Gendered Silencing Effects of AI-Generated Non-Consensual Intimate Images."
+            <b>Michelle L. Ding</b> and Malika Saada Saar. "Silencing at Scale: AI-Generated Non-Consensual Intimate Images as a Threat to Technology Security."
             To be in the Oxford Handbook of Human Security in 2026.
         </div>
     )
