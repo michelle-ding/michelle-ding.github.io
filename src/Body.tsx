@@ -62,10 +62,9 @@ function icons(logoval:boolean){
 function about_text(){
     return(
         <div id="about_text">
-            I am an interdisciplinary researcher, computer scientist, and community organizer at Brown University.
-            My goal is to build a culture of technology that empowers communities.
-            My work primarily focuses on human-AI interaction, participatory design/stakeholder engagement, 
-            transnational feminism and human rights, and algorithmic justice. I will be starting a Ph.D. in Computer Science
+            I am a researcher, computer scientist, and community organizer at Brown University.
+            My goal is to use multi-stakeholder and interdisciplinary methods to build a culture of technology that empowers communities.
+            My work primarily focuses on AI governance, participatory design/stakeholder engagement, and socio-technical computing. I will be starting a Ph.D. in Computer Science
             at Brown University in Fall 2025 under advisors <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
                 Suresh Venkatasubramanian
                     </a> and <a href="https://harinisuresh.com/" id="ref" target="_blank">Harini Suresh</a>. 
