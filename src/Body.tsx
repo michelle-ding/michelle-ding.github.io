@@ -21,6 +21,8 @@ import darkMail from './images/darkmail.png'
 import darklinkedin from './images/darklinkedin.png'
 import darkbluesky from './images/darkbsk.png'
 import michelle from './images/michelle_ding_portrait.jpg'
+import gslight from './images/gs.png'
+import gsdark from './images/gslight.png'
 
 const src="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook"
 const decisiontree = "https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
@@ -54,6 +56,10 @@ function icons(logoval:boolean){
             <a className="icons" target="_blank" href="mailto:michelle_ding@brown.edu">
             <img className="icons" title="Email michelle_ding@brown.edu" 
             src={logoval ? mail1 : darkMail} alt="Michelle's Email at michelle_ding@brown.edu" />
+            </a>
+            <a className="icons" target="_blank" href="https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en">
+            <img className="icons" title="Go to https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en" 
+            src={logoval ? gslight : gsdark} alt="Michelle's Google Scholar at https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en" />
             </a>
         </div>
     )
