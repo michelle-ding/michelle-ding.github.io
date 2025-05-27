@@ -138,9 +138,14 @@ function pressAndPub(){
     const aaasinterview = "https://www.aaas.org/news/summer-science-aaas-2023-summer-interns-stories"
     const cntrnews = "https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook"
     const seniorprize = "https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/"
+    const cntr = "https://cntr.brown.edu/news/2025-05-02/2025-cntr-graduating-student-spotlights"
     return(
         <div id="News">
             <b id="header">{'News'}</b>
+            {formatPress(
+                cntr, "2025 CNTR Graduating Student Spotlights"
+                , "Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
+
             {formatPress(
                 seniorprize, "Twenty-Four Students Win 2025 Brown CS Senior Prizes"
                 , "Brown University Computer Science Department", "May 1, 2025")}
