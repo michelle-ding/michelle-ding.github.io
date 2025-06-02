@@ -139,9 +139,14 @@ function pressAndPub(){
     const cntrnews = "https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook"
     const seniorprize = "https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/"
     const cntr = "https://cntr.brown.edu/news/2025-05-02/2025-cntr-graduating-student-spotlights"
+    const cntrprize = "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"
     return(
         <div id="News">
             <b id="header">{'News'}</b>
+            {formatPress(
+                cntrprize, "The Data Science Institute Awards Inaugural Senior Awards to 2025 Graduating Seniors"
+                , "Brown University Data Science Institute", "May 29, 2025")}
+
             {formatPress(
                 cntr, "2025 CNTR Graduating Student Spotlights"
                 , "Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
