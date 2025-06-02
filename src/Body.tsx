@@ -321,7 +321,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated May 2025
+            Last updated June 2025
 
         </div>
     )
