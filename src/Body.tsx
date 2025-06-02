@@ -364,18 +364,9 @@ export default function Body({ logoval }: BodyProps){
             <br></br>
             {publications()}
             <br></br>
-            {projects()}
-            {/* <br></br>
-            {technicalSkills()} */}
-            {/* <br></br>
-            {teaching()} */}
-            {/* <br></br>
-            {ilo()} */}
-            <br></br>
             {pressAndPub()}
-            
-            {/* <br></br>
-            {contact()} */}
+            <br></br>
+            {projects()}
             <br></br>
             {websiteinfo()}
         </div>
