@@ -24,7 +24,7 @@ import michelle from './images/michelle_ding_portrait.jpg'
 import gslight from './images/gs.png'
 import gsdark from './images/gslight.png'
 
-const src="https://cntr.brown.edu/projects#socially-responsible-computing-src-curriculum-handbook"
+const src="https://cntr.brown.edu/projects/socially-responsible-computing-src-curriculum-handbook"
 const decisiontree = "https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
 const esvroundtable = "https://www.browndailyherald.com/article/2023/05/end-sexual-violence-at-brown-hosts-nonprofit-roundtable-to-address-survivor-support-advocacy"
 const titleix = "https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year"
@@ -68,12 +68,21 @@ function icons(logoval:boolean){
 function about_text(){
     return(
         <div id="about_text">
-            I am a researcher, computer scientist, and community organizer at Brown University.
-            My goal is to use multi-stakeholder and interdisciplinary methods to build a culture of technology that empowers communities.
-            My work primarily focuses on AI governance, participatory design/stakeholder engagement, and socio-technical computing. I will be starting a Ph.D. in Computer Science
-            at Brown University in Fall 2025 under advisors <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
+            I am a researcher and community organizer at Brown University.
+            
+            My goal is to use intersectional, multi-stakeholder, and interdisciplinary methods to build a culture of technology that empowers communities.
+            My work primarily focuses on sociotechnical AI governance, human-AI interaction, and participatory design. Currently, 
+            I am looking into methods of developing community-driven, domain-specific, and localized LLM evaluations. My recent work also explores AI-generated 
+            non-consensual intimate images, technology-facilitated gender-based violence, and reproductive justice. I also founded the {" "}
+            <a href="https://srch.cs.brown.edu" id="ref" target="_blank">Socially
+            Responsible Computing Handbook</a>, a think tank and resource for socio-technical computing education. I am pursuing a Ph.D. in Computer Science
+            under advisors <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
                 Suresh Venkatasubramanian
-                    </a> and <a href="https://harinisuresh.com/" id="ref" target="_blank">Harini Suresh</a>. 
+                    </a> and <a href="https://harinisuresh.com/" id="ref" target="_blank">Harini Suresh</a>. I am affiliated with the {" "}
+                    <a href="https://cntr.brown.edu/" id="ref" target="_blank">Center for Technological Responsibility, Reimagination, and Redesign (CNTR) </a> 
+                    and the {" "}
+                    <a href="https://discolab.cs.brown.edu/" id="ref" target="_blank">Data in Society Collective (DISCO) Lab.</a> {" "}
+                
             </div>
     )
 }
@@ -248,13 +257,14 @@ function projects(){
                   practical steps that will help them progress towards implementing the technology 
                   in an effective, ethical way. This project is supported by Microsoft.
                   <br></br><br></br>
-                  <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">
+
+                  {/* <a id="ref" href="https://www.aaas.org/ai2/projects/ethics/public-interest-training/modules" target="_blank">
                     Responsible AI Training Modules
                </a>
                 <i> - Co-Author & Researcher - </i> A series of training modules for 
                 AI/ML developers in the healthcare industry that cover topics algorithmic discrimination, 
                 human rights, and best practices during implementation. This project is supported by the Ford Foundation.
-                <br></br><br></br>
+                <br></br><br></br> */}
         
         
             <a id="ref" href="https://ricadv.org/policy/" target="_blank">Address Confidentiality Program for Domestic Violence Survivors</a>
@@ -288,27 +298,6 @@ function formatTeaching(position: string, course: string, year: string, site: st
         </div>
     )
 }
-function teaching(){
-    return(
-        <div id="Teaching&Fellowships">
-            <b id="header">{"Teaching_and_Fellowships"}</b>
-
-            {formatTeaching("Teaching Assistant", "CS0320: Introduction to Software Engineering", "Spring 2024 & Fall 2024", "https://cs.brown.edu/courses/info/csci0320/")}
-     
-            {formatTeaching("Teaching Assistant", "CS0111: Computing Foundations, Data", 
-            "Fall 2023", "https://cs.brown.edu/courses/csci0111/")}
-     
-      
-            {formatTeaching("Teaching Assistant", "ENGN90: Management of Industrial and Nonprofit Organizations", 
-            "Fall 2022", "https://selfservice.brown.edu/ss/bwckctlg.p_disp_course_detail?cat_term_in=201010&subj_code_in=ENGN&crse_numb_in=0090")}
-            
-            Research Fellow, <a target="_blank" id="ref" href="https://college.brown.edu/learn-beyond-classroom/us-study/brown-washington-program">
-                Brown in Washington
-            </a>, Summer 2023
-     
-        </div>
-    )
-}
 
 function websiteinfo(){
     return(
@@ -321,7 +310,7 @@ function websiteinfo(){
             <br></br>
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
-            Last updated June 2025
+            Last updated September 2025
 
         </div>
     )

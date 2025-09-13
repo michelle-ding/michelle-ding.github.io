@@ -46,7 +46,7 @@
   color: var(--text);
   text-align: left;
   font-size: var(--body_size);
-  margin-top: 1em;
+  margin-top: 0em;
   margin-left: 5em;
   font-weight: bold;
   position: fixed;
@@ -87,7 +87,7 @@
   margin-bottom: auto;
   max-width: 100%;
   line-height:1.3em;
-  font-family: Arial Narrow, sans-serif
+  font-family: Arial, Helvetica, sans-serif
 }
 
 #ref{
@@ -108,8 +108,9 @@
 .welcome{
   font-size: var(--header_size);
   font-weight: 700;
-  line-height: 1.3em;
+  line-height: 1em;
   text-align: left;
+  margin-top:0em;
 }
 
 #ilocontainer{
@@ -232,6 +233,7 @@
     font-weight: bold;
     line-height: 1.3em;
     text-align: left;
+    margin-top:0em;
     font-family: Arial Narrow, sans-serif
     
   }
