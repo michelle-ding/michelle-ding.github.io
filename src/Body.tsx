@@ -117,7 +117,7 @@ function updates(){
             <li>
             9/4/25: I am organizing the weekly {" "}
             <a href="https://cntr.brown.edu/get-involved/cntr-graduate-seminar" id="ref" target="_blank">CNTR Grad Seminar for Fall 2025</a> with
-            Sybille Légitime - check out the link for the schedule ways to get involved.
+            Sybille Légitime - check out the link for the schedule and ways to get involved.
             </li>
             <li>
                 9/1/25: I <a href="https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students" id="ref" target="_blank">
