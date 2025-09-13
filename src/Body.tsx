@@ -86,9 +86,9 @@ function about_text(){
             </div>
     )
 }
+
 function bio(logoval:boolean){
-    const aaas="https://www.aaas.org/ai2/projects/decision-tree-practitioners?utm_content=bufferbcf16&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer"
-    return(
+     return(
         <div id="bio">
             <b id="header">
                 {portrait()}
@@ -102,28 +102,46 @@ function bio(logoval:boolean){
     )
 }
 
-function makeTechDiv(category: string, list: string){
+function updates(){
     return(
-        <span>{category}: <i>{list}</i></span>
-    )
-}
+        <div id="updates">
+            <b id="header">Updates</b>
+            <br></br>
+            <div className="star-list">
+            <li>10/10/25: I will be presenting "Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."
+            written w/ Jo Kavishe, Victor Ojewale, and Suresh Venkatasubramanian at the {" "}
+            <a href="https://solar-colm.github.io/" id="ref" target="_blank">
+            Third Workshop on Socially Responsible Language Modelling Research (SoLaR)</a> at COLM 2025
+           in Montreal, Canada.</li>
+            
+            <li>
+            9/4/25: I am organizing the weekly {" "}
+            <a href="https://cntr.brown.edu/get-involved/cntr-graduate-seminar" id="ref" target="_blank">CNTR Grad Seminar for Fall 2025</a> with
+            Sybille Légitime - check out the link for the schedule ways to get involved.
+            </li>
+            <li>
+                9/1/25: I <a href="https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students" id="ref" target="_blank">
+                 started my PhD</a> in Computer Science at Brown University under advisors
+                 Suresh Venkatasubramanian and Harini Suresh!
+            </li>
+            <li>
+                5/25/25: I graduated with a BA in Computer Science at Brown University and received
+                the <a href="https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/" id="ref" target="_blank">Computer Science 
+                Senior Prize</a> and <a href="https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards" id="ref" target="_blank">
+                    Data Science Institute Senior Award for Public Service in Data Science</a>.
+            </li>
+            <li>
+                4/27/25: I presented my <a href="https://arxiv.org/abs/2504.17663" id="ref" target="_blank">paper</a>{" "}
+                    "The malicious technical ecosystem: Exposing limitations in technical governance of AI-generated nonconsensual intimate images of adults."
+                w/ Harini Suresh at the <a href="https://chi-staig.github.io/" id="ref" target="_blank">
+                Sociotechnical AI Governance workshop</a> at CHI 2025.</li>
+            <li>
+                4/21/25: The Socially Responsible Computing Handbook Project that I began with professors Julia Netter and Suresh Venkatasubramanian (now with a team of 20+ students) officially launched at the {" "}
+                <a href="https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook" id="ref" target="_blank">CNTR@01 event</a>.
+            </li>
+            </div>
+        
 
-function technicalSkills(){
-    return(
-        <div className="techskills" id="TechnicalSkills">
-            <b id="header">{'Technical Skills'}</b>
-            <br></br>
-            {makeTechDiv("Programming Languages", "Java, Python, JavaScript")}
-            <br></br>
-            {makeTechDiv("Web Development", "React, TypeScript, HTML, CSS")}
-            <br></br>
-            {makeTechDiv("IDEs", "Visual Studio Code, IntelliJ")}
-            <br></br>
-            <span>Version Control: <i><a id="ref" href="http://www.github.com/mding16" target="_blank">GitHub</a></i></span>
-            <br></br>
-            {makeTechDiv("Design Tools", "Adobe Photoshop, Adobe InDesign, Procreate")}
-            <br></br>
-            {makeTechDiv("Data & Formatting", "LaTeX, Microsoft Suite, Google Suite")}
         </div>
     )
 }
@@ -131,9 +149,11 @@ function technicalSkills(){
 function formatPress(link: string, title: string, source: string, date: string){
     return(
         <div id="press">
+            <li>
             <a id="ref" href={link} target="_blank">
                 "{title},"
             </a> <i>{source}</i>, {date}
+            </li>
         </div>
     )
 }
@@ -149,9 +169,15 @@ function pressAndPub(){
     const seniorprize = "https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/"
     const cntr = "https://cntr.brown.edu/news/2025-05-02/2025-cntr-graduating-student-spotlights"
     const cntrprize = "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"
+    const cntrphd="https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students"
     return(
-        <div id="News">
-            <b id="header">{'News'}</b>
+        <div id="Press">
+            <b id="header">{'Press'}</b>
+            <div className="star-list">
+            {formatPress(
+                cntrphd, "2025 Incoming CCMB and CNTR PhD students"
+                , "Brown University Data Science Institute", "Sep 5, 2025")}
+
             {formatPress(
                 cntrprize, "The Data Science Institute Awards Inaugural Senior Awards to 2025 Graduating Seniors"
                 , "Brown University Data Science Institute", "May 29, 2025")}
@@ -176,6 +202,7 @@ function pressAndPub(){
             {formatPress(brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
  
             {formatPress(esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
+                </div>
         </div>
     )
 }
@@ -195,33 +222,19 @@ function contact(){
     )
 }
 
-function ilo(){
-    return(
-        <div id="Illustrations">
-            <b id="header">{'Illustrations'}</b>
-            <br></br>
-            I also occasionally draw for the {" "}
-            <a id="ref" href="https://www.browndailyherald.com/staff/michelle-ding" target="_blank">
-                The Brown Daily Herald,
-                </a>
-            {" "} 
-            <a id="ref" href="https://www.theindy.org/illustrator=Michelle%20L%20Ding" target="_blank">
-                The College Hill Independent</a> and a {" "}
-                <a id="ref" href="https://drive.google.com/file/d/1aV5bFFcT_OxtKoGDqQZrdy5K9LCie4qH/preview" target="_blank">Visual Essay on the Atlanta Spa Shootings.</a>
-        </div>
-    )
-}
 function publications(){
     return(
         <div id="publications">
             <b id="header">{'Publications'}</b>
             <br></br>
+            <div className="star-list">
+                <li>
             <b>Michelle L. Ding</b> and Harini Suresh. 2025. "The malicious technical ecosystem: Exposing limitations in technical governance of AI-generated nonconsensual intimate images of adults." In CHI’25 Sociotechnical AI Governance
             Workshop (STAIG ’25), April 2025, Yokohama, Japan. <a id="ref" href="https://arxiv.org/abs/2504.17663" target="_blank">https://arxiv.org/abs/2504.17663</a>
-            <br></br>
-            <br></br>
-            Malika Saada Saar and <b>Michelle L. Ding</b>. "Silencing at Scale: AI-Generated Non-Consensual Intimate Images as a Threat to Technology Security."
-            To be in the Oxford Handbook of Human Security in 2026.
+            </li>
+            <li>Malika Saada Saar and <b>Michelle L. Ding</b>. "Silencing at Scale: AI-Generated Non-Consensual Intimate Images as a Threat to Technology Security."
+            To be in the Oxford Handbook of Human Security in 2026.</li>
+            </div>
         </div>
     )
 }
@@ -290,15 +303,6 @@ function projects(){
     )
 }
 
-function formatTeaching(position: string, course: string, year: string, site: string){
-    return(
-        <div>
-            {position}, {" "}
-           <a target="_blank" id="ref" href={site}><i>{course}</i></a>, {year}
-        </div>
-    )
-}
-
 function websiteinfo(){
     return(
         <div id="WebsiteDetails">
@@ -321,13 +325,15 @@ function resources(){
         <div id="Resources">
             <b id="header">{'Resources'}</b>
             <br></br>
-            <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing">
-                Sexual health resources @ Brown/Providence</a>
-                <br></br>
-            
-                <a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
-                Michelle's socio-tech reading list!</a>
-
+            <div className='star-list'>
+            <li>
+                <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing">A spreadsheet of 
+                survivor-centered sexual health resources primarily based in Brown and the Providence/RI region</a>
+                </li>
+                <li><a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
+                A curation of socio-technical books that I have read or want to read</a>
+                </li>
+            </div>
         </div>
     )
     }
@@ -346,10 +352,11 @@ export default function Body({ logoval }: BodyProps){
     return(
         <div className="text">
             {welcome()}
-            {/* <br></br> */}
             {bio(logoval)}
             <br></br>
             {resources()}
+            <br></br>
+            {updates()}
             <br></br>
             {publications()}
             <br></br>

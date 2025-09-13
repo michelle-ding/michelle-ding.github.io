@@ -113,6 +113,24 @@
   margin-top:0em;
 }
 
+.star-list {
+  padding: 0;       /* remove all indentation */
+  margin: 0;        /* remove default margin */
+}
+
+.star-list li {
+  list-style: none;  /* remove default bullets */
+  margin: 0.75em 0;  /* increased vertical spacing between items */
+}
+
+.star-list li::marker {
+  content: "✦ ";     /* Black Four Pointed Star + space */
+  color: var(--text);
+}
+/* Alternating stars: filled ✦ for odd, unfilled ✧ for even */
+/* .star-list li:nth-child(odd)::marker  { content: "✦ "; }
+.star-list li:nth-child(even)::marker { content: "✧ "; }  */
+
 #ilocontainer{
   display: flex;
 }
