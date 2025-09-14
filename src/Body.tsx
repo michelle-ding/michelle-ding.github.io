@@ -240,7 +240,7 @@ function publications(){
 }
 function projects(){
     return(
-        <div id="projects">
+        <div id="Projects">
             <b id="header">{'Projects'}</b>
             <br></br>
             <a id="ref" href={src} target="_blank">Socially Responsible Computing (SRC) Curriculum Handbook</a>
