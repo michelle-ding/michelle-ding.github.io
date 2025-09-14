@@ -312,8 +312,6 @@ function websiteinfo(){
             <br></br>
             Hosted on GitHub Pages
             <br></br>
-            Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
-            <br></br>
             Last updated September 2025
         </div>
     )
