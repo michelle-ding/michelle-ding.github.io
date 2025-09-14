@@ -114,18 +114,19 @@
 }
 
 .star-list {
-  padding: 0;       /* remove all indentation */
-  margin: 0;        /* remove default margin */
+  padding-left:0em;   /* small indent ensures marker displays on mobile */
+  margin: 0;
 }
 
 .star-list li {
-  list-style: none;  /* remove default bullets */
-  margin: 0.75em 0;  /* increased vertical spacing between items */
+  list-style: none;    /* remove default bullets if you want custom */
+  margin: 0.75em 0;    /* vertical spacing between items */
 }
 
 .star-list li::marker {
-  content: "✦ ";     /* Black Four Pointed Star + space */
-  color: var(--text);
+  content: "✦ ";        /* simple Unicode star */
+  color: var(--text);  
+  font-size: 1em;       /* avoid scaling too much */
 }
 /* Alternating stars: filled ✦ for odd, unfilled ✧ for even */
 /* .star-list li:nth-child(odd)::marker  { content: "✦ "; }
@@ -241,10 +242,6 @@
     color: var(--other);
 
   }
-  /* .text #ref{
-    text-decoration: underline;
-    text-decoration-color: var(--other);
-  } */
 
   .welcome{
     font-size: var(--header_size_phone);
@@ -259,9 +256,5 @@
   #portrait{
     width: var(--portrait_width_phone);
     height: auto;
-  }
-
-  #press{
-    padding-bottom:1em;
   }
 }

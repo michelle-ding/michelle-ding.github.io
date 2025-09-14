@@ -148,13 +148,13 @@ function updates(){
 
 function formatPress(link: string, title: string, source: string, date: string){
     return(
-        <div id="press">
+        // <div id="press">
             <li>
             <a id="ref" href={link} target="_blank">
                 "{title},"
             </a> <i>{source}</i>, {date}
             </li>
-        </div>
+        // </div>
     )
 }
 function pressAndPub(){
@@ -315,7 +315,6 @@ function websiteinfo(){
             Website colors tested using <a target="_blank" id="ref" href="https://accessible-colors.com/">Accessible Colors</a>
             <br></br>
             Last updated September 2025
-
         </div>
     )
 }
@@ -355,15 +354,11 @@ export default function Body({ logoval }: BodyProps){
             {bio(logoval)}
             <br></br>
             {resources()}
-            <br></br>
             {updates()}
-            <br></br>
             {publications()}
-            <br></br>
             {projects()}
             <br></br>
             {pressAndPub()}
-            <br></br>
             {websiteinfo()}
         </div>
     )
