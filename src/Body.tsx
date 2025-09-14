@@ -90,7 +90,7 @@ function about_text(){
 function bio(logoval:boolean){
      return(
         <div id="bio">
-            <b id="header">
+            <b>
                 {portrait()}
                 <div className="iconcontainer">
                 {icons(logoval)} (She/Her)
@@ -104,7 +104,7 @@ function bio(logoval:boolean){
 
 function updates(){
     return(
-        <div id="updates">
+        <div id="Updates">
             <b id="header">Updates</b>
             <br></br>
             <div className="star-list">
@@ -224,7 +224,7 @@ function contact(){
 
 function publications(){
     return(
-        <div id="publications">
+        <div id="Publications">
             <b id="header">{'Publications'}</b>
             <br></br>
             <div className="star-list">

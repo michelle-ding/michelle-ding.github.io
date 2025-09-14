@@ -4,10 +4,10 @@
   --other:#A81470;
   --body_size: 18px;
   --header_size:54px;
-  --body_size_phone: 17px;
+  --body_size_phone: 18px;
   --header_size_phone:32px;
   --portrait_width:40%;
-  --portrait_width_phone:80%;
+  --portrait_width_phone:95%;
 }
 
 .dark-theme{
@@ -112,9 +112,8 @@
   text-align: left;
   margin-top:0em;
 }
-
 .star-list {
-  padding-left:0em;   /* small indent ensures marker displays on mobile */
+  padding-left: 0em; /* small indent ensures marker displays on mobile */
   margin: 0;
 }
 
@@ -123,14 +122,16 @@
   margin: 0.75em 0;    /* vertical spacing between items */
 }
 
+/* Remove top margin from first list item */
+.star-list li:first-child {
+  margin-top: 0;
+}
+
 .star-list li::marker {
   content: "✦ ";        /* simple Unicode star */
   color: var(--text);  
   font-size: 1em;       /* avoid scaling too much */
 }
-/* Alternating stars: filled ✦ for odd, unfilled ✧ for even */
-/* .star-list li:nth-child(odd)::marker  { content: "✦ "; }
-.star-list li:nth-child(even)::marker { content: "✧ "; }  */
 
 #ilocontainer{
   display: flex;
@@ -196,11 +197,15 @@
     visibility: hidden;
   }
 
+  #header{
+    text-decoration: underline;
+  } 
+
   .container{
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     z-index: 1;
   }
   
@@ -215,7 +220,6 @@
     visibility: hidden;
     font-family: Arial Narrow, sans-serif
   }
-  
 
   .text{
     font-size:var(--body_size_phone);
@@ -225,9 +229,8 @@
     color: var(--text);
     text-align: left;
     max-width: 90%;
-    font-family: Arial Narrow, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
-
   
   #iloa{
     max-width:100%;
@@ -238,23 +241,39 @@
     height: auto
   }
   #ref{
-   
     color: var(--other);
-
   }
 
+  .welcome span{
+    font-size: 64px;
+  }
   .welcome{
-    font-size: var(--header_size_phone);
-    font-weight: bold;
-    line-height: 1.3em;
+    font-weight: normal;
+    line-height: 1em;
     text-align: left;
     margin-top:0em;
-    font-family: Arial Narrow, sans-serif
-    
+    font-family: Arial, Helvetica, sans-serif
   }
 
   #portrait{
     width: var(--portrait_width_phone);
     height: auto;
+    margin-top: 1em;
+    margin-bottom:0em;
   }
+  .star-list li {
+    list-style-position: inside; /* keeps bullets aligned */
+    margin: 1em 0;
+  }
+
+  .star-list li::marker {
+    content: none;           /* disable custom star */
+  }
+
+  @media only screen and (min-width: 901px) {
+    #nav-toggle, #nav-page {
+      display: none !important; /* hide mobile nav on desktop */
+    }
+  }
+
 }

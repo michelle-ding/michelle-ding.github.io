@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
-import Body from './Body'; // Assuming Body is another component
+import Body from './Body'; 
 
 function App() {
   const [logoval, setlogoval] = useState<boolean>(true); // Default to light mode

@@ -7,9 +7,9 @@ function navcontent() {
       <ul>
         <li><a href="#About">About</a></li>
         <li><a href="#Resources">Resources</a></li>
-        <li><a href="#updates">Updates</a></li>
-        <li><a href="#publications">Publications</a></li>
-            <li><a href="#projects">Projects</a></li>
+        <li><a href="#Updates">Updates</a></li>
+        <li><a href="#Publications">Publications</a></li>
+            <li><a href="#Projects">Projects</a></li>
             <li><a href="#Press">Press</a></li>
         <li><a href="#WebsiteDetails">Website_Details</a></li>
       </ul>
