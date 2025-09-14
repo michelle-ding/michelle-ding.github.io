@@ -327,7 +327,7 @@ function resources(){
             <div className='star-list'>
             <li>
                 <a target="_blank" id="ref" href="https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing">A spreadsheet of 
-                survivor-centered sexual health resources primarily based in Brown and the Providence/RI region</a>
+                survivor-centered sexual health resources primarily based in Brown and Providence/RI</a>
                 </li>
                 <li><a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
                 A curation of socio-technical books that I have read or want to read</a>
