@@ -125,7 +125,7 @@ function updates(){
                  Suresh Venkatasubramanian and Harini Suresh!
             </li>
             <li>
-                5/25/25: I graduated with a BA in Computer Science at Brown University and received
+                5/25/25: I graduated with a bachelor's degree in Computer Science at Brown University and received
                 the <a href="https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/" id="ref" target="_blank">Computer Science 
                 Senior Prize</a> and <a href="https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards" id="ref" target="_blank">
                     Data Science Institute Senior Award for Public Service in Data Science</a>.
