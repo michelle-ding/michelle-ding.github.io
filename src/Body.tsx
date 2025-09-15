@@ -108,7 +108,9 @@ function updates(){
             <b id="header">Updates</b>
             <br></br>
             <div className="star-list">
-            <li>10/10/25: I will be presenting "Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."
+            <li>10/10/25: I will be presenting <a href="https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing" id="ref" target="_blank">
+            "Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."
+            </a>{" "}
             written w/ Jo Kavishe, Victor Ojewale, and Suresh Venkatasubramanian at the {" "}
             <a href="https://solar-colm.github.io/" id="ref" target="_blank">
             Third Workshop on Socially Responsible Language Modelling Research (SoLaR)</a> at COLM 2025
