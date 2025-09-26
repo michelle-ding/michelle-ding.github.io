@@ -332,6 +332,11 @@ function resources(){
                 <li><a target="_blank" id="ref" href="https://www.goodreads.com/review/list/181978928-michelle?order=d&shelf=michelles-sociotech-reads">
                 A curation of socio-technical books that I have read or want to read</a>
                 </li>
+                <li>
+                <a target="_blank" id="ref" 
+                href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
+                    A crowd-sourced spreadsheet of resources for artists who are concerned about AI</a>
+                </li>
             </div>
         </div>
     )
