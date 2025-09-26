@@ -335,7 +335,7 @@ function resources(){
                 <li>
                 <a target="_blank" id="ref" 
                 href="https://docs.google.com/spreadsheets/d/1XL17SFOEy12K_yALJxL9mgCyD2IAn6MTO9eB6iyb05c/edit?usp=sharing">
-                    A crowd-sourced spreadsheet of resources for artists who are concerned about AI</a>
+                    A crowdsourced spreadsheet of resources for artists who are concerned about AI</a>
                 </li>
             </div>
         </div>
