@@ -21,7 +21,7 @@ export default function Projects() {
       title: "Socially Responsible Computing Handbook (2024-present)",
       content: (
         <div>
-            The <a href="https://srch.cs.brown.edu/about">Socially Responsible Computing Handbook (SRCH)</a>{" "} is a community-owned, 
+            The <a href="https://srch.cs.brown.edu" target="_blank">Socially Responsible Computing Handbook (SRCH)</a>{" "} is a community-owned, 
             interdisciplinary think tank and living resource that I founded in May 2024 with{" "}
             <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
                 Suresh Venkatasubramanian</a> and {" "}

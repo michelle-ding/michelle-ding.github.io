@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import PortfolioLayout from "./PortfolioLayout";
 import Publications from "./Publications";
@@ -25,8 +25,6 @@ function App() {
     <Router>
       <div className="portfolio-layout">
         {/* --- MOBILE MENU --- */}
-        {/* --- MOBILE HEADER H1 --- */}
-    
         <div className="mobile-menu">
           <button
             className="menu-button"
