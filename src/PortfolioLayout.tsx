@@ -4,8 +4,9 @@ import "./styles/PortfolioLayout.css";
 const PortfolioLayout = () => {
   return (
     <div className="portfolio-layout">
-      <div className="mobile-header">Michelle L. Ding</div>
+      <h1>Michelle L. Ding</h1>
       <main className="portfolio-bio" role="main" aria-label="Biography">
+        
         <div>
           <p>
             Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. 

@@ -11,12 +11,9 @@ export default function Publications() {
         The Malicious Technical Ecosystem: Exposing Limitations 
         in Technical Governance of AI-Generated Nonconsensual Intimate Images of Adults.</a>
         <br></br>
-        <b>Michelle L. Ding</b> and Harini Suresh, 
+       <span className="name">Michelle L. Ding</span> and Harini Suresh, 
         Sociotechnical AI Governance
-        Workshop, CHI 2025
-        
-
-       
+        Workshop, CHI 2025       
         </div>
     </main>
   );
