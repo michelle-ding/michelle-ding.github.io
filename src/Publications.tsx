@@ -1,0 +1,23 @@
+import React from "react";
+import "./styles/PortfolioLayout.css";
+
+export default function Publications() {
+  return (
+    <main className="publications">
+        <h1>Publications</h1>
+      <div className="publications-list">
+
+        <a id="ref" href="https://arxiv.org/abs/2504.17663" target="_blank">
+        The Malicious Technical Ecosystem: Exposing Limitations 
+        in Technical Governance of AI-Generated Nonconsensual Intimate Images of Adults.</a>
+        <br></br>
+        <b>Michelle L. Ding</b> and Harini Suresh, 
+        Sociotechnical AI Governance
+        Workshop, CHI 2025
+        
+
+       
+        </div>
+    </main>
+  );
+}

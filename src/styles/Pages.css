@@ -1,0 +1,18 @@
+:root{
+  --bg:white;
+  --text:black;
+  --background: white;
+  --highlight: blue;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: scroll; /* prevents scrollbars */
+}
+
