@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/PortfolioLayout.css";
 
-export default function Publications() {
+export default function Research() {
   return (
     <main className="publications">
-        <h1>Publications</h1>
+        <h1>Research</h1>
       <div className="publications-list">
 
         <a id="ref" href="https://arxiv.org/abs/2504.17663" target="_blank">

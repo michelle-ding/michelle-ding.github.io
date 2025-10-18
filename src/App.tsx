@@ -1,12 +1,11 @@
 import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import PortfolioLayout from "./PortfolioLayout";
-import Publications from "./Publications";
+import Research from "./Research";
 import Projects from "./Projects";
 import Talks from "./Talks";
 import Press from "./Press";
 import Website from "./Website";
-import Resources from "./Resources";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,7 +43,7 @@ function App() {
             >
               <NavLink to="/" end onClick={closeMenu}>About</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
-              <NavLink to="/publications" onClick={closeMenu}>Publications</NavLink>
+              <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
               <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink>
               <NavLink to="/press" onClick={closeMenu}>Press</NavLink>
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
@@ -56,7 +55,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PortfolioLayout />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/publications" element={<Publications />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/talks" element={<Talks />} />
           <Route path="/press" element={<Press />} />
           <Route path="/websitedetails" element={<Website />} />
@@ -67,7 +66,7 @@ function App() {
           <nav className="footer-nav desktop-nav" aria-label="Footer Navigation">
             <NavLink to="/" end>About</NavLink>
             <NavLink to="/projects">Projects</NavLink>
-            <NavLink to="/publications">Publications</NavLink>
+            <NavLink to="/research">Research</NavLink>
             <NavLink to="/talks">Talks</NavLink>
             <NavLink to="/press">Press</NavLink>
             <NavLink to="/websitedetails">Website Details</NavLink>
