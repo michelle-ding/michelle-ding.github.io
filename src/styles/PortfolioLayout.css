@@ -142,7 +142,6 @@ h1 {
   border: 2px solid var(--highlight);
   text-align: left;
   cursor: pointer;
-  /* line-height: 1.3; */
 }
 
 .expandable-content {
@@ -184,7 +183,7 @@ h1 {
   gap: 1rem;
   padding: 1rem 0;
   margin: 0;
-  padding-right: 1em;
+  padding-right: 4rem;
 }
 
 .footer-nav a {
@@ -216,8 +215,6 @@ h1 {
   line-height: 1.5;
   color: var(--text);
 }
-
-
 
 .website {
   padding: 2rem 2rem 10rem;
@@ -302,6 +299,7 @@ h1 {
   /* Font size adjustments */
   h1 {
     font-size: 4.5rem;
+    margin-bottom:2rem;
   }
 
   .portfolio-bio p {
@@ -347,5 +345,5 @@ h1 {
 
 .name{
   color:var(--highlight);
-  
+
 }
