@@ -1,13 +1,19 @@
 import React from "react";
 import "./styles/PortfolioLayout.css";
+import michelle from './images/michelle_ding_portrait.jpg'
 
 const PortfolioLayout = () => {
   return (
     <div className="portfolio-layout">
-      <h1>Michelle L. Ding</h1>
+      
+      
       <main className="portfolio-bio" role="main" aria-label="Biography">
-        <div>
-          <p>
+        <div className="bio-container">
+          
+          {/* Bio Text */}
+          <div className="bio-text">
+            <h1>Michelle L. Ding</h1>
+            <p>
             Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. 
             I am currently a Computer Science Ph.D student at Brown University
             advised by <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
@@ -27,10 +33,18 @@ const PortfolioLayout = () => {
             <a href="https://michellelding.substack.com/" id="ref" target="_blank">Substack</a>
             <a href="https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en" id="ref" target="_blank">Google Scholar</a>
             </div>
+          </div>
+          
+          {/* Photo */}
+          <img
+            src={michelle}   // replace with your photo path
+      alt="Portrait of Your Name"
+      className="bio-photo"
+          />
         </div>
       </main>
-     
     </div>
+
   );
 };
 
