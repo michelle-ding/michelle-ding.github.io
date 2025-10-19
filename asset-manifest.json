@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec9867af.css",
-    "main.js": "/static/js/main.f581fdab.js",
+    "main.css": "/static/css/main.0cc5affa.css",
+    "main.js": "/static/js/main.63318a63.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/michelle_ding_portrait.jpg": "/static/media/michelle_ding_portrait.4e6d6e638f9ec37b4060.jpg",
     "index.html": "/index.html",
-    "main.ec9867af.css.map": "/static/css/main.ec9867af.css.map",
-    "main.f581fdab.js.map": "/static/js/main.f581fdab.js.map",
+    "main.0cc5affa.css.map": "/static/css/main.0cc5affa.css.map",
+    "main.63318a63.js.map": "/static/js/main.63318a63.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9867af.css",
-    "static/js/main.f581fdab.js"
+    "static/css/main.0cc5affa.css",
+    "static/js/main.63318a63.js"
   ]
 }
