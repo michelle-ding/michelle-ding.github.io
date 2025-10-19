@@ -5,14 +5,12 @@ import michelle from './images/michelle_ding_portrait.jpg'
 const PortfolioLayout = () => {
   return (
     <div className="portfolio-layout">
-      
-      
+      <h1 className="mobile-header">Michelle L. Ding</h1>
       <main className="portfolio-bio" role="main" aria-label="Biography">
         <div className="bio-container">
-          
           {/* Bio Text */}
           <div className="bio-text">
-            <h1>Michelle L. Ding</h1>
+            <h1 className="desktop-header">Michelle L. Ding</h1>
             <p>
             Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. 
             I am currently a Computer Science Ph.D student at Brown University

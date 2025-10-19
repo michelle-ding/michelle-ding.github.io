@@ -370,8 +370,24 @@ h1 {
   flex: 1;
 }
 
+.mobile-header {
+  display: none;
+}
+
+/* Show desktop header by default */
+.desktop-header {
+  display: block;
+}
+
 /* Responsive: stack vertically on narrow screens */
 @media (max-width: 800px) {
+  .desktop-header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+  }
+  
   .bio-container {
     flex-direction: column;
     align-items: left; /* center content horizontally */
