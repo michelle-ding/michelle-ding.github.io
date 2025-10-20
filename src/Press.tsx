@@ -24,7 +24,7 @@ function formatPress(link: string, title: string, source: string, date: string){
     const cntrprize = "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"
     const cntrphd="https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students"
     return(
-        <div id="Press">
+        <ul id="Press">
             {formatPress(
                 cntrphd, "2025 Incoming CCMB and CNTR PhD students"
                 , "Brown University Data Science Institute", "Sep 5, 2025")}
@@ -53,7 +53,7 @@ function formatPress(link: string, title: string, source: string, date: string){
             {formatPress(brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
  
             {formatPress(esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
-                </div>
+                </ul>
     )
 }
 
