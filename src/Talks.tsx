@@ -21,7 +21,7 @@ export default function Talks() {
                 <span className="name">Mar 8, 2025:</span> I moderated a technology panel for the 
                 2025 <a href="https://www.brownchinasummit.org/all-summits/2025-upcoming" id="ref" target="_blank">
                 "Brown China Summit: 
-                Silk Roads and Cyber Paths"</a> with guests Zeyi Yang, Chuncheng Liu, Kendraw Schaefer, and Han Sheng Chia.
+                Silk Roads and Cyber Paths"</a> with guests Zeyi Yang, Chuncheng Liu, Kendra Schaefer, and Han Sheng Chia.
                 Recording available <a href="https://youtu.be/OfqbWAPnVoA?t=5026" id="ref" target="_blank">here.</a>
               </li>
             </ul>
