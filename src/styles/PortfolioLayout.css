@@ -370,6 +370,8 @@ h1 {
 }
 li{
   list-style: square;
+  margin-bottom:20px;
+  line-height:1.5;
 }
 .projects li{
   list-style-type: none;

@@ -12,10 +12,17 @@ export default function Talks() {
             (written with Jo Kavishe, Victor Ojewale, and Suresh Venkatasubramanian) at the {" "}
             <a href="https://solar-colm.github.io/" id="ref" target="_blank">
             Third Workshop on Socially Responsible Language Modelling Research (SoLaR)</a> at{" "}
-            <a href="https://colmweb.org/">COLM 2025</a>{" "}
+            <a href="https://colmweb.org/" id="ref" target="_blank">COLM 2025</a>{" "}
            in Montreal, Canada. We also crowdsourced <a href="https://bit.ly/solar-cntr" id="ref" target="_blank">
            case studies & resources</a> for community-driven
            evaluations.
+              </li>
+              <li>
+                <span className="name">Mar 8, 2025:</span> I moderated a technology panel for the 
+                2025 <a href="https://www.brownchinasummit.org/all-summits/2025-upcoming" id="ref" target="_blank">
+                "Brown China Summit: 
+                Silk Roads and Cyber Paths"</a> with guests Zeyi Yang, Chuncheng Liu, Kendraw Schaefer, and Han Sheng Chia.
+                Recording available <a href="https://youtu.be/OfqbWAPnVoA?t=5026" id="ref" target="_blank">here.</a>
               </li>
             </ul>
             
