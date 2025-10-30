@@ -46,7 +46,7 @@ a {
 }
 
 .portfolio-bio p {
-  font-size: 2rem;
+  font-size: 1.67rem;
   line-height: 1.5;
   margin: 0 0 2rem 0;
   color: var(--text);
@@ -61,7 +61,7 @@ a {
   justify-content: left;
   align-items: center;
   max-width: 60ch;
-  font-size: 2rem;
+  font-size: 1.67rem;
   gap: 1rem;
 }
 
@@ -78,7 +78,7 @@ a {
 /* Publications */
 .publications {
   padding: 2rem 2rem 10rem;
-  font-size: 2em;
+  font-size: 1.67rem;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
@@ -91,12 +91,12 @@ h1 {
   font: weight 500px;
   color: var(--highlight);
   font-family: didot;
-  font-size: 6rem;
+  font-size: 5rem;
   margin-bottom:0em;
 }
 
 .publications-list li {
-  font-size: 2rem;
+  font-size: 1.67rem;
   color: var(--text);
   margin-bottom: 2rem;
 }
@@ -111,7 +111,7 @@ h1 {
 /* Projects */
 .projects {
   padding: 2rem 2rem 10rem;
-  font-size: 2rem;
+  font-size: 1.67rem;
   /* display: flex;
   flex-direction: column; */
   line-height: 1.5;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .expandable-title {
-  font-size: 2rem;
+  font-size: 1.67rem;
   color: var(--highlight);
   background: none;
   padding: 0.5rem 1rem;    
@@ -140,7 +140,7 @@ h1 {
 
 .expandable-content {
   margin-top: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.67rem;
   line-height: 1.5;
   color: var(--text);
   text-align: left;
@@ -149,7 +149,7 @@ h1 {
 /* Press */
 .press {
   padding: 2rem 2rem 10rem;
-  font-size: 2rem;
+  font-size: 1.67rem;
   line-height: 1.5;
   color: var(--text);
 }
@@ -177,7 +177,7 @@ h1 {
 
 .footer-nav a {
   color: white;
-  font-size: 2rem;
+  font-size: 1.67rem;
   font-weight: 700;
   text-decoration: none;
   border: 2px solid transparent;
@@ -200,14 +200,14 @@ h1 {
 .projects
 {
   padding: 2rem 2rem 10rem;
-  font-size: 2rem;
+  font-size: 1.67rem;
   line-height: 1.5;
   color: var(--text);
 }
 
 .website {
   padding: 2rem 2rem 10rem;
-  font-size: 2rem;
+  font-size: 1.67rem;
   line-height: 1.5;
   color: var(--text);
 }
@@ -287,20 +287,20 @@ h1 {
 
   /* Font size adjustments */
   h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-bottom:2rem;
   }
 
   .portfolio-bio p {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
   }
 
   .bio-links {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
   }
 
   .footer-nav a {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
   }
 
   .publications,
@@ -308,14 +308,14 @@ h1 {
   .press,
   .talks,
   .website {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
   }
 
   .publications-list li,
   .press-list li,
   .expandable-title,
   .expandable-content {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
     
   }
 
