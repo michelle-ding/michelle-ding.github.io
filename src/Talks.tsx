@@ -7,8 +7,9 @@ export default function Talks() {
         <h1>Talks</h1>
             <ul>
               <li>
-                <span className="name">Nov 4, 2025:</span> I gave a guest lecture at Brown's Watson
-                School of International and Public Affairs MPA2221 Human Rights and AI course (taught
+                <span className="name">Nov 4, 2025:</span> I gave a guest lecture at Brown's <a href="https://home.watson.brown.edu/">
+                Watson
+                School of International and Public Affairs</a> MPA2221 Human Rights and AI course (taught
                 by <a href="https://home.watson.brown.edu/people/faculty/senior-fellows/malika-saada-saar" id="ref" target="_blank">
                 Malika Saada Saar</a>) on 
                 mapping the technical ecosystem of AI-generated NCII and new opportunities for 
