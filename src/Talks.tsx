@@ -7,6 +7,15 @@ export default function Talks() {
         <h1>Talks</h1>
             <ul>
               <li>
+                <span className="name">Nov 4, 2025:</span> I gave a guest lecture at Brown's Watson
+                School of International and Public Affairs MPA2221 Human Rights and AI course (taught
+                by <a href="https://home.watson.brown.edu/people/faculty/senior-fellows/malika-saada-saar" id="ref" target="_blank">
+                Malika Saada Saar</a>) on 
+                mapping the technical ecosystem of AI-generated NCII and new opportunities for 
+                survivor-centered policymaking
+
+              </li>
+              <li>
             <span className="name">Oct 10, 2025:</span> I gave a selected talk on the opinion abstract <a href="https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing" id="ref" target="_blank">
             "Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."</a>
             (written with Jo Kavishe, Victor Ojewale, and Suresh Venkatasubramanian) at the {" "}
