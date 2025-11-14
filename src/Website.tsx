@@ -5,7 +5,7 @@ export default function Website() {
   return (
     <main className="website">
         <h1>Website Details</h1>
-       I built this website using React, HTML/CSS/JS on VSCode and 
+       I built this website using React, HTML/CSS/TS on VSCode and 
        hosted it using Github Pages.
        I used ChatGPT to write starter code for styling, React router set up, 
        accessibility features, mobile responsivity, and minor debugging. No website content or personal
