@@ -9,7 +9,7 @@ export default function Research() {
         <li>
         "Silencing at Scale: AI Generated Abuse, Digital Democracy, 
         and the Urgent Need to Dismantle the Nudifier Economy."{" "}
-       <span className="name">Michelle L. Ding</span> and Malika Saada Saar. 
+        Malika Saada Saar and <span className="name">Michelle L. Ding</span>. 
         To be in the Oxford Handbook of Human Security, 2026.        
       </li>
       <li>
