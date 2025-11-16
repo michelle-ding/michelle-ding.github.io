@@ -18,7 +18,7 @@ export default function Research() {
         in Technical Governance of AI-Generated Nonconsensual Intimate Images of Adults."</a>
        <span className="name">Michelle L. Ding</span> and Harini Suresh. 
         Sociotechnical AI Governance
-        Workshop, CHI, 2025       
+        Workshop, CHI Conference on Human Factors in Computing Systems, 2025       
       </li>
       
        
