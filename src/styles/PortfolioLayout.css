@@ -101,12 +101,12 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.publications-list li a {
-  color: var(--highlight);
+/* .publications-list li a {
+  text-decoration-color: var(--highlight);
   text-decoration: underline;
   text-decoration-style: dotted;
   padding: 0.1em 0.25em;
-}
+} */
 
 /* Projects */
 .projects {
