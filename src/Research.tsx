@@ -16,7 +16,7 @@ export default function Research() {
  <a href="https://arxiv.org/abs/2504.17663" target="_blank">
         "The Malicious Technical Ecosystem: Exposing Limitations 
         in Technical Governance of AI-Generated Nonconsensual Intimate Images of Adults."</a>
-       <span className="name">Michelle L. Ding</span> and Harini Suresh. 
+       {" "}<span className="name">Michelle L. Ding</span> and Harini Suresh. 
         Sociotechnical AI Governance
         Workshop, CHI Conference on Human Factors in Computing Systems, 2025       
       </li>
