@@ -44,7 +44,7 @@ function App() {
               <NavLink to="/" end onClick={closeMenu}>About</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
-               <NavLink to="/news-opinions" onClick={closeMenu}>Press</NavLink>
+               <NavLink to="/news-opinions" onClick={closeMenu}>News & Opinions</NavLink>
               <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink>
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
             </nav>
