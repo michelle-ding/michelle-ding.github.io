@@ -26,6 +26,13 @@ function formatPress(link: string, title: string, source: string, date: string){
     return(
         <ul id="Press">
             {formatPress(
+                cntrphd, "Imagining Dystopias: CNTR Researchers Reflect on the 2025 Conference on Language Modeling"
+                , "Brown Center for Technological Responsibility, Reimagination and Redesign", "November 19, 2025")}
+            {formatPress(
+                cntrphd, "Testing LLMs in a sandbox isn’t responsible. Focusing on community use and needs is."
+                , "Brown Center for Technological Responsibility, Reimagination and Redesign", "September 15, 2025")}
+
+            {formatPress(
                 cntrphd, "2025 Incoming CCMB and CNTR PhD students"
                 , "Brown University Data Science Institute", "Sep 5, 2025")}
 
@@ -35,13 +42,14 @@ function formatPress(link: string, title: string, source: string, date: string){
 
             {formatPress(
                 cntr, "2025 CNTR Graduating Student Spotlights"
-                , "Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
+                , "Brown Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
 
             {formatPress(
                 seniorprize, "Twenty-Four Students Win 2025 Brown CS Senior Prizes"
                 , "Brown University Computer Science Department", "May 1, 2025")}
 
-            {formatPress(cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", "Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
+            {formatPress(cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", 
+                "Brown Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
 
             {formatPress(aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
        
@@ -60,7 +68,7 @@ function formatPress(link: string, title: string, source: string, date: string){
 export default function Press() {
   return (
     <main className="press">
-        <h1>Press</h1>
+        <h1>News & Opinions</h1>
       <div className="press-list">
         {pressAndPub()}
         </div>
