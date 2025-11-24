@@ -44,7 +44,7 @@ function App() {
               <NavLink to="/" end onClick={closeMenu}>About</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
-               <NavLink to="/news-opinions" onClick={closeMenu}>News & Opinions</NavLink>
+               <NavLink to="/media" onClick={closeMenu}>Media</NavLink>
               <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink>
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
             </nav>
@@ -56,7 +56,7 @@ function App() {
           <Route path="/" element={<PortfolioLayout />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/research" element={<Research />} />
-          <Route path="/news-opinions" element={<Press />} />
+          <Route path="/media" element={<Press />} />
           <Route path="/talks" element={<Talks />} />
           
           <Route path="/websitedetails" element={<Website />} />
@@ -68,7 +68,7 @@ function App() {
             <NavLink to="/" end>About</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/research">Research</NavLink>
-            <NavLink to="/news-opinions">News & Opinions</NavLink>
+            <NavLink to="/media">Media</NavLink>
             <NavLink to="/talks">Talks</NavLink>
             
             <NavLink to="/websitedetails">Website Details</NavLink>
