@@ -28,11 +28,11 @@ function formatPress(type: string, link: string, title: string, source: string, 
         <ul id="Press">
             {formatPress(
                 "Opinion",
-                cntrphd, "Imagining Dystopias: CNTR Researchers Reflect on the 2025 Conference on Language Modeling"
+                "https://cntr.brown.edu/news/2025-11-19/imagining-dystopias", "Imagining Dystopias: CNTR Researchers Reflect on the 2025 Conference on Language Modeling"
                 , "Brown Center for Technological Responsibility, Reimagination and Redesign", "November 19, 2025")}
             {formatPress(
                 "Opinion",
-                cntrphd, "Testing LLMs in a sandbox isn’t responsible. Focusing on community use and needs is"
+                "https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing", "Testing LLMs in a sandbox isn’t responsible. Focusing on community use and needs is"
                 , "Brown Center for Technological Responsibility, Reimagination and Redesign", "September 15, 2025")}
 
             {formatPress(
