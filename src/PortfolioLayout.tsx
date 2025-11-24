@@ -36,7 +36,7 @@ const PortfolioLayout = () => {
           {/* Photo */}
           <img
             src={michelle}   // replace with your photo path
-      alt="Portrait of Your Name"
+      alt="Portrait of Your Michelle L. Ding"
       className="bio-photo"
           />
         </div>
