@@ -13,7 +13,7 @@ export default function Research() {
         To be in the Oxford Handbook of Human Security, 2026.        
       </li>
       <li>
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303">
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303" target="_blank">
         "Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."
         </a>
         {" "}
