@@ -13,6 +13,12 @@ export default function Research() {
         To be in the Oxford Handbook of Human Security, 2026.        
       </li>
       <li>
+        "Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns.""
+        {" "}
+        Max Kamachee, Stephen Casper, <span className="name">Michelle L. Ding</span>, 
+        Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. In review, 2025.
+      </li>
+      <li>
  <a href="https://arxiv.org/abs/2504.17663" target="_blank">
         "The Malicious Technical Ecosystem: Exposing Limitations 
         in Technical Governance of AI-Generated Nonconsensual Intimate Images of Adults."</a>
