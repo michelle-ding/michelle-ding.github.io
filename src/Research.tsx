@@ -13,7 +13,9 @@ export default function Research() {
         To be in the Oxford Handbook of Human Security, 2026.        
       </li>
       <li>
-        "Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns.""
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303">
+        "Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."
+        </a>
         {" "}
         Max Kamachee, Stephen Casper, <span className="name">Michelle L. Ding</span>, 
         Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. In review, 2025.
