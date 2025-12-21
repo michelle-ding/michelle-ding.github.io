@@ -54,6 +54,16 @@ a {
   text-align: left;
 }
 
+.brownresources{
+  color: var(--highlight);
+  font-size: 1.67rem;
+  line-height: 1.5;
+  margin: 0 0 2rem 0;
+  color: var(--text);
+  /* max-width: 60ch; */
+  text-align: left;
+}
+
 /* Links under Bio */
 .bio-links {
   color: var(--highlight);
