@@ -55,14 +55,22 @@ a {
 }
 
 .brownresources{
-  color: var(--highlight);
+  color: var(--text);
+  background-color: yellow;
   font-size: 1.67rem;
   line-height: 1.5;
   margin: 0 0 2rem 0;
-  color: var(--text);
-  /* max-width: 60ch; */
   text-align: left;
 }
+
+.brownresources a{
+  color: var(--text);
+  font-size: 1.67rem;
+  line-height: 1.5;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
 
 /* Links under Bio */
 .bio-links {
