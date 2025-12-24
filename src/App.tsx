@@ -42,8 +42,9 @@ function App() {
               aria-label="Mobile Navigation"
             >
               <NavLink to="/" end onClick={closeMenu}>About</NavLink>
-              <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
+              
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
+              <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
                <NavLink to="/media" onClick={closeMenu}>Media</NavLink>
               <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink>
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
@@ -54,8 +55,9 @@ function App() {
         {/* --- PAGE ROUTES --- */}
         <Routes>
           <Route path="/" element={<PortfolioLayout />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/research" element={<Research />} />
+          <Route path="/projects" element={<Projects />} />
+          
           <Route path="/media" element={<Press />} />
           <Route path="/talks" element={<Talks />} />
           
@@ -66,8 +68,9 @@ function App() {
         <footer className="portfolio-footer" role="contentinfo">
           <nav className="footer-nav desktop-nav" aria-label="Footer Navigation">
             <NavLink to="/" end>About</NavLink>
-            <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/research">Research</NavLink>
+            <NavLink to="/projects">Projects</NavLink>
+            
             <NavLink to="/media">Media</NavLink>
             <NavLink to="/talks">Talks</NavLink>
             
