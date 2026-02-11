@@ -7,10 +7,18 @@ export default function Research() {
         <h1>Research</h1>
       <ul className="publications-list">
         <li>
-        "Silencing at Scale: AI Generated Abuse, Digital Democracy, 
-        and the Urgent Need to Dismantle the Nudifier Economy."{" "}
+        <a href="https://arxiv.org/abs/2602.04759" target="_blank">
+          "How to Stop Playing Whack-a-Mole: Mapping the Ecosystem of Technologies Facilitating 
+          AI-Generated Non-Consensual Intimate Images."</a>{" "}
+        <span className="name">Michelle L. Ding</span>, Harini Suresh, Suresh Venkatasubramanian. 
+        Preprint, 2026.        
+      </li>
+        <li>
+        <a href="https://global.oup.com/academic/product/the-oxford-handbook-of-human-security-9780197823934?lang=en&cc=us" target="_blank">
+          "Silencing at Scale: AI Generated Abuse, Digital Democracy, 
+        and the Urgent Need to Dismantle the Nudifier Economy."</a>{" "}
         Malika Saada Saar and <span className="name">Michelle L. Ding</span>. 
-        To be in the Oxford Handbook of Human Security, 2026.        
+        Oxford Handbook of Human Security, 2026.        
       </li>
       <li>
         <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303" target="_blank">
@@ -18,7 +26,7 @@ export default function Research() {
         </a>
         {" "}
         Max Kamachee, Stephen Casper, <span className="name">Michelle L. Ding</span>, 
-        Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. In review, 2025.
+        Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2025.
       </li>
       <li>
  <a href="https://arxiv.org/abs/2504.17663" target="_blank">
@@ -28,8 +36,6 @@ export default function Research() {
         Sociotechnical AI Governance
         Workshop, CHI Conference on Human Factors in Computing Systems, 2025       
       </li>
-      
-       
         </ul>
     </main>
   );
