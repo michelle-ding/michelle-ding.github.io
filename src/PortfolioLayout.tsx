@@ -32,6 +32,8 @@ const PortfolioLayout = () => {
                     <a href="https://cntr.brown.edu/" id="ref" target="_blank">Center for Technological Responsibility, Reimagination, and Redesign (CNTR)</a> 
                     {" "} and the {" "}
                     <a href="https://discolab.cs.brown.edu/" id="ref" target="_blank">Data in Society Collective (DISCO) Lab.</a>{" "}
+                    <span className="spanhighlight">Follow my thoughts & doodles in <a href="https://michellelding.substack.com/" target="_blank">
+                    Finding Peace in an AI-Everywhere World</a> :) </span> 
             </p>
              <div className="bio-links" aria-label="Quick Links">
               <a href="mailto:michelle_ding@brown.edu" id="ref" target="_blank">Email</a>
@@ -40,6 +42,7 @@ const PortfolioLayout = () => {
             <a href="https://michellelding.substack.com/" id="ref" target="_blank">Substack</a>
             <a href="https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en" id="ref" target="_blank">Google Scholar</a>
             </div>
+            
               </div>
           
           {/* Photo */}

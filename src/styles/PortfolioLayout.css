@@ -73,7 +73,12 @@ a {
   text-align: left;
 }
 
-
+/* .spanhighlight{
+  color: var(--highlight);
+}
+.spanhighlight a{
+  color: var(--highlight);
+} */
 /* Links under Bio */
 .bio-links {
   color: var(--highlight);
@@ -213,6 +218,9 @@ a {
 }
 
 .footer-nav a {
+  font-family: didot;
+  font-style: italic;
+  font-weight: bold;
   color: var(--highlight);
   font-size: 1.67rem;
   /* font-weight: 900; */

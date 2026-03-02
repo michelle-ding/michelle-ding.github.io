@@ -23,7 +23,7 @@ export default function Projects() {
         <div>
             The <a href="https://srch.cs.brown.edu" target="_blank">Socially Responsible Computing Handbook (SRCH)</a>{" "} is a community-owned, 
             interdisciplinary think tank and living resource that I founded in May 2024 with{" "}
-            <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
+            advisors <a href="https://vivo.brown.edu/display/suresh" id="ref" target="_blank">
                 Suresh Venkatasubramanian</a> and {" "}
             <a href="http://www.julianetter.de/" id="ref" target="_blank">Julia Netter</a>.
             Our goal is to improve the quality of socially computing education taught in Brown University's
