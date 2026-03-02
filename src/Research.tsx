@@ -4,7 +4,7 @@ import "./styles/PortfolioLayout.css";
 export default function Research() {
   return (
     <main className="publications">
-        <h1>Research</h1>
+        <h1 className="h1_page">Research</h1>
       <ul className="publications-list">
         <li>
         <a href="https://arxiv.org/abs/2602.04759" target="_blank">

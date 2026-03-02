@@ -7,25 +7,22 @@ const PortfolioLayout = () => {
     <div className="portfolio-layout">
        <div className="brownresources">
 
-                BROWN COMMUNITY RESOURCES:{" "}
+                {"/*"} brown community resources:{" "}
 <a href="https://michellelding.substack.com/p/caring-for-yourself-and-each-other"
               id="ref" target="_blank">
-                [Illustrated Guide]
+                [illustrated guide]
               </a>{" "}
               <a href="https://docs.google.com/spreadsheets/d/1xUQaOY7KlPeC0Y4JFPUqTS_xYSLlpiWaLjTEZE6Vwvw/edit?usp=sharing"
               id="ref" target="_blank">
-                [Full Spreadsheet]
-              </a>
+                [full spreadsheet]
+              </a>{" */"}
+              
               </div>
-      <h1 className="mobile-header">Michelle L. Ding</h1>
+      {/* <h1 className="mobile-header">Michelle L. Ding</h1> */}
       <main className="portfolio-bio" role="main" aria-label="Biography">
         
         <div className="bio-container">
-          {/* Bio Text */}
           <div className="bio-text">
-            
-            <h1 className="desktop-header">Michelle L. Ding</h1>
-            
             <p>
             Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. 
             I am currently a Computer Science Ph.D student at Brown University
@@ -36,17 +33,13 @@ const PortfolioLayout = () => {
                     {" "} and the {" "}
                     <a href="https://discolab.cs.brown.edu/" id="ref" target="_blank">Data in Society Collective (DISCO) Lab.</a>{" "}
             </p>
-        
              <div className="bio-links" aria-label="Quick Links">
-              
               <a href="mailto:michelle_ding@brown.edu" id="ref" target="_blank">Email</a>
             <a href="https://bsky.app/profile/michelleding.bsky.social" id="ref" target="_blank">Bluesky</a>
             <a href="https://www.linkedin.com/in/michelleding1/" id="ref" target="_blank">LinkedIn</a>
             <a href="https://michellelding.substack.com/" id="ref" target="_blank">Substack</a>
             <a href="https://scholar.google.com/citations?user=yk_fq5AAAAAJ&hl=en" id="ref" target="_blank">Google Scholar</a>
             </div>
-          
-           
               </div>
           
           {/* Photo */}
@@ -56,6 +49,7 @@ const PortfolioLayout = () => {
       className="bio-photo"
           />
         </div>
+
       </main>
     </div>
 

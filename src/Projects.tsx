@@ -113,7 +113,7 @@ export default function Projects() {
 
   return (
     <main className="projects">
-      <h1>Projects (click to expand)</h1>
+      <h1 className="h1_page">Projects</h1>
       <ul className="expandable-list">
         {items.map((item, index) => (
           <li key={index}>

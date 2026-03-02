@@ -4,7 +4,6 @@ import "./styles/PortfolioLayout.css";
 function formatPress(type: string, link: string, title: string, source: string, date: string){
     return(
             <li>
-            <span className="name">[{type}]</span>{" "}
             "<a id="ref" href={link} target="_blank">
                 {title}.
             </a>"{" "} <i>{source}</i>, {date}
@@ -25,6 +24,8 @@ function formatPress(type: string, link: string, title: string, source: string, 
     const cntrprize = "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"
     const cntrphd="https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students"
     return(
+        <div>
+        <span className="mediatitle">Op-eds</span>
         <ul id="Press">
             {formatPress(
                 "Opinion",
@@ -34,22 +35,13 @@ function formatPress(type: string, link: string, title: string, source: string, 
                 "Opinion",
                 "https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing", "Testing LLMs in a sandbox isn’t responsible. Focusing on community use and needs is"
                 , "Brown Center for Technological Responsibility, Reimagination and Redesign", "September 15, 2025")}
-
-            {formatPress(
-                "Interview",
-                cntrphd, "2025 Incoming CCMB and CNTR PhD students"
-                , "Brown University Data Science Institute", "Sep 5, 2025")}
-
+    </ul>
+    <span className="mediatitle">News</span>
+    <ul id="Press">
             {formatPress(
                 "News",
                 cntrprize, "The Data Science Institute Awards Inaugural Senior Awards to 2025 Graduating Seniors"
                 , "Brown University Data Science Institute", "May 29, 2025")}
-
-            {formatPress(
-                "Interview",
-                cntr, "2025 CNTR Graduating Student Spotlights"
-                , "Brown Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
-
             {formatPress(
                 "News",
                 seniorprize, "Twenty-Four Students Win 2025 Brown CS Senior Prizes"
@@ -59,8 +51,20 @@ function formatPress(type: string, link: string, title: string, source: string, 
                 "News",
                 cntrnews, "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook", 
                 "Brown Center for Technological Responsibility, Reimagination and Redesign", "April 24, 2025")}
+    </ul>
 
+    <span className="mediatitle">Interviews</span>
+    <ul id="Press">
+           {formatPress(
+                "Interview",
+                cntrphd, "2025 Incoming CCMB and CNTR PhD students"
+                , "Brown University Data Science Institute", "Sep 5, 2025")}
             {formatPress(
+                "Interview",
+                cntr, "2025 CNTR Graduating Student Spotlights"
+                , "Brown Center for Technological Responsibility, Reimagination and Redesign", "May 2, 2025")}
+
+                {formatPress(
                 "Interview",
                 aaasinterview, "A Summer of Science: AAAS 2023 Summer Interns’ Stories", "American Association for the Advancement of Science", "August 7, 2023")}
        
@@ -70,23 +74,25 @@ function formatPress(type: string, link: string, title: string, source: string, 
              bdh, "May 3, 2023")}
       
              {formatPress("Interview",
-                titleix, "Sexual misconduct reports increased 52% in 2021-22 academic year", bdh, "November 16, 2022")}
+                titleix, "Sexual misconduct reports increased 52% in 2021-22 academic year", bdh, "Nov 16, 2022")}
  
             {formatPress(
                 "Interview",
-                brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "November 14, 2022")}
+                brunobrief, "The Bruno Brief: Diving into advocacy around sexual assault on campus", bdh, "Nov 14, 2022")}
  
             {formatPress(
                 "Interview",
-                esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "November 3, 2022")}
-                </ul>
+                esvinterview, "‘An ongoing effort’: looking into past, present, future of sexual assault activism at Brown", bdh, "Nov 3, 2022")}
+           
+    </ul>
+                </div>
     )
 }
 
 export default function Press() {
   return (
     <main className="press">
-        <h1>Media</h1>
+        <h1 className="h1_page">Media</h1>
       <div className="press-list">
         {pressAndPub()}
         </div>

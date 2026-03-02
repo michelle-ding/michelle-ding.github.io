@@ -4,7 +4,7 @@ import "./styles/PortfolioLayout.css";
 export default function Talks() {
   return (
     <main className="talks">
-        <h1>Talks</h1>
+        <h1 className="h1_page">Talks</h1>
             <ul>
               <li>
                 <span className="name">Nov 4, 2025:</span> I gave a guest lecture at Brown's <a href="https://home.watson.brown.edu/">

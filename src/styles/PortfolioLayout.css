@@ -1,9 +1,12 @@
 :root {
-  --bg: white;
-  --text: #333;
-  --background: white;
-  --highlight: blue;
-  --serif: didot;
+  --bg: #FEF9DF;
+  --text: #003218;
+  --background: #FEF9DF;
+  --highlight: #5049F2;
+  --footer: #68DED1;
+  --serif: Didot;
+  --resources: #FFE59D;;
+  --light_purple: #D9D6FE;
 }
 
 * {
@@ -14,7 +17,7 @@ html, body {
   height: 100%;
   margin: 0;
   overflow-x: hidden; /* prevent horizontal scrollbar */
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Links inside paragraphs */
@@ -42,7 +45,6 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  /* padding: 2rem 0; */
 }
 
 .portfolio-bio p {
@@ -55,8 +57,8 @@ a {
 }
 
 .brownresources{
-  color: var(--text);
-  background-color: yellow;
+  /* color: var(--highlight); */
+  background-color: var(--resources);
   font-size: 1.67rem;
   line-height: 1.5;
   margin: 0 0 2rem 0;
@@ -64,7 +66,7 @@ a {
 }
 
 .brownresources a{
-  color: var(--text);
+  /* color: var(--highlight); */
   font-size: 1.67rem;
   line-height: 1.5;
   margin: 0 0 2rem 0;
@@ -89,7 +91,6 @@ a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--background);
   z-index: 100;
 }
 
@@ -104,27 +105,40 @@ a {
   /* max-width: 1500px; */
 }
 
-h1 {
+/* h1 {
   font-style: italic;
   font: weight 500px;
   color: var(--highlight);
-  font-family: didot;
+  font-family: var(--serif);
   font-size: 5rem;
+  margin-bottom:0em;
+} */
+
+.h1_page{
+  /* font-style: italic; */
+  font-weight: 900;
+  color: var(--highlight);
+  /* font-family: var(--font); */
+  font-size: 1.67rem;
   margin-bottom:0em;
 }
 
 .publications-list li {
   font-size: 1.67rem;
   color: var(--text);
-  margin-bottom: 2rem;
+  list-style-type: none;   
+  padding: 0;       
+  border: 2px solid var(--highlight);
+  margin-bottom: 1rem;
+  padding-inline-start: 0;
+  padding: 0.5rem 1rem;    
+
 }
 
-/* .publications-list li a {
-  text-decoration-color: var(--highlight);
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  padding: 0.1em 0.25em;
-} */
+.researchlinks{
+  background-color: var(--resources);
+}
+
 
 /* Projects */
 .projects {
@@ -172,6 +186,11 @@ h1 {
   color: var(--text);
 }
 
+.mediatitle{
+  background-color: var(--resources);
+  font-weight:bold;
+}
+
 /* .press-list li {
   font-size: 2rem;
   color: var(--text);
@@ -180,36 +199,36 @@ h1 {
 
 /* Footer nav */
 .footer-nav {
-  font-style: italic;
-  font-family: didot;
-  background-color: var(--highlight);
+  /* font-style: italic; */
+  /* font-family: var(--serif); */
+  background-color: var(--footer);
   display: flex;
   justify-content: right;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   margin: 0;
   padding-right: 4rem;
 }
 
 .footer-nav a {
-  color: white;
+  color: var(--highlight);
   font-size: 1.67rem;
-  font-weight: 700;
+  /* font-weight: 900; */
   text-decoration: none;
   border: 2px solid transparent;
   border-radius: 0rem;
   margin: 0em;
-  padding: 0.25em 0.5em;  /* increased padding inside the border box */
+  padding: 0.25em 0.5em;
 }
 
 .footer-nav a:hover {
-  border-color: white;
+  border-color: var(--highlight);
 }
 
 .footer-nav a.active {
-  border-color: white;
+  border-color: var(--highlight);
 }
 
 /* Talks / Website */
@@ -250,7 +269,7 @@ h1 {
   background: var(--background);
   border: 2px solid var(--highlight);
   color: var(--highlight);
-  font-family: didot;
+  font-family: var(--serif);
   font-style: italic;
   font-size: 1.5rem;
   font-weight: 600;
@@ -275,7 +294,7 @@ h1 {
 
 .mobile-dropdown a {
   font-size: 1.5rem;
-  font-family: didot;
+  font-family: var(--serif);
   font-style: italic;
   text-decoration: none;
   background-color: var(--highlight);
@@ -355,7 +374,9 @@ h1 {
 }
 
 .name{
-  color:var(--highlight);
+  font-style:italic;
+  /* color:var(--text);
+  background-color: var(--footer); */
 
 }
 .bio-container {
@@ -366,7 +387,7 @@ h1 {
 
 /* Image styling */
 .bio-photo {
-  width: 375px;          /* desktop width */
+  width: 330px;          /* desktop width */
   max-width: 40%;
   height: auto;
   object-fit: cover;

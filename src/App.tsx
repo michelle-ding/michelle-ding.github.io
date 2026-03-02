@@ -1,7 +1,7 @@
 import { HashRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import PortfolioLayout from "./PortfolioLayout";
-import Research from "./Research";
+import Research from "./Research1";
 import Projects from "./Projects";
 import Talks from "./Talks";
 import Press from "./Press";
@@ -46,7 +46,7 @@ function App() {
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
                <NavLink to="/media" onClick={closeMenu}>Media</NavLink>
-              <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink>
+              {/* <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink> */}
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
             </nav>
           )}
@@ -59,7 +59,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           
           <Route path="/media" element={<Press />} />
-          <Route path="/talks" element={<Talks />} />
+          {/* <Route path="/talks" element={<Talks />} /> */}
           
           <Route path="/websitedetails" element={<Website />} />
         </Routes>
@@ -72,7 +72,7 @@ function App() {
             <NavLink to="/projects">Projects</NavLink>
             
             <NavLink to="/media">Media</NavLink>
-            <NavLink to="/talks">Talks</NavLink>
+            {/* <NavLink to="/talks">Talks</NavLink> */}
             
             <NavLink to="/websitedetails">Website Details</NavLink>
           </nav>
