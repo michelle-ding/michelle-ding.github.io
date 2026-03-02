@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/PortfolioLayout.css";
 import michelle from './images/michelle_ding_portrait.jpg'
+import michelle1 from './images/michelle.png'
 
 const PortfolioLayout = () => {
   return (
