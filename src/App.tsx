@@ -50,7 +50,7 @@ function App() {
               
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
-               <NavLink to="/media" onClick={closeMenu}>Media Database</NavLink>
+               <NavLink to="/misc" onClick={closeMenu}>Misc.</NavLink>
               {/* <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink> */}
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
             </nav>
@@ -63,7 +63,7 @@ function App() {
           <Route path="/research" element={<Research />} />
           <Route path="/projects" element={<Projects />} />
           
-          <Route path="/media" element={<Press />} />
+          <Route path="/misc" element={<Press />} />
           {/* <Route path="/talks" element={<Talks />} /> */}
           
           <Route path="/websitedetails" element={<Website />} />
@@ -76,7 +76,7 @@ function App() {
             <NavLink to="/research">Research</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             
-            <NavLink to="/media">Media Database</NavLink>
+            <NavLink to="/misc">Misc.</NavLink>
             {/* <NavLink to="/talks">Talks</NavLink> */}
             
             <NavLink to="/websitedetails">Website Details</NavLink>

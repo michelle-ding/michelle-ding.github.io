@@ -3,10 +3,10 @@ import "./styles/PortfolioLayout.css";
 
 function formatPress(type: string, link: string, title: string, source: string, date: string){
     return(
-            <li>
-            "<a id="ref" href={link} target="_blank">
+            <li className="misclist">
+            <a id="ref" href={link} target="_blank">
                 {title}.
-            </a>"{" "} <i>{source}</i>, {date}
+            </a>{" "}<i>{source}</i>, {date}
             </li>
     )}
 
@@ -92,7 +92,7 @@ function formatPress(type: string, link: string, title: string, source: string, 
 export default function Press() {
   return (
     <main className="press">
-        <h1 className="h1_page">Media</h1>
+        <h1 className="h1_page">Misc.</h1>
       <div className="press-list">
         {pressAndPub()}
         </div>
