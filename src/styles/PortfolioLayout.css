@@ -34,11 +34,10 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 2rem 2rem 4rem;
+  padding: 3rem 2rem 4rem;
   margin: 0 auto;
 }
 
-/* Bio Section */
 .portfolio-bio {
   flex: 1;
   display: flex;
@@ -52,12 +51,10 @@ a {
   line-height: 1.5;
   margin: 0 0 2rem 0;
   color: var(--text);
-  /* max-width: 60ch; */
   text-align: left;
 }
 
 .brownresources{
-  /* color: var(--highlight); */
   background-color: var(--resources);
   font-size: 1.67rem;
   line-height: 1.5;
@@ -73,13 +70,6 @@ a {
   text-align: left;
 }
 
-/* .spanhighlight{
-  color: var(--highlight);
-}
-.spanhighlight a{
-  color: var(--highlight);
-} */
-/* Links under Bio */
 .bio-links {
   color: var(--highlight);
   display: flex;
@@ -99,6 +89,23 @@ a {
   z-index: 100;
 }
 
+.portfolio-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+.header-inner {
+  padding: 2rem 2rem 4rem;   /* same as .portfolio-layout */
+  margin: 0 auto;
+  font-family: didot;
+  color: var(--highlight);
+  font-size: 1.67rem;
+  font-style: italic;
+  font-weight: bold;
+}
 /* Publications */
 .publications {
   padding: 2rem 2rem 10rem;
@@ -110,14 +117,6 @@ a {
   /* max-width: 1500px; */
 }
 
-/* h1 {
-  font-style: italic;
-  font: weight 500px;
-  color: var(--highlight);
-  font-family: var(--serif);
-  font-size: 5rem;
-  margin-bottom:0em;
-} */
 
 .h1_page{
   /* font-style: italic; */
@@ -159,6 +158,7 @@ a {
 .expandable-list {
   list-style: none;
   padding: 0;
+  
 }
 
 .expandable-list li {
@@ -196,17 +196,8 @@ a {
   font-weight:bold;
 }
 
-/* .press-list li {
-  font-size: 2rem;
-  color: var(--text);
-  margin-bottom: 0.25em;
-} */
-
 /* Footer nav */
 .footer-nav {
-  /* font-style: italic; */
-  /* font-family: var(--serif); */
-  background-color: var(--footer);
   display: flex;
   justify-content: right;
   align-items: center;
@@ -259,7 +250,7 @@ a {
 
 .resources li{
   list-style-type: none; 
-  font-size: 2rem;
+  font-size: 1.67rem;
   color: var(--highlight);
   padding: 0.5rem 1rem;    
   border: 2px solid var(--highlight);
@@ -275,7 +266,7 @@ a {
 
 .menu-button {
   background: var(--background);
-  border: 2px solid var(--highlight);
+  border: 1px solid var(--highlight);
   color: var(--highlight);
   font-family: var(--serif);
   font-style: italic;
@@ -286,13 +277,13 @@ a {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  z-index: 200;
+  z-index: 2000;
 }
 
 .mobile-dropdown {
   font-weight: 600;
   position: fixed;
-  top: 4.5rem;
+  top: 3.8rem;
   right: 1rem;
   display: flex;
   flex-direction: column;
@@ -324,11 +315,19 @@ a {
   .portfolio-layout {
     padding: 2rem 1rem 4rem;
   }
+  .portfolio-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
 
-  /* .bio-links {
-    flex-direction: column;
-    align-items: flex-start;
-  } */
+  .header-inner {
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
 
   /* Font size adjustments */
   h1 {
@@ -372,12 +371,14 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .portfolio-footer {
     display: none;
   }
 
   .mobile-menu {
     display: block;
+    z-index: 2100;
   }
 }
 
@@ -428,6 +429,28 @@ li{
   .desktop-header {
     display: none;
   }
+
+  .portfolio-bio p,
+  .brownresources,
+  .brownresources a,
+  .bio-links,
+  .publications,
+  .projects,
+  .press,
+  .talks,
+  .website,
+  .publications-list li,
+  .press-list li,
+  .expandable-title,
+  .expandable-content,
+  .h1_page,
+  .header-inner,
+  .menu-button,
+  .mobile-dropdown a,
+  .resources li {
+    font-size: 1rem; /* previously 1.67rem */
+  }
+
   .mobile-header {
     display: block;
   }
@@ -442,15 +465,15 @@ li{
   .bio-photo {
     order: 0;           /* move image before bio-text but after h1 */
     width: 100vw;        /* 80% of viewport width */
-    max-width: 100%;     
+    max-width: 80%;     
     height: auto;
   }
-  h1{
+  /* h1{
     margin-top:0.5em;
     margin-bottom:0;
     line-height: 1;
     margin-bottom:0.5em;
-  }
+  } */
   .bio-text {
     margin-top:0;
     order: 1;           /* text comes after image */

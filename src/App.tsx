@@ -22,8 +22,13 @@ function App() {
 
   return (
     <Router>
+      
       <div className="portfolio-layout">
-        {/* --- MOBILE MENU --- */}
+        <header className="portfolio-header">
+          <div className="header-inner">
+            Michelle L. Ding
+          </div>        
+        </header>
         <div className="mobile-menu">
           <button
             className="menu-button"
