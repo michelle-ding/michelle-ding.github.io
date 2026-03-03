@@ -1,0 +1,131 @@
+:root {
+  --bg: #FEF9DF;
+  --text: #003218;
+  --highlight: #5049F2;
+  --footer: #68DED1;
+  --serif: Didot;
+  --resources: #FFE59D;
+  --light-purple: #D9D6FE;
+}
+
+/* Database container */
+.db-database {
+  margin-top:3rem;
+  padding: 2rem;
+}
+
+/* Filters */
+.db-filters {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.db-filters label {
+  font-weight: bold;
+  color: var(--text);
+}
+
+.db-filters select {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--highlight);
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Projects grid */
+.db-projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Project box */
+.db-project-box {
+  border: 2px solid var(--highlight);
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+/* Project title button */
+.db-expandable-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* Project title text */
+.db-project-title {
+  color: var(--highlight);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Inline project links next to title */
+.db-project-links {
+  display: inline;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+.db-link-span {
+  display: inline;
+}
+
+.db-link-span a {
+  color: var(--highlight);
+  text-decoration: underline;
+}
+
+.db-link-span a:hover {
+  color: var(--text);
+}
+
+/* Dropdown arrow icon */
+.db-dropdown-icon {
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+
+/* Expanded content */
+.db-expandable-content {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+/* Hover effect for project box */
+.db-project-box:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .db-filters {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .db-project-links {
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
+}

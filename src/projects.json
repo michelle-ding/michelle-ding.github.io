@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Imagining Dystopias: CNTR Researchers Reflect on the 2025 Conference on Language Modeling",
+    "category": "Op-Ed",
+    "month": "Nov",
+    "year": 2025,
+     "link": [
+        {"label": "Link",
+        "url": "https://cntr.brown.edu/news/2025-11-19/imagining-dystopias"}],
+    "website": "Brown Center for Technological Responsibility, Reimagination and Redesign",
+    "hasDropdown": false
+  },
+  {
+    "id": 2,
+    "title": "Testing LLMs in a sandbox isn’t responsible. Focusing on community use and needs is.",
+    "category": "Op-Ed",
+    "month": "Sept",
+    "year": 2025,
+    "link": [
+        {"label": "Link",
+        "url": "https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing"}],
+    "website": "Brown Center for Technological Responsibility, Reimagination and Redesign",
+    "hasDropdown": true
+  },
+  {
+    "id": 3,
+    "title": "The Data Science Institute Awards Inaugural Senior Awards to 2025 Graduating Seniors",
+    "category": "News",
+    "month": "May",
+    "year": 2025,
+    "link": [
+        {"label": "Link",
+        "url": "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"}],
+    "website": "Brown University Data Science Institute",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+    {
+    "id": 4,
+    "title": "Twenty-Four Students Win 2025 Brown CS Senior Prizes",
+    "category": "News",
+    "month": "May",
+    "year": 2025,
+    "link": [
+        {"label": "Link",
+        "url": "https://cs.brown.edu/news/2025/05/01/twenty-four-students-win-2025-brown-cs-senior-prizes/"}],
+    "website": "Brown University Computer Science Department",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+    {
+    "id": 7,
+    "title": "The CNTR celebrates its one-year-anniversary and launches the Socially Responsible Computing Handbook",
+    "category": "News",
+    "month": "April",
+    "year": 2025,
+     "link": [
+        {"label": "Link",
+        "url": "https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards"}],
+    "website": "Brown University Computer Science Department",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+    {
+    "id": 5,
+    "title": "2025 Incoming CCMB and CNTR PhD students",
+    "category": "Interview",
+    "month": "Sept",
+    "year": 2025,
+    "link": [
+        {"label": "Link",
+        "url": "https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students"}],
+    "website": "Brown University Data Science Institute",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+      {
+    "id": 6,
+    "title": "2025 CNTR Graduating Student Spotlights",
+    "category": "Interview",
+    "month": "May",
+    "year": 2025,
+    "link": [
+        {"label": "Link",
+        "url": "https://cntr.brown.edu/news/2025-05-02/2025-cntr-graduating-student-spotlights"}],
+    "website": "Brown University Data Science Institute",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+        {
+    "id": 8,
+    "title": "A Summer of Science: AAAS 2023 Summer Interns’ Stories",
+    "category": "Interview",
+    "month": "Aug",
+    "year": 2023,
+    "link": [
+        {"label": "Link",
+        "url": "https://cntr.brown.edu/news/2025-05-02/2025-cntr-graduating-student-spotlights"}],
+    "website": "American Association for the Advancement of Science",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+          {
+    "id": 9,
+    "title": "End Sexual Violence at Brown hosts nonprofit roundtable to address survivor support, advocacy",
+    "category": "Interview",
+    "month": "May",
+    "year": 2023,
+     "link": [
+        {"label": "Link",
+        "url": "https://www.browndailyherald.com/article/2023/05/end-sexual-violence-at-brown-hosts-nonprofit-roundtable-to-address-survivor-support-advocacy"}],
+    "website": "The Brown Daily Herald",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+            {
+    "id": 10,
+    "title": "Sexual misconduct reports increased 52% in 2021-22 academic year",
+    "category": "Interview",
+    "month": "Nov",
+    "year": 2022,
+    "link": [
+        {"label": "Link",
+        "url": "https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year"}],
+    "website": "The Brown Daily Herald",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+            {
+    "id": 11,
+    "title": "The Bruno Brief: Diving into advocacy around sexual assault on campus",
+    "category": "Interview",
+    "month": "Nov",
+    "year": 2022,
+    "link": [
+        {"label": "Link",
+        "url": "https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus"}],
+    "website": "The Brown Daily Herald",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+  },
+    {
+    "id": 12,
+    "title": "`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown",
+    "category": "Interview",
+    "month": "Nov",
+    "year": 2022,
+    "link": [
+        {"label": "Link",
+        "url": "https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown"}],
+    "website": "The Brown Daily Herald",
+    "hasDropdown": false, 
+    "details": "Design project with UI/UX prototypes."
+    }
+  ]

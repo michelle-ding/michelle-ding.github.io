@@ -50,7 +50,7 @@ function App() {
               
               <NavLink to="/research" onClick={closeMenu}>Research</NavLink>
               <NavLink to="/projects" onClick={closeMenu}>Projects</NavLink>
-               <NavLink to="/media" onClick={closeMenu}>Media</NavLink>
+               <NavLink to="/media" onClick={closeMenu}>Media Database</NavLink>
               {/* <NavLink to="/talks" onClick={closeMenu}>Talks</NavLink> */}
               <NavLink to="/websitedetails" onClick={closeMenu}>Website Details</NavLink>
             </nav>
@@ -76,7 +76,7 @@ function App() {
             <NavLink to="/research">Research</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             
-            <NavLink to="/media">Media</NavLink>
+            <NavLink to="/media">Media Database</NavLink>
             {/* <NavLink to="/talks">Talks</NavLink> */}
             
             <NavLink to="/websitedetails">Website Details</NavLink>
