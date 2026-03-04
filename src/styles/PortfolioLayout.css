@@ -97,7 +97,7 @@ a {
 }
 
 .header-inner {
-  padding: 2rem 2rem 4rem;   /* same as .portfolio-layout */
+  padding: 2rem 2rem 0rem;
   margin: 0 auto;
   font-family: didot;
   color: var(--highlight);
