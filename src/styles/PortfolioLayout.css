@@ -334,7 +334,7 @@ a {
   .header-inner {
     max-width: 100%;
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
   }
 
   /* Font size adjustments */
