@@ -22,7 +22,7 @@ function Homepage() {
    <div className="page-wrapper">
   <div className="markdown-container">
     <div className="header-wrapper">
-      <img src={michelle1} alt="Portrait" className="portrait" />
+      <img src={michelle} alt="Portrait" className="portrait" />
       <div className="header-text">
         <ReactMarkdown>{headerContent}</ReactMarkdown>
       </div>
