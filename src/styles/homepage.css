@@ -61,7 +61,8 @@ body, html {
   width: 160px;
   height: 160px;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 90%; */
+   border-radius:50%;
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
@@ -153,18 +154,23 @@ body, html {
     font-size: calc(var(--font-h2) * 0.8);
   }
 
-  .portrait {
-    width: 150px;
-    height: 150px;
-  }
+.header-wrapper {
+  display: flex;
 
-  .header-wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
+  flex-direction: column; /* stack portrait above text */
+  align-items: flex-start; /* align portrait to the left */
+}
 
-  .header-text {
-    min-width: unset;
-  }
+.header-text {
+  width: 100%;  /* take full width below the portrait */
+}
+
+.portrait {
+    border-radius:50%;
+  width: 150px;   /* adjust size */
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
 }
