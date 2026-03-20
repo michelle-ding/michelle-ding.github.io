@@ -1,6 +1,6 @@
 ## Research Interests
 ### AI-Generated Non-Consensual Intimate Images
-I am interested in bridging the gaps between technical, policy, and advocacy efforts for survivor-centered AIG-NCII prevention. I hope to shift the deepfake abuse conversation from targeting single models, apps, and images toward ecosystem-level interventions to avoid repeating endless cycles of whack-a-mole. My current work maps out the technological [ecosystem](https://michelle-ding.github.io/ecosystem/) powering generative AI abuse, serving as an informative taxonomy and resource for policymakers, civil society, industry, and researchers to develop more contextualized interventions. 
+I am interested in bridging the gaps between technical, policy, and advocacy efforts for survivor-centered AIG-NCII prevention. My current work maps out the technological [ecosystem](https://michelle-ding.github.io/ecosystem/) powering generative AI abuse, serving as an informative taxonomy and resource for policymakers, civil society, industry, and researchers to develop more contextualized interventions. 
 
 Related work:
 - **"How to Stop Playing Whack-a-Mole: Mapping the Ecosystem of Technologies Facilitating AI-Generated Non-Consensual Intimate Images."** _Michelle L. Ding_, Harini Suresh, Suresh Venkatasubramanian. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2602.04759) [[PDF]](https://arxiv.org/pdf/2602.04759) [[Website]](https://michelle-ding.github.io/ecosystem/)
