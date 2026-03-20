@@ -1,6 +1,4 @@
 # Michelle L. Ding
-Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. I am a Computer Science Ph.D student at Brown University advised by [Suresh Venkatasubramanian](https://vivo.brown.edu/display/suresh) and [Harini Suresh](https://harinisuresh.com/). I am affiliated with the [Center for Tech Responsibility](https://cntr.brown.edu/) and the [Data in Society Collective Lab](https://discolab.cs.brown.edu/). 
-
-Follow my thoughts & doodles in [Finding Peace in an AI Everywhere World](https://michellelding.substack.com/).
+Hi! I'm Michelle, a researcher and community organizer critically investigating how AI systems impact communities. I am a Computer Science Ph.D student at Brown University advised by [Suresh Venkatasubramanian](https://vivo.brown.edu/display/suresh) and [Harini Suresh](https://harinisuresh.com/). I am affiliated with the [Center for Tech Responsibility](https://cntr.brown.edu/) and the [Data in Society Collective Lab](https://discolab.cs.brown.edu/). Follow my thoughts & doodles in [Finding Peace in an AI Everywhere World](https://michellelding.substack.com/).
 
 
