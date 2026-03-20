@@ -66,10 +66,6 @@ body, html {
   flex-shrink: 0;
 }
 
-.portrait:hover {
-  transform: scale(1.05);
-}
-
 .markdown-container h1 {
   font-size: var(--font-h1);
   margin-bottom: 1rem;
