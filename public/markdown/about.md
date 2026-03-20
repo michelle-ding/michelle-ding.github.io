@@ -20,7 +20,7 @@ Related work:
 ## Other fun projects!
 - I write and illustrate a substack, [Finding Peace in an AI-Everywhere World](https://michellelding.substack.com/)
 - I am creating a zine with [Angelina Ding](https://angelinading.com/) that curates resources for artists who are concerned about generative AI
-- I am a subject matter expert for an upcoming [Scitoons](https://cntr.brown.edu/projects/scitoons-ethics-ai) animated educational video on Responsible AI
+- I serve as a subject matter expert for an upcoming [Scitoons](https://cntr.brown.edu/projects/scitoons-ethics-ai) animated educational video on Responsible AI
 - I founded the [Socially Responsible Computing Handbook](https://srch.cs.brown.edu/), a community-owned, interdisciplinary think tank and living resource used to improve the quality of socio-technical computing education taught in Brown University's Computer Science courses
 
 ## Contact
