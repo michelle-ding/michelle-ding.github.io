@@ -66,6 +66,17 @@ body, html {
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
+.icon {
+  width: 200px;      /* adjust as needed */
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  padding-left: 80px;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* grow on hover */
+}
 
 .markdown-container h1 {
   font-size: var(--font-h1);
@@ -166,6 +177,18 @@ body, html {
 
 .header-text {
   width: 100%;  /* take full width below the portrait */
+}
+
+.icon {
+  width: 200px;      /* adjust as needed */
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  padding-left: 0px;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* grow on hover */
 }
 
 .portrait {
