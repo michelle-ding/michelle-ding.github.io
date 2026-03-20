@@ -13,13 +13,14 @@
   --footer-text: #fff0f5;
 
   /* Font sizes */
-  --font-h1: 3rem;
+  --font-h1: 2.5rem;
   --font-h2: 1.3rem;
   --font-h3: 1.05rem;
   --font-p: 1.05rem;
   --font-code: 0.95rem;
   --font-footer: 0.9rem;
-  --cursive: "Grand Hotel", cursive;
+  /* --cursive: "Grand Hotel", cursive; */
+    --cursive: "Playfair Display", serif;
 }
 
 body, html {
@@ -69,7 +70,7 @@ body, html {
 .markdown-container h1 {
   font-size: var(--font-h1);
   font-family: var(--cursive);
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   line-height: 1;
   margin-bottom: 1rem;
