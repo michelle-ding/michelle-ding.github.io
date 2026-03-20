@@ -15,7 +15,7 @@ Related work:
 I am interested in conducting participatory and contextualized LLM evaluations that center communities impacted by AI systems. I am currently working on evaluating the accuracy of LLMs for reproductive health information in partnership with reproductive justice advocates and experts. I am also exploring methods for researchers to conduct location-sensitive LLM evaluations.
 
 Related work:
-- **"Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."** _Michelle L. Ding_, Jo Kavishe, Victor Ojewale, Suresh Venkatasubramanian. Opinion abstract presented at the [Workshop on Socially Responsible Language Modelling Research](https://solar-colm.github.io/) at [COLM](https://colmweb.org/) 2025, Montreal, Canada. [[Link]](https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing) [[Resources]](https://bit.ly/solar-cntr)
+- **"Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."** _Michelle L. Ding_, Jo Kavishe, Victor Ojewale, Suresh Venkatasubramanian. Opinion abstract presented at the [Workshop on Socially Responsible Language Modelling Research](https://solar-colm.github.io/) at [COLM](https://colmweb.org/) 2025, Montreal, Canada. [[Abstract]](https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing) [[Resources]](https://bit.ly/solar-cntr)
 
 ## Other fun projects!
 - I write and illustrate a substack, [Finding Peace in an AI-Everywhere World](https://michellelding.substack.com/)
