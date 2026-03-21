@@ -17,7 +17,7 @@ I am interested in conducting participatory and contextualized LLM evaluations t
 Related work:
 - **"Testing LLMs in a sandbox isn’t responsible. Focusing on community uses and needs is."** _Michelle L. Ding_, Jo Kavishe, Victor Ojewale, Suresh Venkatasubramanian. Opinion abstract presented at the [Workshop on Socially Responsible Language Modelling Research](https://solar-colm.github.io/) at [COLM](https://colmweb.org/) 2025, Montreal, Canada. [[Abstract]](https://cntr.brown.edu/news/2025-09-15/responsible-llm-testing) [[Resources]](https://bit.ly/solar-cntr)
 
-## Other fun projects!
+## Other Fun Projects!
 - I write and illustrate a substack, [Finding Peace in an AI-Everywhere World](https://michellelding.substack.com/)
 
 - I am [working](https://cntr.brown.edu/projects/scitoons-ethics-ai) with [SciToons](https://www.youtube.com/@SciToons/videos) to create an animated educational video about Responsible AI
