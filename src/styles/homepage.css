@@ -2,15 +2,15 @@
   --bg-color: #fcf2f2;
   --text-color: #1a1a1a;
   --primary-color: #e75480;
-  --secondary-color: #3fa374;
+  --secondary-color: #5149eb;
   --link-color: #e75480;
-  --link-hover: #3fa374;
+  --link-hover: #5149eb;
   --blockquote-bg: #f6fff6;
   --blockquote-border: #3fa374;
   --code-bg: #fdf0f5;
   --shadow-color: rgba(0, 0, 0, 0.08);
-  --footer-bg: #3fa374;
-  --footer-text: #fff0f5;
+  --footer-bg: #b47a8b;
+  --footer-text: #f6fff6;
 
   /* Font sizes */
   --font-h1: 2.5rem;
