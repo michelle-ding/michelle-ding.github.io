@@ -7,9 +7,9 @@ Related work:
 
 - **"Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."** Max Kamachee*, Stephen Casper*, _Michelle L. Ding_, Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2512.11815) [[PDF]](https://arxiv.org/pdf/2512.11815) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303)
 
-- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** _Michelle L. Ding_, Malika Saada Saar. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://global.oup.com/academic/product/the-oxford-handbook-of-human-security-9780197823934?lang=en&cc=us)
+- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** Malika Saada Saar and _Michelle L. Ding_. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://global.oup.com/academic/product/the-oxford-handbook-of-human-security-9780197823934?lang=en&cc=us)
 
-- **"The Malicious Technical Ecosystem: Exposing Limitations in Technical Governance of AI-Generated Non-Consensual Intimate Images of Adults."** _Michelle L. Ding_, Harini Suresh. Sociotechnical AI Governance Workshop (STAIG), Conference on Human Factors in Computing Systems 2025, Yokahoma, Japan. [[Arxiv]](https://arxiv.org/abs/2504.17663) [[PDF]](https://arxiv.org/pdf/2504.17663)
+- **"The Malicious Technical Ecosystem: Exposing Limitations in Technical Governance of AI-Generated Non-Consensual Intimate Images of Adults."** _Michelle L. Ding_ and Harini Suresh. Sociotechnical AI Governance Workshop (STAIG), Conference on Human Factors in Computing Systems 2025, Yokahoma, Japan. [[Arxiv]](https://arxiv.org/abs/2504.17663) [[PDF]](https://arxiv.org/pdf/2504.17663)
 
 ### Community-Driven LLM Evaluations
 I am interested in conducting participatory and contextualized LLM evaluations that center communities impacted by AI systems. I am currently working on evaluating the accuracy of LLMs for reproductive health information in partnership with reproductive justice advocates and experts. I am also exploring methods for researchers to conduct location-sensitive LLM evaluations.
