@@ -1,3 +1,5 @@
+>Recovery & Support Resources for the Brown/Providence Community: [Illustrated Guide](https://michellelding.substack.com/p/caring-for-yourself-and-each-other), [Full Spreadsheet](https://docs.google.com/spreadsheets/d/1xUQaOY7KlPeC0Y4JFPUqTS_xYSLlpiWaLjTEZE6Vwvw/edit?gid=0#gid=0)
+
 ## Research Interests
 ### AI-Generated Non-Consensual Intimate Images
 I am interested in bridging the gaps between technical, policy, and advocacy efforts for survivor-centered AIG-NCII prevention. My current work maps out the technological [ecosystem](https://michelle-ding.github.io/ecosystem/) powering generative AI abuse, serving as an informative taxonomy and resource for policymakers, civil society, industry, and researchers to develop more contextualized interventions. 

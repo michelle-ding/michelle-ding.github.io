@@ -22,6 +22,7 @@ function Homepage() {
   return (
    <div className="page-wrapper">
   <div className="markdown-container">
+   
     <div className="header-wrapper">
       <img src={michelle} alt="Portrait" className="portrait" />
       <div className="header-text">
