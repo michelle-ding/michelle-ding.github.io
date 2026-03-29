@@ -39,8 +39,6 @@ Related work:
 
 - [Sexual misconduct reports increased 52% in 2021-22 academic year.](https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year) The Brown Daily Herald. 2022.
 
-- [The Bruno Brief: Diving into advocacy around sexual assault on campus.](https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus) The Brown Daily Herald. 2022. 
-
 - [`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown.](https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown) The Brown Daily Herald. 2022
 
 ## Contact
