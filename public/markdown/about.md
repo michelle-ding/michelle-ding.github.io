@@ -26,7 +26,7 @@ Related work:
 
 - I founded the [Socially Responsible Computing Handbook](https://srch.cs.brown.edu/), a community-owned, interdisciplinary think tank and living resource used to improve the quality of socio-technical computing education taught in Brown University's Computer Science courses
 
-## Selected Press
+<!-- ## Selected Press
 - [Incoming CCMB and CNTR PhD students.](https://dsi.brown.edu/news/2025-09-05/2025-incoming-phd-students) Brown University Data Science Institute. 2025.
 
 - [The Data Science Institute Awards Inaugural Senior Awards to 2025 Graduating Seniors.](https://dsi.brown.edu/news/2025-05-29/2025-dsi-senior-awards) Brown University Data Science Institute. 2025.
@@ -39,7 +39,7 @@ Related work:
 
 - [Sexual misconduct reports increased 52% in 2021-22 academic year.](https://www.browndailyherald.com/article/2022/11/sexual-misconduct-reports-increased-52-in-2021-22-academic-year) The Brown Daily Herald. 2022.
 
-- [`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown.](https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown) The Brown Daily Herald. 2022
+- [`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown.](https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown) The Brown Daily Herald. 2022 -->
 
 ## Contact
 michelle_ding@brown.edu
