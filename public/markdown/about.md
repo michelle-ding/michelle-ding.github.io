@@ -41,7 +41,7 @@ Related work:
 
 - [The Bruno Brief: Diving into advocacy around sexual assault on campus.](https://www.browndailyherald.com/article/2022/11/the-bruno-brief-diving-into-advocacy-around-sexual-assault-on-campus) The Brown Daily Herald. 2022. 
 
-- [`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown.](ttps://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown) The Brown Daily Herald. 2022
+- [`An ongoing effort’: looking into past, present, future of sexual assault activism at Brown.](https://www.browndailyherald.com/article/2022/11/an-ongoing-effort-looking-into-past-present-future-of-sexual-assault-activism-at-brown) The Brown Daily Herald. 2022
 
 ## Contact
 michelle_ding@brown.edu
