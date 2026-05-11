@@ -11,7 +11,7 @@ Related work:
 
 - **"Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."** Max Kamachee*, Stephen Casper*, _Michelle L. Ding_, Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2512.11815) [[PDF]](https://arxiv.org/pdf/2512.11815) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303)
 
-- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** Malika Saada Saar and _Michelle L. Ding_. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://global.oup.com/academic/product/the-oxford-handbook-of-human-security-9780197823934?lang=en&cc=us)
+- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** Malika Saada Saar and _Michelle L. Ding_. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://global.oup.com/academic/product/the-oxford-handbook-of-human-security-9780197823934?cc=us&lang=en&)
 
 - **"The Malicious Technical Ecosystem: Exposing Limitations in Technical Governance of AI-Generated Non-Consensual Intimate Images of Adults."** _Michelle L. Ding_ and Harini Suresh. Sociotechnical AI Governance Workshop (STAIG), Conference on Human Factors in Computing Systems 2025, Yokohoma, Japan. [[Arxiv]](https://arxiv.org/abs/2504.17663) [[PDF]](https://arxiv.org/pdf/2504.17663)
 
