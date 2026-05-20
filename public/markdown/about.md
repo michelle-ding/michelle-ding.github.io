@@ -4,10 +4,10 @@
 > Survivor Support & Sexual Health [Resources](https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing) in Providence/RI
 ## Research Interests
 ### AI-Generated Non-Consensual Intimate Images
-I am interested in bridging the gaps between technical, policy, and advocacy efforts for survivor-centered AIG-NCII prevention. My current work maps out the technological [ecosystem](https://michelle-ding.github.io/ecosystem/) powering generative AI abuse, serving as an informative taxonomy and resource for policymakers, civil society, industry, and researchers to develop more contextualized interventions. 
+I am interested in bridging the gaps between technical, policy, and advocacy efforts for survivor-centered AIG-NCII prevention. My current work maps out the technological ecosystem powering generative AI abuse, serving as an informative taxonomy and resource for policymakers, civil society, industry, and researchers to develop more contextualized interventions. 
 
 Related work:
-- **"How to Stop Playing Whack-a-Mole: Mapping the Ecosystem of Technologies Facilitating AI-Generated Non-Consensual Intimate Images."** _Michelle L. Ding_, Harini Suresh, Suresh Venkatasubramanian. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2602.04759) [[PDF]](https://arxiv.org/pdf/2602.04759) [[Website]](https://michelle-ding.github.io/ecosystem/)
+- **"How to Stop Playing Whack-a-Mole: Mapping the Ecosystem of Technologies Facilitating AI-Generated Non-Consensual Intimate Images."** _Michelle L. Ding_, Harini Suresh, Suresh Venkatasubramanian. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2602.04759) [[PDF]](https://arxiv.org/pdf/2602.04759) 
 
 - **"Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."** Max Kamachee*, Stephen Casper*, _Michelle L. Ding_, Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2512.11815) [[PDF]](https://arxiv.org/pdf/2512.11815) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303)
 
