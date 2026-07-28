@@ -30,7 +30,7 @@ Related work:
 
 - I am [working](https://cntr.brown.edu/projects/scitoons-ethics-ai) with [SciToons](https://www.youtube.com/@SciToons/videos) to create an animated educational video about Responsible AI
 
-- I founded the [Socially Responsible Computing Handbook](https://srch.cs.brown.edu/), a community-owned, interdisciplinary think tank and living resource used to improve the quality of socio-technical computing education taught in Brown University's Computer Science courses
+- I founded the [Socially Responsible Computing Handbook](https://cntr.brown.edu/news/2025-04-24/cntr01-and-src-handbook), a community-owned, interdisciplinary think tank and living resource used to improve the quality of socio-technical computing education taught in Brown University's Computer Science courses
 
 ## Contact
 michelle_ding@brown.edu
