@@ -38,9 +38,9 @@ function Homepage() {
     <ReactMarkdown>{content}</ReactMarkdown>
   </div>
 
-  <footer className="footer">
+  {/* <footer className="footer">
     &copy; {new Date().getFullYear()} Michelle L. Ding • All Rights Reserved
-  </footer>
+  </footer> */}
 </div>
   );
 }

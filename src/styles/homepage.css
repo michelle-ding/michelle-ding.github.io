@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fcf2f2;
   --text-color: #1a1a1a;
-  --primary-color: #e75480;
+  --primary-color: #5149eb;
   --secondary-color: #5149eb;
   --link-color: #e75480;
   --link-hover: #5149eb;
@@ -19,7 +19,7 @@
   --font-p: 1.05rem;
   --font-code: 0.95rem;
   --font-footer: 0.9rem;
-  /* --cursive: "Grand Hotel", cursive; */
+  /* --cursive: "Helvetica"; */
     --cursive: "Playfair Display", serif;
 }
 
