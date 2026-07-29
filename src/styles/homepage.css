@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #fcf2f2;
+  --bg-color: #fffff;
   --text-color: #1a1a1a;
   --primary-color: #5149eb;
   --secondary-color: #5149eb;
@@ -20,7 +20,7 @@
   --font-code: 0.95rem;
   --font-footer: 0.9rem;
   /* --cursive: "Helvetica"; */
-    --cursive: "Playfair Display", serif;
+    /* --cursive: "Playfair Display", serif; */
 }
 
 body, html {
@@ -32,6 +32,20 @@ body, html {
   background-color: var(--bg-color);
 }
 
+.portfolio-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 2.5rem 4rem 0rem;
+  margin: 0 auto;
+  font-family: didot;
+  color: var(--link-color);
+  font-size: 1.67rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .page-wrapper {
   display: flex;
   flex-direction: column;
@@ -41,15 +55,16 @@ body, html {
 .markdown-container {
   flex: 1 0 auto;
   width: 100%;
-  padding: 3rem 25%;
+  padding: 10rem 25%;
   box-sizing: border-box;
   color: var(--text-color);
+  padding-bottom:2rem;
 }
 
 .header-wrapper {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
@@ -176,6 +191,7 @@ body, html {
 
 .header-wrapper {
   display: flex;
+  gap:1rem;
   flex-direction: column; /* stack portrait above text */
   align-items: flex-start; /* align portrait to the left */
 }
@@ -197,10 +213,23 @@ body, html {
 }
 
 .portrait {
+  padding-top:4rem;
   width: 300px;   /* adjust size */
   height: 450px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
+.portfolio-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    max-width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
+    padding-left:3rem;
+  }
 
 }

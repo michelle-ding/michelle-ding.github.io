@@ -21,12 +21,15 @@ function Homepage() {
 
   return (
    <div className="page-wrapper">
+    <header className="portfolio-header">
+          <div className="header-inner">
+            Michelle L. Ding
+          </div>        
+        </header>
   <div className="markdown-container">
-   
     <div className="header-wrapper">
       <img src={michelle} alt="Portrait" className="portrait" />
       <div className="header-text">
-        
         <ReactMarkdown>{headerContent}</ReactMarkdown>
         <a href="https://michellelding.substack.com/" target="_blank">
           <img src={icon} alt="Illustration" className="icon" />
@@ -38,9 +41,6 @@ function Homepage() {
     <ReactMarkdown>{content}</ReactMarkdown>
   </div>
 
-  {/* <footer className="footer">
-    &copy; {new Date().getFullYear()} Michelle L. Ding • All Rights Reserved
-  </footer> */}
 </div>
   );
 }
