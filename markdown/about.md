@@ -1,7 +1,6 @@
 ## Resources
 > Trauma Recovery & Support Resources for the Brown/Providence Community: [Illustrated Guide](https://michellelding.substack.com/p/caring-for-yourself-and-each-other), [Full Spreadsheet](https://docs.google.com/spreadsheets/d/1xUQaOY7KlPeC0Y4JFPUqTS_xYSLlpiWaLjTEZE6Vwvw/edit?gid=0#gid=0)
-\
-\
+
 > Survivor Support & Sexual Health [Resources](https://docs.google.com/spreadsheets/d/1gFWBW6Rpf4hPpQjtSzE5BQq8XuPLcz6yEx2yB5_uCjY/edit?usp=sharing) in Providence/RI
 ## Research
 ### AI-Generated Non-Consensual Intimate Images
@@ -11,9 +10,12 @@ Related work:
 
 - **"How to Stop Playing Whack-a-Mole: Mapping the Ecosystem of Technologies Facilitating AI-Generated Non-Consensual Intimate Images."** _Michelle L. Ding_, Harini Suresh, Suresh Venkatasubramanian. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2602.04759) [[PDF]](https://arxiv.org/pdf/2602.04759) 
 
-- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** Malika Saada Saar and _Michelle L. Ding_. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://academic.oup.com/edited-volume/63026/chapter/566098097) (_Feel free to email me for the PDF if the chapter's free access link expires_)
+- **"Silencing at Scale: AI Generated Abuse, Digital Democracy, and the Urgent Need to Dismantle the Nudifier Economy."** Malika Saada Saar and _Michelle L. Ding_. Oxford Handbook of Human Security, Oxford University Press. 2026. [[Journal]](https://academic.oup.com/edited-volume/63026/chapter/566098097) 
+    > Feel free to email me for the PDF if the chapter's free access [link](https://academic.oup.com/edited-volume/63026/chapter/566098097) expires
 
-- **"Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."** Max Kamachee*, Stephen Casper*, _Michelle L. Ding_, Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2512.11815) [[PDF]](https://arxiv.org/pdf/2512.11815) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303) _(We also created an [annotated bibligraphy](https://docs.google.com/document/d/1Ac0kbQGZFv8KrRoGZWX0Io8ghlD6BTLISKNH-Ye3JlY/edit?usp=sharing) resource_)
+- **"Video Deepfake Abuse: How Company Choices Predictably Shape Misuse Patterns."** Max Kamachee*, Stephen Casper*, _Michelle L. Ding_, Rui-Jie Yew, Anka Reuel, Stella Biderman, Dylan Hadfield-Menell. Preprint, 2026. [[Arxiv]](https://arxiv.org/abs/2512.11815) [[PDF]](https://arxiv.org/pdf/2512.11815) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5829303) 
+
+    > We also created an [annotated bibligraphy](https://docs.google.com/document/d/1Ac0kbQGZFv8KrRoGZWX0Io8ghlD6BTLISKNH-Ye3JlY/edit?usp=sharing) on "technical resources on the AIG-NCII ecosystem and how companies influence it"
 
 - **"The Malicious Technical Ecosystem: Exposing Limitations in Technical Governance of AI-Generated Non-Consensual Intimate Images of Adults."** _Michelle L. Ding_ and Harini Suresh. [Sociotechnical AI Governance Workshop (STAIG)](https://chi-staig.github.io/), Conference on Human Factors in Computing Systems 2025, Yokohoma, Japan. [[Arxiv]](https://arxiv.org/abs/2504.17663) [[PDF]](https://arxiv.org/pdf/2504.17663)
 
