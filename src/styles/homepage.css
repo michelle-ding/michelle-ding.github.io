@@ -221,15 +221,16 @@ body, html {
 }
 
 .portfolio-header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     max-width: 100%;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
     padding-bottom: 0rem;
-    padding-left:3rem;
+    padding-left:3.3rem;
   }
+
 
 }
